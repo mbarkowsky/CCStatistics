@@ -3,13 +3,14 @@ package anaylsis;
 import game.Game;
 import game.Game.Player;
 
-import java.awt.GridLayout;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
 import javax.swing.JLabel;
 import javax.swing.JPanel;
+
+import util.TableLayout;
 
 public class VictoryAnalyser extends Analyser {
 
@@ -67,7 +68,8 @@ public class VictoryAnalyser extends Analyser {
 		
 		JPanel resultPanel = new JPanel();
 		
-		resultPanel.setLayout(new GridLayout(0, 2));
+		resultPanel.setLayout(new TableLayout(2));
+		
 		for(String player:result.gamesPlayed.keySet()){
 			int played = result.gamesPlayed.get(player);
 			int won = result.gamesWon.containsKey(player)? result.gamesWon.get(player) : 0;

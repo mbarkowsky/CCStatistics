@@ -31,5 +31,28 @@ public class Turn {
 	public void setPlayerTwoAction(PlayerAction playerTwoAction) {
 		this.playerTwoAction = playerTwoAction;
 	}
+
+	public void addPlayerAction(Player player, PlayerAction action) {
+		if(player == Player.PLAYER_ONE){
+			setPlayerOneAction(action);
+		}
+		else{
+			setPlayerTwoAction(action);
+		}
+	}
+	
+	public String toString(){
+		StringBuffer buffer = new StringBuffer();
+		if(playerOneAction != null){
+			buffer.append("Player One Action: " + playerOneAction);
+			if(playerTwoAction != null){
+				buffer.append("\n");
+			}
+		}
+		if(playerTwoAction != null){
+			buffer.append("Player Two Action: " + playerTwoAction);	
+		}
+		return buffer.toString();
+	}
 	
 }

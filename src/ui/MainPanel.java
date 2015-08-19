@@ -2,28 +2,26 @@ package ui;
 
 import game.Game;
 
-import java.awt.Dimension;
-import java.awt.FlowLayout;
+import java.awt.BorderLayout;
 import java.awt.GridLayout;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.io.File;
+import java.io.IOException;
 import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
-import java.util.Map.Entry;
 
 import javax.swing.BoxLayout;
 import javax.swing.JButton;
 import javax.swing.JCheckBox;
-import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.JTabbedPane;
 
-import prototype.PrototypeGameBuilder;
 import builder.GameBuilder;
 import anaylsis.Analyser;
+import anaylsis.SwitchAnalyser;
 import anaylsis.VictoryAnalyser;
 
 public class MainPanel extends JPanel {
@@ -34,6 +32,7 @@ public class MainPanel extends JPanel {
 	private List<Game> games;
 	private Map<JCheckBox, Analyser> analysers;
 	
+	private List<JCheckBox> checkBoxes;
 	private JPanel selectionPanel;
 	private JTabbedPane resultPanel;
 	
@@ -43,23 +42,34 @@ public class MainPanel extends JPanel {
 	}
 	
 	private void loadGames(){
+		long t1 = System.currentTimeMillis();
 		games = new LinkedList<Game>();
-		GameBuilder builder = new PrototypeGameBuilder();	//TODO replace with correct builder
+		GameBuilder builder = new GameBuilder();
 		
 		File gameDirectory = new File(gameDirectoryPath);
 		File[] gameFiles = gameDirectory.listFiles();
 		
 		for(File gameFile:gameFiles){
-			Game game = builder.buildGame(gameFile);
-			games.add(game);
+			Game game;
+			try {
+				game = builder.buildGame(gameFile);
+				games.add(game);
+			} catch (IOException e) {
+				e.printStackTrace();
+			}
 		}
+		long t2 = System.currentTimeMillis();
+		System.out.println("Loading took " + (t2 - t1) + " milliseconds");
 	}
 	
 	private void initializeAnalysers() {
 		analysers = new HashMap<>();
+		checkBoxes = new LinkedList<JCheckBox>();
 		List<Analyser> possibleAnalysers = getPossibleAnalysers();
 		for(Analyser analyser:possibleAnalysers){
 			JCheckBox checkBox = new JCheckBox();
+			checkBox.setText(analyser.getName());
+			checkBoxes.add(checkBox);
 			analysers.put(checkBox, analyser);
 		}
 	}
@@ -68,16 +78,15 @@ public class MainPanel extends JPanel {
 		setLayout(new GridLayout(0, 2));
 		
 		selectionPanel = new JPanel();
-		selectionPanel.setLayout(new BoxLayout(selectionPanel, BoxLayout.Y_AXIS));
+		selectionPanel.setLayout(new BorderLayout());
 		
-		for(Entry<JCheckBox, Analyser> entry:analysers.entrySet()){
-			JPanel selection = new JPanel();
-			selection.setLayout(new FlowLayout());
-			selection.setSize(new Dimension(0, 10));
-			selection.add(entry.getKey());
-			selection.add(new JLabel(entry.getValue().getName()));
-			selectionPanel.add(selection);
+		JPanel selection = new JPanel();
+		selection.setLayout(new BoxLayout(selection, BoxLayout.Y_AXIS));
+		for(JCheckBox checkBox:checkBoxes){
+			selection.add(checkBox);
 		}
+		selectionPanel.add(selection, BorderLayout.CENTER);
+		
 		
 		JButton analyseButton = new JButton("Analyse");
 		analyseButton.addActionListener(new ActionListener(){
@@ -88,7 +97,7 @@ public class MainPanel extends JPanel {
 			}
 			
 		});
-		selectionPanel.add(analyseButton);
+		selectionPanel.add(analyseButton, BorderLayout.PAGE_END);
 		
 		add(selectionPanel);
 	}
@@ -97,9 +106,9 @@ public class MainPanel extends JPanel {
 		loadGames();
 		
 		JTabbedPane newResultPanel = new JTabbedPane();
-		for(Entry<JCheckBox, Analyser> entry:analysers.entrySet()){
-			if(entry.getKey().isSelected()){
-				Analyser analyser = entry.getValue();
+		for(JCheckBox checkBox:checkBoxes){
+			if(checkBox.isSelected()){
+				Analyser analyser = analysers.get(checkBox);
 				newResultPanel.addTab(analyser.getName(), analyser.analyse(games));
 			}
 		}
@@ -112,10 +121,10 @@ public class MainPanel extends JPanel {
 		resultPanel = newResultPanel;
 	}
 	
-	private List<Analyser> getPossibleAnalysers() {		//TODO create a correct listing
+	private List<Analyser> getPossibleAnalysers() {
 		List<Analyser> possibleAnalysers = new LinkedList<>();
 		possibleAnalysers.add(new VictoryAnalyser());
-		possibleAnalysers.add(new VictoryAnalyser());
+		possibleAnalysers.add(new SwitchAnalyser());
 		return possibleAnalysers;
 	}
 	
