@@ -1,5 +1,7 @@
 package game.playeraction;
 
+import game.playeraction.AttackEffect.EffectType;
+
 import java.util.LinkedList;
 import java.util.List;
 
@@ -48,5 +50,15 @@ public class AttackAction implements PlayerAction {
 	@Override
 	public String toString(){
 		return "Attack: " + pokemon + ": " + attack + "\n" + (effects.isEmpty() ? "" : effects.toString());
+	}
+
+	public List<AttackEffect> getEffects(EffectType type) {
+		List<AttackEffect> list = new LinkedList<AttackEffect>();
+		for(AttackEffect effect:effects){
+			if(effect.getType() == type){
+				list.add(effect);
+			}
+		}
+		return list;
 	}
 }

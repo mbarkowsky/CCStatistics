@@ -25,13 +25,13 @@ public class CCStatisticsUtil {
 		return String.valueOf(result);
 	}
 
-	public static Color getPercentageColor(int winRate, int mode) {
+	public static Color getPercentageColor(double percentage, int mode) {
 		Color c;
 		if(mode == HIGH_IS_GOOD){
-			if(winRate > 50){
+			if(percentage > 50){
 				c = CCStatisticsUtil.goodColor;
 			}
-			else if(winRate == 50){
+			else if(percentage == 50){
 				c = CCStatisticsUtil.neutralColor;
 			}
 			else{
@@ -39,10 +39,10 @@ public class CCStatisticsUtil {
 			}
 		}
 		else{
-			if(winRate < 50){
+			if(percentage < 50){
 				c = CCStatisticsUtil.goodColor;
 			}
-			else if(winRate == 50){
+			else if(percentage == 50){
 				c = CCStatisticsUtil.neutralColor;
 			}
 			else{

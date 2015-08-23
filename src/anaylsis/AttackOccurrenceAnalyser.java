@@ -62,12 +62,12 @@ public class AttackOccurrenceAnalyser implements Analyser {
 	@Override
 	public JComponent analyse(Collection<Game> games) {
 		String attackName = (String) JOptionPane.showInputDialog(null, "Attack", getName(), JOptionPane.PLAIN_MESSAGE, null, null, "Hyper Beam");
-
-		long t1 = System.currentTimeMillis();
 		
 		if(attackName == null){
 			return null;
 		}
+		
+		long t1 = System.currentTimeMillis();
 		
 		attackName = CCStatisticsUtil.wordsToUpperCase(attackName);
 		Result result = doAnalyse(games, attackName);

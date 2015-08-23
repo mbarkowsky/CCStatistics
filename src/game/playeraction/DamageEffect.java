@@ -56,7 +56,7 @@ public class DamageEffect implements AttackEffect {
 	}
 
 	public String toString(){
-		String s = getType() + " (" + (isCrit ? "critical, " : "") + effectiveness + ", " + damage + "%) to " + defender;
+		String s = getType() + " (" + (isCrit ? "critical hit, " : "") + effectiveness.toString().toLowerCase() + ", " + damage + "%) to " + defender + (isKO ? "(fainted)" : "");
 		return s;
 	}
 }

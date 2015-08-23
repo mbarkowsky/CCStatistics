@@ -4,9 +4,13 @@ import game.Game;
 import game.Game.Player;
 import game.playeraction.AttackAction;
 import game.playeraction.AttackEffect;
+import game.playeraction.BoostEffect;
 import game.playeraction.DamageEffect;
+import game.playeraction.DropEffect;
 import game.playeraction.HealingEffect;
+import game.playeraction.ItemEffect;
 import game.playeraction.PlayerAction;
+import game.playeraction.RecoilEffect;
 import game.playeraction.SwitchAction;
 import game.playeraction.AttackEffect.EffectType;
 import game.playeraction.DamageEffect.Effectiveness;
@@ -22,6 +26,9 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.StringTokenizer;
+
+import util.GameUtil;
+import util.GameUtil.Stat;
 
 public class GameBuilder {
 
@@ -47,7 +54,9 @@ public class GameBuilder {
 		attackKeyWords.put("lost", EffectType.DAMAGE);
 		attackKeyWords.put("regained", EffectType.HEALING);
 		attackKeyWords.put("rose", EffectType.BOOST);
+		attackKeyWords.put("rose!", EffectType.BOOST);
 		attackKeyWords.put("fell", EffectType.DROP);
+		attackKeyWords.put("fell!", EffectType.DROP);
 		attackKeyWords.put("strengthened", EffectType.ITEM);
 	}
 
@@ -142,7 +151,7 @@ public class GameBuilder {
 	}
 
 	private Player identifyPlayer(String line) {
-		if(line.startsWith("The opposing") || line.startsWith(playerTwoName)){
+		if(line.contains("The opposing") || line.startsWith(playerTwoName)){
 			return Player.PLAYER_TWO;
 		}
 		else{
@@ -208,9 +217,18 @@ public class GameBuilder {
 			if(player != identifyPlayer(line)){
 				effect = buildDamageEffect(line);	
 			}
+			else{
+				effect = buildRecoilEffect(line);
+			}
 			break;
 		case HEALING:
 			effect = buildHealingEffect(line);
+			break;
+		case BOOST:
+			effect = buildBoostEffect(line);
+			break;
+		case DROP:
+			effect = buildDropEffect(line);
 			break;
 		case ITEM:
 			effect = buildItemEffect(line);
@@ -227,8 +245,9 @@ public class GameBuilder {
 		String[] strings = line.split(" used ");
 		AttackAction action = new AttackAction(strings[0], strings[1]);
 		lastIndex++;
-		boolean addedEffect = false;
+		boolean addedEffect;
 		do{
+			addedEffect = false;
 			line = log[lastIndex];
 			StringTokenizer st = new StringTokenizer(line);	
 			while(st.hasMoreTokens()){
@@ -237,7 +256,9 @@ public class GameBuilder {
 				if(effectType != null){
 					AttackEffect effect = buildAttackEffect(effectType, line, Player.PLAYER_ONE);
 					action.addEffect(effect);
+					addedEffect = true;
 					lastIndex++;
+					break;
 				}
 			}
 		}
@@ -324,8 +345,61 @@ public class GameBuilder {
 		return effect;
 	}
 	
+	private AttackEffect buildRecoilEffect(String line) {
+		return new RecoilEffect();
+	}
+	
 	private HealingEffect buildHealingEffect(String line){
 		return new HealingEffect();
+	}
+
+	private AttackEffect buildBoostEffect(String line) {
+		StringTokenizer st = new StringTokenizer(line);
+		String token;
+		String token1 = "";
+		String token2 = "";
+		String statString;
+		while(!((token = st.nextToken()).equals("rose") || token.equals("rose!"))){
+			token1 = token2;
+			token2 = token;
+		}
+		
+		if(token1.equals("Special")){
+			statString = token1 + " " + token2;
+		}
+		else{
+			statString = token2;
+		}
+		Stat stat = GameUtil.getStatForString(statString);
+		
+		BoostEffect effect = new BoostEffect();
+		effect.setStat(stat);
+		return effect;
+	}
+	
+
+	private AttackEffect buildDropEffect(String line) {
+		StringTokenizer st = new StringTokenizer(line);
+		String token;
+		String token1 = "";
+		String token2 = "";
+		String statString;
+		while(!((token = st.nextToken()).equals("fell") || token.equals("fell!"))){
+			token1 = token2;
+			token2 = token;
+		}
+		
+		if(token1.equals("Special")){
+			statString = token1 + " " + token2;
+		}
+		else{
+			statString = token2;
+		}
+		Stat stat = GameUtil.getStatForString(statString);
+		
+		DropEffect effect = new DropEffect();	//TODO maybe make one class for drop and boost
+		effect.setStat(stat);
+		return effect;
 	}
 	
 	private ItemEffect buildItemEffect(String line){	//TODO specialize to gems

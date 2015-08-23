@@ -1,6 +1,5 @@
-package builder;
+package game.playeraction;
 
-import game.playeraction.AttackEffect;
 
 public class ItemEffect implements AttackEffect {
 

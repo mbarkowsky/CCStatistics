@@ -13,6 +13,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Vector;
+import java.util.concurrent.Semaphore;
 
 import javax.swing.BoxLayout;
 import javax.swing.JButton;
@@ -24,6 +25,7 @@ import javax.swing.JTabbedPane;
 import builder.GameBuilder;
 import builder.GameBuilderWorker;
 import anaylsis.Analyser;
+import anaylsis.AttackDamageAnalyser;
 import anaylsis.HistoryAnalyser;
 import anaylsis.AttackOccurrenceAnalyser;
 import anaylsis.VictoryAnalyser;
@@ -33,6 +35,7 @@ public class MainPanel extends JPanel {
 	private static final long serialVersionUID = -8958557846840490170L;
 	private static final String gameDirectoryPath = "games"; 
 	
+	
 	private Map<File, Game> games;
 	private Map<JCheckBox, Analyser> analysers;
 	
@@ -40,6 +43,7 @@ public class MainPanel extends JPanel {
 	private JPanel selectionPanel;
 	private JTabbedPane resultPanel;
 	
+	private Semaphore builderSemaphore;
 	private Vector<GameBuilder> idleBuilders;
 	
 	public MainPanel(int builderNumber){
@@ -57,6 +61,7 @@ public class MainPanel extends JPanel {
 		for(int i = 0; i < builderNumber; i++){
 			idleBuilders.add(new GameBuilder());
 		}
+		builderSemaphore = new Semaphore(builderNumber);
 	}
 
 	private void initializeAnalysers() {
@@ -137,6 +142,11 @@ public class MainPanel extends JPanel {
 		File gameDirectory = new File(gameDirectoryPath);
 		File[] gameFiles = gameDirectory.listFiles();
 
+		Map<Thread, GameBuilderWorker> workerThreads = startBuilders(gameFiles);
+		joinBuilders(workerThreads);
+	}
+	
+	private Map<Thread, GameBuilderWorker> startBuilders(File[] gameFiles) {
 		Map<Thread, GameBuilderWorker> workerThreads = new HashMap<>();
 		for(File gameFile:gameFiles){
 			if(!games.containsKey(gameFile)){
@@ -152,7 +162,10 @@ public class MainPanel extends JPanel {
 				}
 			}
 		}
-		
+		return workerThreads;
+	}
+
+	private void joinBuilders(Map<Thread, GameBuilderWorker> workerThreads) {
 		for(Entry<Thread, GameBuilderWorker> entry:workerThreads.entrySet()){
 			try {
 				entry.getKey().join();
@@ -163,23 +176,22 @@ public class MainPanel extends JPanel {
 			}
 		}
 	}
-	
-	private synchronized GameBuilder getIdleGameBuilder() throws InterruptedException {
-		while(idleBuilders.size() < 1){
-			wait();
-		}
+
+	private GameBuilder getIdleGameBuilder() throws InterruptedException {
+		builderSemaphore.acquire();
 		return idleBuilders.remove(0);
 	}
 	
-	public synchronized void returnGameBuilder(GameBuilder builder){
+	public void returnGameBuilder(GameBuilder builder){
 		idleBuilders.add(builder);
-		notifyAll();
+		builderSemaphore.release();
 	}
 
 	private List<Analyser> getPossibleAnalysers() {
 		List<Analyser> possibleAnalysers = new LinkedList<>();
 		possibleAnalysers.add(new VictoryAnalyser());
 		possibleAnalysers.add(new AttackOccurrenceAnalyser());
+		possibleAnalysers.add(new AttackDamageAnalyser());
 		possibleAnalysers.add(new HistoryAnalyser());
 		return possibleAnalysers;
 	}
