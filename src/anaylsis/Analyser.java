@@ -2,14 +2,14 @@ package anaylsis;
 
 import game.Game;
 
-import java.util.List;
+import java.util.Collection;
 
-import javax.swing.JPanel;
+import javax.swing.JComponent;
 
-public abstract class Analyser{
+public interface Analyser{
 
 	public abstract String getName();
 	
-	public abstract JPanel analyse(List<Game> games);
+	public abstract JComponent analyse(Collection<Game> games);
 	
 }

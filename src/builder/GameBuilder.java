@@ -2,8 +2,15 @@ package builder;
 
 import game.Game;
 import game.Game.Player;
-import game.PlayerAction;
-import game.PlayerAction.ActionType;
+import game.playeraction.AttackAction;
+import game.playeraction.AttackEffect;
+import game.playeraction.DamageEffect;
+import game.playeraction.HealingEffect;
+import game.playeraction.PlayerAction;
+import game.playeraction.SwitchAction;
+import game.playeraction.AttackEffect.EffectType;
+import game.playeraction.DamageEffect.Effectiveness;
+import game.playeraction.PlayerAction.ActionType;
 import game.Turn;
 
 import java.io.BufferedReader;
@@ -18,7 +25,8 @@ import java.util.StringTokenizer;
 
 public class GameBuilder {
 
-	private Map<String, ActionType> keyWords;
+	private Map<String, ActionType> actionKeyWords;
+	private Map<String, EffectType> attackKeyWords;
 	
 	private String playerOneName;
 	private String playerTwoName;
@@ -26,14 +34,21 @@ public class GameBuilder {
 	private int lastIndex;
 	
 	public GameBuilder(){
-		initializeKeyWordMap();
+		initializeKeyWords();
 	}
 	
-	private void initializeKeyWordMap() {
-		keyWords = new HashMap<>();
-		keyWords.put("used", ActionType.ATTACK);
-		keyWords.put("withdrew", ActionType.SWITCH);
-		keyWords.put("back!", ActionType.SWITCH);
+	private void initializeKeyWords() {
+		actionKeyWords = new HashMap<>();
+		actionKeyWords.put("used", ActionType.ATTACK);
+		actionKeyWords.put("withdrew", ActionType.SWITCH);
+		actionKeyWords.put("back!", ActionType.SWITCH);
+		
+		attackKeyWords = new HashMap<>();
+		attackKeyWords.put("lost", EffectType.DAMAGE);
+		attackKeyWords.put("regained", EffectType.HEALING);
+		attackKeyWords.put("rose", EffectType.BOOST);
+		attackKeyWords.put("fell", EffectType.DROP);
+		attackKeyWords.put("strengthened", EffectType.ITEM);
 	}
 
 	public Game buildGame(File file) throws IOException{
@@ -108,10 +123,8 @@ public class GameBuilder {
 		lastIndex++;
 		while(!log[lastIndex].matches("Turn (\\d)*")){
 			String line = log[lastIndex];
-			if(line.contains("fainted")){
-				if(!handleFaint()){
-					return turn;
-				}
+			if(log[lastIndex].endsWith("won the battle!")){
+				return turn;
 			}
 			else {
 				ActionType actionType = getActionType(line);
@@ -141,8 +154,8 @@ public class GameBuilder {
 		StringTokenizer st = new StringTokenizer(line);
 		while(st.hasMoreTokens()){
 			String token = st.nextToken();
-			if(keyWords.containsKey(token)){
-				return keyWords.get(token);
+			if(actionKeyWords.containsKey(token)){
+				return actionKeyWords.get(token);
 			}
 		}
 		return null;
@@ -186,20 +199,75 @@ public class GameBuilder {
 		}
 		return action;
 	}
+	
+	private AttackEffect buildAttackEffect(EffectType effectType, String line, Player player) {
+		AttackEffect effect = null;
+		
+		switch(effectType){
+		case DAMAGE:
+			if(player != identifyPlayer(line)){
+				effect = buildDamageEffect(line);	
+			}
+			break;
+		case HEALING:
+			effect = buildHealingEffect(line);
+			break;
+		case ITEM:
+			effect = buildItemEffect(line);
+			break;
+			
+		default:
+			break;
+		}
+		return effect;
+	}
 
 	private PlayerAction buildPlayerOneAttack(String line) {
 		line = line.substring(0, line.length() - 1);
 		String[] strings = line.split(" used ");
 		AttackAction action = new AttackAction(strings[0], strings[1]);
 		lastIndex++;
+		boolean addedEffect = false;
+		do{
+			line = log[lastIndex];
+			StringTokenizer st = new StringTokenizer(line);	
+			while(st.hasMoreTokens()){
+				String token = st.nextToken();
+				EffectType effectType = attackKeyWords.get(token);
+				if(effectType != null){
+					AttackEffect effect = buildAttackEffect(effectType, line, Player.PLAYER_ONE);
+					action.addEffect(effect);
+					lastIndex++;
+				}
+			}
+		}
+		while(addedEffect);
 		return action;
 	}
-	
+
 	private PlayerAction buildPlayerTwoAttack(String line) {
 		line = line.substring(13, line.length() - 1);
 		String[] strings = line.split(" used ");
 		AttackAction action = new AttackAction(strings[0], strings[1]);
 		lastIndex++;
+		boolean addedEffect;
+		do{
+			addedEffect = false;
+			line = log[lastIndex];
+			StringTokenizer st = new StringTokenizer(line);	
+			while(st.hasMoreTokens()){
+				String token = st.nextToken();
+				EffectType effectType = attackKeyWords.get(token);
+				if(effectType != null){
+					AttackEffect effect = buildAttackEffect(effectType, line, Player.PLAYER_TWO);
+					action.addEffect(effect);
+					addedEffect = true;
+					lastIndex++;
+					break;
+				}
+			}
+		}
+		while(addedEffect);
 		return action;
 	}
 	
@@ -223,12 +291,48 @@ public class GameBuilder {
 		return action;
 	}
 
-	private boolean handleFaint() {
-		lastIndex++;
-		if(log[lastIndex].endsWith("won the battle!")){
-			return false;
+	private DamageEffect buildDamageEffect(String line) {
+		DamageEffect effect = new DamageEffect();		//TODO make more performant?
+		effect.setCrit(line.contains("A critical hit!"));
+		if(line.contains("It's not very effective...")){
+			effect.setEffectiveness(Effectiveness.NOT_VERY_EFFECTIVE);
 		}
-		return true;
+		else if(line.contains("It's super effective!")){
+			effect.setEffectiveness(Effectiveness.SUPER_EFFECTIVE);
+		}
+		else{
+			effect.setEffectiveness(Effectiveness.NEUTRAL);
+		}
+		
+		String[] strings = line.split(" lost ");
+		StringTokenizer left = new StringTokenizer(strings[0]);
+		String defender = "";
+		while(left.hasMoreTokens()){
+			defender = left.nextToken();
+		}
+		effect.setDefender(defender);
+		
+		StringTokenizer right = new StringTokenizer(strings[1]);
+		String damage = right.nextToken();
+		damage = damage.substring(0, damage.length() - 1);
+		effect.setDamage(Double.parseDouble(damage));
+
+		if(log[lastIndex + 1].equals(defender + " fainted!")){
+			effect.setKO(true);
+			lastIndex++;
+		}
+		return effect;
+	}
+	
+	private HealingEffect buildHealingEffect(String line){
+		return new HealingEffect();
+	}
+	
+	private ItemEffect buildItemEffect(String line){	//TODO specialize to gems
+		StringTokenizer st = new StringTokenizer(line);
+		st.nextToken();
+		String item = st.nextToken() + " " + st.nextToken();
+		return new ItemEffect(item);
 	}
 	
 }

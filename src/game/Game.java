@@ -1,5 +1,7 @@
 package game;
 
+import game.playeraction.PlayerAction;
+
 import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.List;

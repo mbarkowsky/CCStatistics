@@ -32,6 +32,7 @@ public class TableLayout implements LayoutManager {
 				rowHeight = 0;
 			}
 			int cWidth = component.getPreferredSize().width;
+			cWidth = cWidth < columnWidth ? cWidth : columnWidth;
 			int cHeight = component.getPreferredSize().height;
 			component.setBounds(column * columnWidth, row, cWidth, cHeight);
 			if(cHeight > rowHeight){
@@ -44,12 +45,38 @@ public class TableLayout implements LayoutManager {
 
 	@Override
 	public Dimension minimumLayoutSize(Container parent) {
-		return null;
+		int minWidth = 0;
+		int minHeight = 0;
+		Component[] components = parent.getComponents();
+		for(int i = 0; i < components.length; i++){
+			Dimension leftComponentSize = components[i].getMinimumSize();
+			Dimension rightComponentSize = components[++i].getMinimumSize();
+			
+			int rowWidth = leftComponentSize.width + rightComponentSize.width;
+			minWidth = Math.max(minWidth, rowWidth);
+			
+			int rowHeight = Math.max(leftComponentSize.height, rightComponentSize.height);
+			minHeight += rowHeight;
+		}
+		return new Dimension(minWidth, minHeight);
 	}
 
 	@Override
 	public Dimension preferredLayoutSize(Container parent) {
-		return null;
+		int prefWidth = 0;
+		int prefHeight = 0;
+		Component[] components = parent.getComponents();
+		for(int i = 0; i < components.length; i++){
+			Dimension leftComponentSize = components[i].getPreferredSize();
+			Dimension rightComponentSize = components[++i].getPreferredSize();
+			
+			int rowWidth = leftComponentSize.width + rightComponentSize.width;
+			prefWidth = Math.max(prefWidth, rowWidth);
+			
+			int rowHeight = Math.max(leftComponentSize.height, rightComponentSize.height);
+			prefHeight += rowHeight;
+		}
+		return new Dimension(prefWidth, prefHeight);
 	}
 
 	@Override

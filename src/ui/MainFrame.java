@@ -6,6 +6,14 @@ import javax.swing.JFrame;
 
 public class MainFrame extends JFrame {
 
+	private static boolean debugPrint = false;
+	
+	public static void debugPrint(String message){
+		if(debugPrint){
+			System.out.println(message);
+		}
+	}
+	
 	private static final long serialVersionUID = 6184125870247422351L;
 
 	public MainFrame(){
@@ -27,6 +35,9 @@ public class MainFrame extends JFrame {
 	}
 
 	public static void main(String[] args) {
+		if(args.length > 0){
+			debugPrint = Boolean.parseBoolean(args[0]);
+		}
 		new MainFrame();
 	}
 
