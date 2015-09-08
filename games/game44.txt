@@ -1,0 +1,235 @@
+BeherrscherPaule joined.
+dsaffe joined.
+Format:
+Challenge Cup
+HP Percentage Mod: HP is shown in percentages
+Battle between dsaffe and BeherrscherPaule started!
+dsaffe sent out Greninja!
+Go! Gastly!
+Turn 1
+dsaffe withdrew Greninja!
+dsaffe sent out Vivillon!
+Gastly used Will-O-Wisp!
+The opposing Vivillon was burned!
+The opposing Vivillon was hurt by its burn!
+Turn 2
+Gastly, come back!
+Go! Metapod!
+The opposing Vivillon used Stun Spore!
+Metapod avoided the attack!
+The opposing Vivillon was hurt by its burn!
+Turn 3
+Metapod, come back!
+Go! Burmy!
+The opposing Vivillon used Stun Spore!
+But it failed!
+The opposing Vivillon was hurt by its burn!
+Turn 4
+The opposing Vivillon used Endeavor!
+Burmy lost 29.6% of its health!
+Burmy used Electroweb!
+It's super effective! The opposing Vivillon lost 35% of its health!
+The opposing Vivillon was hurt by its burn!
+Turn 5
+The opposing Vivillon used Rest!
+The opposing Vivillon fell asleep!
+The opposing Vivillon slept and became healthy!
+Burmy used Electroweb!
+A critical hit! It's super effective! The opposing Vivillon lost 47% of its health!
+Turn 6
+The opposing Vivillon is fast asleep.
+Burmy used Electroweb!
+It's super effective! The opposing Vivillon lost 32% of its health!
+Turn 7
+The opposing Vivillon is fast asleep.
+Burmy used Electroweb!
+It's super effective! The opposing Vivillon lost 21% of its health!
+The opposing Vivillon fainted!
+dsaffe sent out Pinsir!
+[Opposing Pinsir's Mold Breaker!]
+The opposing Pinsir breaks the mold!
+Turn 8
+The opposing Pinsir used Stealth Rock!
+Pointed stones float in the air around your team!
+Burmy used Electroweb!
+The opposing Pinsir avoided the attack!
+Turn 9
+The opposing Pinsir used Mimic!
+The opposing Pinsir learned Electroweb!
+Burmy used Electroweb!
+The opposing Pinsir lost 17% of its health!
+The opposing Pinsir's Speed fell!
+Turn 10
+Burmy used Electroweb!
+The opposing Pinsir lost 18% of its health!
+The opposing Pinsir's Speed fell!
+The opposing Pinsir used Secret Power!
+Burmy lost 29.1% of its health!
+Turn 11
+Burmy used Electroweb!
+The opposing Pinsir lost 17% of its health!
+The opposing Pinsir's Speed fell!
+The opposing Pinsir used Secret Power!
+Burmy lost 30.9% of its health!
+Turn 12
+Burmy used Hidden Power!
+A critical hit! The opposing Pinsir lost 27% of its health!
+The opposing Pinsir used Secret Power!
+Burmy lost 10.4% of its health!
+Burmy fainted!
+
+    Iron Ball Holder is grounded, Speed halved. If Flying type, takes neutral Ground damage.
+
+Fling Base Power: 130
+Go! Gastly!
+Pointed stones dug into Gastly!
+Turn 13
+Gastly used Psywave!
+The opposing Pinsir lost 21% of its health!
+The opposing Pinsir fainted!
+dsaffe sent out Tauros!
+Turn 14
+The opposing Tauros used Thunder!
+Gastly lost 36.2% of its health!
+Gastly used Will-O-Wisp!
+The opposing Tauros was burned!
+The opposing Tauros was hurt by its burn!
+Turn 15
+The opposing Tauros used Thunder!
+Gastly avoided the attack!
+Gastly used Psywave!
+The opposing Tauros lost 27% of its health!
+The opposing Tauros was hurt by its burn!
+Turn 16
+Gastly, come back!
+Go! Metapod!
+Pointed stones dug into Metapod!
+The opposing Tauros used Thunder!
+A critical hit! Metapod lost 57.3% of its health!
+The opposing Tauros was hurt by its burn!
+Turn 17
+The opposing Tauros used Thunder!
+Metapod lost 18.0% of its health!
+Metapod fainted!
+The opposing Tauros was hurt by its burn!
+Go! Ferrothorn!
+Pointed stones dug into Ferrothorn!
+Turn 18
+The opposing Tauros used Thunder!
+It's not very effective... Ferrothorn lost 8.0% of its health!
+Ferrothorn used Curse!
+Ferrothorn's Attack rose!
+Ferrothorn's Defense rose!
+Ferrothorn's Speed fell!
+The opposing Tauros was hurt by its burn!
+Turn 19
+The opposing Tauros used Thunder!
+Ferrothorn avoided the attack!
+Ferrothorn used Curse!
+Ferrothorn's Attack rose!
+Ferrothorn's Defense rose!
+Ferrothorn's Speed fell!
+The opposing Tauros was hurt by its burn!
+The opposing Tauros fainted!
+dsaffe sent out Hitmonlee!
+Turn 20
+The opposing Hitmonlee used Role Play!
+The opposing Hitmonlee copied Ferrothorn's Anticipation Ability!
+Ferrothorn used Thunderbolt!
+The opposing Hitmonlee lost 27% of its health!
+Turn 21
+The opposing Hitmonlee used Rock Tomb!
+It's not very effective... Ferrothorn lost 3.8% of its health!
+Ferrothorn's Speed fell!
+Ferrothorn used Pin Missile!
+The opposing Hitmonlee avoided the attack!
+Turn 22
+The opposing Hitmonlee used Headbutt!
+It's not very effective... Ferrothorn lost 4.2% of its health!
+Ferrothorn used Pin Missile!
+It's not very effective... The opposing Hitmonlee lost 9% of its health!
+It's not very effective... The opposing Hitmonlee lost 10% of its health!
+It's not very effective... The opposing Hitmonlee lost 10% of its health!
+Hit 3 times!
+Turn 23
+The opposing Hitmonlee used Headbutt!
+It's not very effective... Ferrothorn lost 4.2% of its health!
+Ferrothorn used Thunder Wave!
+The opposing Hitmonlee is paralyzed! It may be unable to move!
+Turn 24
+The opposing Hitmonlee used Headbutt!
+It's not very effective... Ferrothorn lost 4.2% of its health!
+Ferrothorn used Pin Missile!
+It's not very effective... The opposing Hitmonlee lost 10% of its health!
+It's not very effective... The opposing Hitmonlee lost 10% of its health!
+Hit 2 times!
+Turn 25
+The opposing Hitmonlee used Headbutt!
+It's not very effective... Ferrothorn lost 3.8% of its health!
+Ferrothorn used Pin Missile!
+It's not very effective... The opposing Hitmonlee lost 10% of its health!
+It's not very effective... The opposing Hitmonlee lost 10% of its health!
+It's not very effective... The opposing Hitmonlee lost 4% of its health!
+Hit 3 times!
+The opposing Hitmonlee fainted!
+dsaffe sent out Chikorita!
+Turn 26
+The opposing Chikorita used Flash!
+Ferrothorn's accuracy fell!
+Ferrothorn used Pin Missile!
+The opposing Chikorita avoided the attack!
+Turn 27
+The opposing Chikorita used Flash!
+Ferrothorn's accuracy fell!
+Ferrothorn used Pin Missile!
+It's super effective! The opposing Chikorita lost 38% of its health!
+It's super effective! The opposing Chikorita lost 35% of its health!
+The opposing Chikorita ate its Figy Berry!
+The opposing Chikorita restored HP using its Figy Berry!
+It's super effective! The opposing Chikorita lost 35% of its health!
+Hit 3 times!
+Turn 28
+The opposing Chikorita used Flash!
+Ferrothorn's accuracy fell!
+Ferrothorn used Pin Missile!
+The opposing Chikorita avoided the attack!
+Turn 29
+The opposing Chikorita used Flash!
+Ferrothorn's accuracy fell!
+Ferrothorn used Pin Missile!
+The opposing Chikorita avoided the attack!
+Turn 30
+The opposing Chikorita used Flash!
+Ferrothorn's accuracy fell!
+Ferrothorn used Pin Missile!
+The opposing Chikorita avoided the attack!
+Turn 31
+The opposing Chikorita used Flash!
+Ferrothorn's accuracy fell!
+Ferrothorn used Thunderbolt!
+It's not very effective... The opposing Chikorita lost 5% of its health!
+The opposing Chikorita fainted!
+dsaffe sent out Greninja!
+Turn 32
+The opposing Greninja used Smokescreen!
+But it failed!
+Ferrothorn used Pin Missile!
+The opposing Greninja avoided the attack!
+Turn 33
+The opposing Greninja used Echoed Voice!
+It's not very effective... Ferrothorn lost 4.2% of its health!
+Ferrothorn used Pin Missile!
+It's super effective! The opposing Greninja lost 33% of its health!
+It's super effective! The opposing Greninja lost 28.0% of its health!
+Hit 2 times!
+Turn 34
+The opposing Greninja used Echoed Voice!
+It's not very effective... Ferrothorn lost 9.4% of its health!
+Ferrothorn used Pin Missile!
+It's super effective! The opposing Greninja lost 33% of its health!
+The opposing Greninja ate its Ganlon Berry!
+The Ganlon Berry raised the opposing Greninja's Defense!
+It's super effective! The opposing Greninja lost 6% of its health!
+Hit 2 times!
+The opposing Greninja fainted!
+BeherrscherPaule won the battle!

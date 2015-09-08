@@ -1,0 +1,151 @@
+dsaffe joined.
+BeherrscherPaule joined.
+Format:
+Challenge Cup
+HP Percentage Mod: HP is shown in percentages
+Battle between dsaffe and BeherrscherPaule started!
+dsaffe sent out Hoothoot!
+Go! Lanturn!
+Turn 1
+The opposing Hoothoot used Tackle!
+Lanturn lost 14.7% of its health!
+Lanturn used Spark!
+It's super effective! The opposing Hoothoot lost 80% of its health!
+The opposing Hoothoot is paralyzed! It may be unable to move!
+Turn 2
+Lanturn used Spark!
+It's super effective! The opposing Hoothoot lost 20% of its health!
+The opposing Hoothoot fainted!
+dsaffe sent out Ludicolo!
+Turn 3
+Lanturn, come back!
+Go! Natu!
+The opposing Ludicolo used Double Team!
+The opposing Ludicolo's evasiveness rose!
+Turn 4
+The opposing Ludicolo used Seismic Toss!
+Natu lost 35.2% of its health!
+Natu used Air Cutter!
+It's super effective! The opposing Ludicolo lost 69% of its health!
+Turn 5
+Natu, come back!
+Go! Misdreavus!
+The opposing Ludicolo used Flash!
+Misdreavus's accuracy fell!
+Turn 6
+The opposing Ludicolo used Fling!
+The opposing Ludicolo flung its Liechi Berry!
+It's super effective! Misdreavus lost 5.7% of its health!
+The Liechi Berry raised Misdreavus's Attack!
+Misdreavus used Foul Play!
+The opposing Ludicolo avoided the attack!
+Turn 7
+dsaffe withdrew Ludicolo!
+dsaffe sent out Pidgey!
+Misdreavus used Foul Play!
+The opposing Pidgey lost 44% of its health!
+Turn 8
+The opposing Pidgey used Thief!
+It's super effective! Misdreavus lost 36.1% of its health!
+Misdreavus used Power Gem!
+It's super effective! The opposing Pidgey lost 56.0% of its health!
+The opposing Pidgey fainted!
+dsaffe sent out Cyndaquil!
+Turn 9
+Misdreavus, come back!
+Go! Lanturn!
+The opposing Cyndaquil used Inferno!
+Lanturn avoided the attack!
+Turn 10
+The opposing Cyndaquil used Inferno!
+Lanturn avoided the attack!
+Lanturn used Surf!
+It's super effective! The opposing Cyndaquil lost 75% of its health!
+Turn 11
+The opposing Cyndaquil used Inferno!
+It's not very effective... Lanturn lost 26.7% of its health!
+Lanturn was burned!
+Lanturn used Surf!
+It's super effective! The opposing Cyndaquil lost 25% of its health!
+The opposing Cyndaquil fainted!
+Lanturn was hurt by its burn!
+dsaffe sent out Darmanitan!
+Turn 12
+The opposing Darmanitan used Power-Up Punch!
+Lanturn lost 17.8% of its health!
+The opposing Darmanitan's Attack rose!
+Lanturn used Surf!
+It's super effective! The opposing Darmanitan lost 80% of its health!
+The opposing Darmanitan held up its Red Card against Lanturn!
+Espeon was dragged out!
+Zen Mode triggered!
+Turn 13
+Espeon used Skill Swap!
+Espeon swapped Abilities with its target!
+Espeon acquired Zen Mode!
+The opposing Darmanitan acquired Synchronize!
+Zen Mode ended!
+The opposing Darmanitan used U-turn!
+It's super effective! Espeon lost 100% of its health!
+Espeon fainted!
+?dsaffe: #bick playz
+
+    Zen Mode If Darmanitan, at end of turn changes Mode to Standard if > 1/2 max HP, else Zen.
+
+The opposing Darmanitan went back to dsaffe!
+dsaffe sent out Shelgon!
+Go! Huntail!
+Turn 14
+Huntail used Blizzard!
+It's super effective! The opposing Shelgon lost 60% of its health!
+The opposing Shelgon used Double-Edge!
+Huntail lost 31.5% of its health!
+The opposing Shelgon is damaged by the recoil!
+Turn 15
+Huntail, come back!
+Go! Misdreavus!
+The opposing Shelgon used Double-Edge!
+It doesn't affect Misdreavus...
+Turn 16
+Misdreavus used Foul Play!
+The opposing Shelgon lost 26% of its health!
+The opposing Shelgon ate its Ganlon Berry!
+The Ganlon Berry raised the opposing Shelgon's Defense!
+The opposing Shelgon used Ember!
+Misdreavus lost 9.8% of its health!
+Turn 17
+Misdreavus used Headbutt!
+The opposing Shelgon lost 2% of its health!
+The opposing Shelgon fainted!
+dsaffe sent out Darmanitan!
+Turn 18
+Misdreavus, come back!
+Go! Avalugg!
+The opposing Darmanitan used U-turn!
+Avalugg lost 15.2% of its health!
+The opposing Darmanitan went back to dsaffe!
+dsaffe sent out Ludicolo!
+Turn 19
+The opposing Ludicolo used Seismic Toss!
+Avalugg lost 29.2% of its health!
+Avalugg used Double-Edge!
+The opposing Ludicolo lost 31% of its health!
+Avalugg is damaged by the recoil!
+The opposing Ludicolo fainted!
+dsaffe sent out Darmanitan!
+Turn 20
+Avalugg used Endure!
+Avalugg braced itself!
+The opposing Darmanitan used Attract!
+Avalugg fell in love!
+Zen Mode triggered!
+Turn 21
+The opposing Darmanitan used Power-Up Punch!
+It's super effective! Avalugg lost 6.2% of its health!
+The opposing Darmanitan's Attack rose!
+Avalugg is in love with the opposing Darmanitan!
+Avalugg used Double-Edge!
+A critical hit! The opposing Darmanitan lost 20% of its health!
+Avalugg is damaged by the recoil!
+The opposing Darmanitan fainted!
+BeherrscherPaule won the battle!

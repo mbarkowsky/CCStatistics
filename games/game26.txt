@@ -1,0 +1,189 @@
+BeherrscherPaule joined.
+dsaffe joined.
+Format:
+Challenge Cup
+HP Percentage Mod: HP is shown in percentages
+Battle between dsaffe and BeherrscherPaule started!
+dsaffe sent out Sandslash!
+Go! Floette-Eternal-Flow (Floette-Eternal-Flower)!
+Turn 1
+
+    NU Sandslash Ground Sand VeilSand RushHP
+    75 Atk
+    100 Def
+    110 SpA
+    45 SpD
+    55 Spe
+    65 BST
+    450
+
+Dex#: 28 |??Height: 1 m |??Weight: 29.5 kg (60 BP) |??Dex Colour: Yellow |??Egg Group(s): Field |??Does Not Evolve
+Floette-Eternal-Flow, come back!
+Go! Magikarp!
+Magnitude 5!
+The opposing Sandslash used Magnitude!
+Magikarp lost 15.3% of its health!
+Turn 2
+dsaffe withdrew Sandslash!
+dsaffe sent out Snorlax!
+Magikarp used Hydro Pump!
+The opposing Snorlax avoided the attack!
+Turn 3
+Magikarp, come back!
+Go! Chingling!
+The opposing Snorlax used Double Team!
+The opposing Snorlax's evasiveness rose!
+Turn 4
+Chingling used Psyshock!
+The opposing Snorlax lost 32% of its health!
+The opposing Snorlax used Body Slam!
+Chingling lost 38.3% of its health!
+Turn 5
+Chingling used Psyshock!
+The opposing Snorlax lost 34% of its health!
+The opposing Snorlax used Body Slam!
+Chingling lost 38.8% of its health!
+Chingling is paralyzed! It may be unable to move!
+Turn 6
+The opposing Snorlax used Body Slam!
+Chingling lost 22.3% of its health!
+Chingling fainted!
+Go! Zekrom!
+[Zekrom's Teravolt!]
+Zekrom is radiating a bursting aura!
+Turn 7
+Zekrom used Fusion Bolt!
+The opposing Snorlax lost 34% of its health!
+The opposing Snorlax fainted!
+dsaffe sent out Skiploom!
+Turn 8
+The opposing Skiploom used Toxic!
+Zekrom was badly poisoned!
+Zekrom used Fusion Bolt!
+The opposing Skiploom lost 57.0% of its health!
+Zekrom was hurt by poison!
+Turn 9
+Zekrom, come back!
+Go! Kyurem-Black!
+[Kyurem-Black's Teravolt!]
+Kyurem-Black is radiating a bursting aura!
+The opposing Skiploom used Headbutt!
+Kyurem-Black lost 13.3% of its health!
+Turn 10
+Kyurem-Black, come back!
+Go! Magikarp!
+The opposing Skiploom used Toxic!
+Magikarp was badly poisoned!
+Magikarp was hurt by poison!
+Turn 11
+The opposing Skiploom used Headbutt!
+Magikarp lost 16.7% of its health!
+Magikarp used Hydro Pump!
+It's not very effective... The opposing Skiploom lost 8% of its health!
+Magikarp was hurt by poison!
+Turn 12
+The opposing Skiploom used Headbutt!
+Magikarp lost 15.7% of its health!
+Magikarp used Bounce!
+Magikarp sprang up!
+Magikarp was hurt by poison!
+Turn 13
+dsaffe withdrew Skiploom!
+dsaffe sent out Sandslash!
+Magikarp used Bounce!
+The opposing Sandslash lost 8% of its health!
+Magikarp was hurt by poison!
+Magikarp fainted!
+Go! Tympole!
+Turn 14
+dsaffe withdrew Sandslash!
+dsaffe sent out Finneon!
+Tympole used Water Pulse!
+It's not very effective... The opposing Finneon lost 18% of its health!
+Turn 15
+Tympole, come back!
+Go! Kyurem-Black!
+[Kyurem-Black's Teravolt!]
+Kyurem-Black is radiating a bursting aura!
+The opposing Finneon used Round!
+Kyurem-Black lost 12.9% of its health!
+Turn 16
+The opposing Finneon used Round!
+Kyurem-Black lost 14.9% of its health!
+Kyurem-Black used Hyper Voice!
+The opposing Finneon lost 36% of its health!
+Turn 17
+The opposing Finneon used Round!
+Kyurem-Black lost 13.7% of its health!
+Kyurem-Black used Hyper Voice!
+The opposing Finneon lost 38% of its health!
+Turn 18
+The opposing Finneon used Flail!
+Kyurem-Black lost 37.3% of its health!
+Kyurem-Black ate its Liechi Berry!
+The Liechi Berry raised Kyurem-Black's Attack!
+Kyurem-Black used Hyper Voice!
+The opposing Finneon lost 8% of its health!
+The opposing Finneon fainted!
+dsaffe sent out Skiploom!
+Turn 19
+Kyurem-Black, come back!
+Go! Zekrom!
+[Zekrom's Teravolt!]
+Zekrom is radiating a bursting aura!
+The opposing Skiploom used Headbutt!
+Zekrom lost 11.8% of its health!
+Zekrom was hurt by poison!
+Turn 20
+The opposing Skiploom used Headbutt!
+Zekrom lost 11.8% of its health!
+Zekrom used Fusion Bolt!
+The opposing Skiploom lost 35% of its health!
+The opposing Skiploom fainted!
+Zekrom was hurt by poison!
+dsaffe sent out Sandslash!
+Turn 21
+Zekrom used Outrage!
+The opposing Sandslash lost 39% of its health!
+Magnitude 10!
+The opposing Sandslash used Magnitude!
+A critical hit! It's super effective! Zekrom lost 52.8% of its health!
+Zekrom fainted!
+Go! Kyurem-Black!
+[Kyurem-Black's Teravolt!]
+Kyurem-Black is radiating a bursting aura!
+Turn 22
+Kyurem-Black used Giga Impact!
+The opposing Sandslash lost 36% of its health!
+The opposing Sandslash ate its Oran Berry!
+The opposing Sandslash restored HP using its Oran Berry!
+The opposing Sandslash used Brick Break!
+It's super effective! Kyurem-Black lost 7.8% of its health!
+Kyurem-Black fainted!
+Go! Floette-Eternal-Flow (Floette-Eternal-Flower)!
+Turn 23
+Floette-Eternal-Flow used Grass Knot!
+It's super effective! The opposing Sandslash lost 21% of its health!
+The opposing Sandslash fainted!
+dsaffe sent out Hawlucha!
+Turn 24
+The opposing Hawlucha used Zen Headbutt!
+Floette-Eternal-Flow lost 28.2% of its health!
+Floette-Eternal-Flow used Light of Ruin!
+It's super effective! The opposing Hawlucha lost 100% of its health!
+Floette-Eternal-Flow is damaged by the recoil!
+The opposing Hawlucha fainted!
+dsaffe sent out Larvesta!
+Turn 25
+Floette-Eternal-Flow used Light of Ruin!
+It's not very effective... The opposing Larvesta lost 43% of its health!
+Floette-Eternal-Flow is damaged by the recoil!
+Floette-Eternal-Flow fainted!
+The opposing Larvesta used Return!
+But there was no target...
+Go! Tympole!
+Turn 26
+Tympole used Water Pulse!
+It's super effective! The opposing Larvesta lost 56.0% of its health!
+The opposing Larvesta fainted!
+BeherrscherPaule won the battle!

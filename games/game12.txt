@@ -1,0 +1,255 @@
+BeherrscherPaule joined.
+dsaffe joined.
+Format:
+Challenge Cup
+HP Percentage Mod: HP is shown in percentages
+Battle between BeherrscherPaule and dsaffe started!
+Go! Swanna!
+dsaffe sent out Muk!
+Turn 1
+The opposing Muk used Toxic!
+Swanna was badly poisoned!
+Swanna used Aqua Ring!
+Swanna surrounded itself with a veil of water!
+Swanna was hurt by poison!
+Turn 2
+The opposing Muk used Hidden Power!
+It's super effective! Swanna lost 24.6% of its health!
+Swanna used Dive!
+Swanna hid underwater!
+Aqua Ring restored Swanna's HP!
+Swanna was hurt by poison!
+Turn 3
+The opposing Muk used Hidden Power!
+Swanna avoided the attack!
+Swanna used Dive!
+The opposing Muk lost 31% of its health!
+Aqua Ring restored Swanna's HP!
+Swanna was hurt by poison!
+Turn 4
+The opposing Muk used Hidden Power!
+It's super effective! Swanna lost 23.8% of its health!
+Swanna used Rest!
+Swanna fell asleep!
+Swanna slept and became healthy!
+Turn 5
+dsaffe withdrew Muk!
+dsaffe sent out Caterpie!
+Swanna is fast asleep.
+Turn 6
+Swanna, come back!
+Go! Fennekin!
+The opposing Caterpie used Electroweb!
+Fennekin lost 10.4% of its health!
+Fennekin's Speed fell!
+Turn 7
+dsaffe withdrew Caterpie!
+dsaffe sent out Latios!
+Fennekin used Howl!
+Fennekin's Attack rose!
+The opposing Latios was burned by the Flame Orb!
+Turn 8
+Fennekin used Protect!
+Fennekin protected itself!
+The opposing Latios used Stored Power!
+Fennekin protected itself!
+The opposing Latios was hurt by its burn!
+Turn 9
+The opposing Latios used Stored Power!
+Fennekin lost 9.1% of its health!
+Fennekin used Howl!
+Fennekin's Attack rose!
+The opposing Latios was hurt by its burn!
+Turn 10
+The opposing Latios used Refresh!
+The opposing Latios healed its burn!
+Fennekin used Covet!
+The opposing Latios lost 29.0% of its health!
+The opposing Latios was burned by the Flame Orb!
+Turn 11
+The opposing Latios used Stored Power!
+Fennekin lost 9.6% of its health!
+Fennekin used Covet!
+The opposing Latios lost 31% of its health!
+The opposing Latios was hurt by its burn!
+Turn 12
+The opposing Latios used Refresh!
+The opposing Latios healed its burn!
+Fennekin used Howl!
+Fennekin's Attack rose!
+The opposing Latios was burned by the Flame Orb!
+Turn 13
+The opposing Latios used Stored Power!
+Fennekin lost 9.6% of its health!
+Fennekin used Howl!
+Fennekin's Attack rose!
+The opposing Latios was hurt by its burn!
+The opposing Latios fainted!
+dsaffe sent out Magikarp!
+Turn 14
+Fennekin, come back!
+Go! Snover!
+The opposing Magikarp used Hydro Pump!
+It's not very effective... Snover lost 21.8% of its health!
+Turn 15
+The opposing Magikarp used Bounce!
+The opposing Magikarp sprang up!
+Snover used Razor Leaf!
+The opposing Magikarp avoided the attack!
+Turn 16
+Snover, come back!
+Go! Swanna!
+The opposing Magikarp used Bounce!
+Swanna avoided the attack!
+Turn 17
+dsaffe withdrew Magikarp!
+dsaffe sent out Celebi!
+Swanna is fast asleep.
+Turn 18
+Swanna, come back!
+Go! Fennekin!
+The opposing Celebi used Leech Seed!
+Fennekin was seeded!
+Fennekin's health is sapped by Leech Seed!
+Turn 19
+Fennekin, come back!
+Go! Snover!
+The opposing Celebi used Signal Beam!
+It's super effective! Snover lost 35.6% of its health!
+Turn 20
+Snover, come back!
+Go! Beautifly!
+The opposing Celebi used Signal Beam!
+It's not very effective... Beautifly lost 11.7% of its health!
+Turn 21
+dsaffe withdrew Celebi!
+dsaffe sent out Klink!
+Beautifly used U-turn!
+It's not very effective... The opposing Klink lost 16% of its health!
+Beautifly went back to BeherrscherPaule!
+Go! Exploud!
+Turn 22
+Exploud used Fire Punch!
+It's super effective! The opposing Klink lost 71% of its health!
+The opposing Klink used Toxic!
+Exploud was badly poisoned!
+Exploud was hurt by poison!
+Turn 23
+Exploud used Flamethrower!
+It's super effective! The opposing Klink lost 13% of its health!
+The opposing Klink fainted!
+Exploud was hurt by poison!
+dsaffe sent out Magikarp!
+Turn 24
+Exploud, come back!
+Go! Swanna!
+The opposing Magikarp used Hydro Pump!
+It's not very effective... Swanna lost 21.3% of its health!
+Turn 25
+dsaffe withdrew Magikarp!
+dsaffe sent out Muk!
+Swanna woke up!
+Swanna used Water Gun!
+The opposing Muk lost 14.0% of its health!
+Turn 26
+The opposing Muk used Toxic!
+Swanna was badly poisoned!
+Swanna used Water Gun!
+The opposing Muk lost 14.0% of its health!
+Swanna was hurt by poison!
+Turn 27
+The opposing Muk used Hidden Power!
+It's super effective! Swanna lost 23.0% of its health!
+Swanna used Rest!
+Swanna fell asleep!
+Swanna slept and became healthy!
+Turn 28
+Swanna, come back!
+Go! Fennekin!
+The opposing Muk used Hidden Power!
+It's super effective! Fennekin lost 18.3% of its health!
+Turn 29
+Fennekin used Covet!
+The opposing Muk lost 10% of its health!
+The opposing Muk used Self-Destruct!
+Fennekin lost 30.9% of its health!
+The opposing Muk fainted!
+Fennekin fainted!
+Go! Exploud!
+dsaffe sent out Caterpie!
+Turn 30
+dsaffe withdrew Caterpie!
+dsaffe sent out Magikarp!
+Exploud used Fire Punch!
+It's not very effective... The opposing Magikarp lost 19% of its health!
+Exploud was hurt by poison!
+Turn 31
+Exploud, come back!
+Go! Swanna!
+The opposing Magikarp used Bounce!
+The opposing Magikarp sprang up!
+Turn 32
+The opposing Magikarp used Bounce!
+Swanna lost 12.7% of its health!
+Swanna is fast asleep.
+Turn 33
+Swanna, come back!
+Go! Horsea!
+The opposing Magikarp used Bounce!
+The opposing Magikarp sprang up!
+Turn 34
+The opposing Magikarp used Bounce!
+Horsea avoided the attack!
+Horsea used Octazooka!
+It's not very effective... The opposing Magikarp lost 81% of its health!
+The opposing Magikarp fainted!
+dsaffe sent out Caterpie!
+Turn 35
+Horsea used Octazooka!
+The opposing Caterpie lost 68% of its health!
+The opposing Caterpie used Electroweb!
+It's super effective! Horsea lost 86.2% of its health!
+Horsea's Speed fell!
+Turn 36
+The opposing Caterpie used Electroweb!
+It's super effective! Horsea lost 13.8% of its health!
+Horsea fainted!
+Go! Exploud!
+Turn 37
+Exploud used Fire Punch!
+It's super effective! The opposing Caterpie lost 32% of its health!
+The opposing Caterpie fainted!
+Exploud was hurt by poison!
+dsaffe sent out Celebi!
+Turn 38
+The opposing Celebi used Leech Seed!
+Exploud was seeded!
+Exploud used Crunch!
+It's super effective! The opposing Celebi lost 42% of its health!
+Exploud's health is sapped by Leech Seed!
+Exploud was hurt by poison!
+Turn 39
+The opposing Celebi used Signal Beam!
+Exploud lost 19.5% of its health!
+Exploud used Crunch!
+It's super effective! The opposing Celebi lost 44% of its health!
+Exploud's health is sapped by Leech Seed!
+Exploud was hurt by poison!
+Exploud fainted!
+Go! Beautifly!
+Turn 40
+The opposing Celebi used Rest!
+The opposing Celebi fell asleep!
+The opposing Celebi slept and became healthy!
+Beautifly used U-turn!
+It's super effective! The opposing Celebi lost 83% of its health!
+The opposing Celebi ate its Apicot Berry!
+The Apicot Berry raised the opposing Celebi's Special Defense!
+Beautifly went back to BeherrscherPaule!
+Go! Snover!
+Turn 41
+The opposing Celebi is fast asleep.
+Snover used Ice Beam!
+It's super effective! The opposing Celebi lost 17% of its health!
+The opposing Celebi fainted!
+BeherrscherPaule won the battle!

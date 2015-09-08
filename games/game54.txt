@@ -1,0 +1,189 @@
+BeherrscherPaule joined.
+dsaffe joined.
+Format:
+Challenge Cup
+HP Percentage Mod: HP is shown in percentages
+Battle between BeherrscherPaule and dsaffe started!
+Go! Tirtouga!
+dsaffe sent out Charmeleon!
+Turn 1
+The opposing Charmeleon used Protect!
+The opposing Charmeleon protected itself!
+Tirtouga used Rock Tomb!
+The opposing Charmeleon protected itself!
+Turn 2
+dsaffe withdrew Charmeleon!
+dsaffe sent out Hitmonchan!
+Tirtouga used Rock Tomb!
+It's not very effective... The opposing Hitmonchan lost 17% of its health!
+The opposing Hitmonchan's Speed fell!
+Turn 3
+Tirtouga, come back!
+Go! Mime Jr.!
+The opposing Hitmonchan used Dynamic Punch!
+It's not very effective... Mime Jr. lost 17.9% of its health!
+Mime Jr. became confused!
+Turn 4
+Mime Jr., come back!
+Go! Sigilyph!
+The opposing Hitmonchan used Retaliate!
+Sigilyph lost 21.1% of its health!
+Turn 5
+dsaffe withdrew Hitmonchan!
+dsaffe sent out Sentret!
+Sigilyph used Secret Power!
+The opposing Sentret lost 19% of its health!
+The opposing Sentret is paralyzed! It may be unable to move!
+Turn 6
+Sigilyph used Secret Power!
+The opposing Sentret lost 21% of its health!
+The opposing Sentret is paralyzed! It can't move!
+Turn 7
+Sigilyph used Secret Power!
+A critical hit! The opposing Sentret lost 30% of its health!
+The opposing Sentret used Toxic!
+Sigilyph was badly poisoned!
+Sigilyph was hurt by poison!
+Turn 8
+Sigilyph used Secret Power!
+The opposing Sentret lost 19% of its health!
+The opposing Sentret used Dig!
+The opposing Sentret burrowed its way under the ground!
+Sigilyph was hurt by poison!
+Turn 9
+Sigilyph, come back!
+Go! Buizel!
+The opposing Sentret used Dig!
+A critical hit! Buizel lost 26.4% of its health!
+Turn 10
+Buizel used Power-Up Punch!
+It's super effective! The opposing Sentret lost 11% of its health!
+Buizel's Attack rose!
+The opposing Sentret fainted!
+dsaffe sent out Seismitoad!
+Turn 11
+Buizel used Me First!
+Buizel used Drain Punch!
+The opposing Seismitoad lost 37% of its health!
+The opposing Seismitoad had its energy drained!
+Buizel is hurt by the opposing Seismitoad's Rocky Helmet!
+The opposing Seismitoad used Drain Punch!
+Buizel lost 20.7% of its health!
+Buizel had its energy drained!
+Turn 12
+Buizel used Power-Up Punch!
+The opposing Seismitoad lost 15% of its health!
+Buizel is hurt by the opposing Seismitoad's Rocky Helmet!
+Buizel's Attack rose!
+The opposing Seismitoad used Sludge Wave!
+Buizel lost 39.7% of its health!
+Buizel fainted!
+Go! Sigilyph!
+Turn 13
+Sigilyph used Secret Power!
+The opposing Seismitoad lost 9% of its health!
+The opposing Seismitoad is paralyzed! It may be unable to move!
+The opposing Seismitoad is paralyzed! It can't move!
+Sigilyph was hurt by poison!
+Turn 14
+Sigilyph used Solar Beam!
+Sigilyph absorbed light!
+The opposing Seismitoad used Sludge Wave!
+Sigilyph lost 30.3% of its health!
+Sigilyph was hurt by poison!
+Turn 15
+dsaffe withdrew Seismitoad!
+dsaffe sent out Hoothoot!
+Sigilyph used Solar Beam!
+It's not very effective... The opposing Hoothoot lost 53% of its health!
+Sigilyph was hurt by poison!
+Sigilyph fainted!
+Go! Tirtouga!
+Turn 16
+The opposing Hoothoot used Air Slash!
+It's not very effective... Tirtouga lost 40.5% of its health!
+Tirtouga flinched and couldn't move!
+Turn 17
+The opposing Hoothoot used Air Slash!
+Tirtouga avoided the attack!
+Tirtouga used Rock Tomb!
+It's super effective! The opposing Hoothoot lost 47% of its health!
+The opposing Hoothoot fainted!
+dsaffe sent out Seismitoad!
+Turn 18
+Tirtouga, come back!
+Go! Munna!
+The opposing Seismitoad used Sludge Wave!
+Munna lost 21.3% of its health!
+Turn 19
+Munna used Future Sight!
+Munna foresaw an attack!
+The opposing Seismitoad is paralyzed! It can't move!
+Turn 20
+Munna used Swagger!
+The opposing Seismitoad's Attack sharply rose!
+The opposing Seismitoad became confused!
+The opposing Seismitoad is confused!
+It hurt itself in its confusion!
+Turn 21
+Munna used Round!
+The opposing Seismitoad lost 13% of its health!
+The opposing Seismitoad snapped out of confusion!
+The opposing Seismitoad used Payback!
+It's super effective! Munna lost 78.7% of its health!
+Munna fainted!
+The opposing Seismitoad took the Future Sight attack!
+The opposing Seismitoad lost 14.0% of its health!
+The opposing Seismitoad fainted!
+dsaffe sent out Charmeleon!
+Go! Mime Jr.!
+Turn 22
+Mime Jr., come back!
+Go! Tirtouga!
+The opposing Charmeleon used Overheat!
+It's not very effective... Tirtouga lost 21.1% of its health!
+The opposing Charmeleon's Special Attack harshly fell!
+Turn 23
+dsaffe withdrew Charmeleon!
+dsaffe sent out Hitmonchan!
+Tirtouga, come back!
+Go! Mime Jr.!
+Turn 24
+The opposing Hitmonchan used Retaliate!
+Mime Jr. lost 35.3% of its health!
+Mime Jr. used Psychic!
+It's super effective! The opposing Hitmonchan lost 65% of its health!
+Turn 25
+The opposing Hitmonchan used Retaliate!
+Mime Jr. lost 35.3% of its health!
+Mime Jr. used Thunderbolt!
+The opposing Hitmonchan lost 18% of its health!
+The opposing Hitmonchan fainted!
+dsaffe sent out Charmeleon!
+Turn 26
+Mime Jr., come back!
+Go! Tirtouga!
+The opposing Charmeleon used Thunder Punch!
+It's super effective! Tirtouga lost 32.8% of its health!
+Turn 27
+The opposing Charmeleon used Thunder Punch!
+It's super effective! Tirtouga lost 5.6% of its health!
+Tirtouga fainted!
+Go! Charmander!
+Turn 28
+The opposing Charmeleon used Slash!
+Charmander lost 52.2% of its health!
+Charmander used Crunch!
+The opposing Charmeleon lost 29.0% of its health!
+Turn 29
+Charmander used Quick Attack!
+The opposing Charmeleon lost 17% of its health!
+The opposing Charmeleon used Slash!
+Charmander lost 47.8% of its health!
+Charmander fainted!
+Go! Mime Jr.!
+Turn 30
+The opposing Charmeleon used Slash!
+Mime Jr. lost 11.6% of its health!
+Mime Jr. fainted!
+dsaffe won the battle!

@@ -1,0 +1,209 @@
+BeherrscherPaule joined.
+dsaffe joined.
+Format:
+Challenge Cup
+HP Percentage Mod: HP is shown in percentages
+Battle between BeherrscherPaule and dsaffe started!
+Go! Bonsly!
+dsaffe sent out Clamperl!
+Turn 1
+Bonsly, come back!
+Go! Ledyba!
+The opposing Clamperl used Clamp!
+Ledyba lost 17.7% of its health!
+The opposing Clamperl clamped Ledyba!
+Ledyba is hurt by Clamp!
+Turn 2
+Ledyba used Infestation!
+The opposing Clamperl lost 11% of its health!
+[Opposing Clamperl's Rattled!]
+The opposing Clamperl's Speed rose!
+The opposing Clamperl has been afflicted with an infestation by Ledyba!
+The opposing Clamperl used Aqua Ring!
+The opposing Clamperl surrounded itself with a veil of water!
+Aqua Ring restored the opposing Clamperl's HP!
+The opposing Clamperl is hurt by Infestation!
+Ledyba is hurt by Clamp!
+Turn 3
+The opposing Clamperl used Water Gun!
+Ledyba lost 21.5% of its health!
+Ledyba used Rest!
+Ledyba fell asleep!
+Ledyba slept and became healthy!
+Aqua Ring restored the opposing Clamperl's HP!
+The opposing Clamperl is hurt by Infestation!
+Ledyba is hurt by Clamp!
+Turn 4
+The opposing Clamperl used Brine!
+Ledyba lost 35.5% of its health!
+Ledyba is fast asleep.
+Aqua Ring restored the opposing Clamperl's HP!
+The opposing Clamperl is hurt by Infestation!
+Ledyba is hurt by Clamp!
+Turn 5
+The opposing Clamperl used Brine!
+Ledyba lost 39.8% of its health!
+Ledyba fainted!
+Aqua Ring restored the opposing Clamperl's HP!
+The opposing Clamperl was freed from Infestation!
+Go! Croagunk!
+Turn 6
+The opposing Clamperl used Clamp!
+It doesn't affect Croagunk...
+Croagunk used Retaliate!
+The opposing Clamperl lost 39% of its health!
+Aqua Ring restored the opposing Clamperl's HP!
+Turn 7
+dsaffe withdrew Clamperl!
+dsaffe sent out Krabby!
+Croagunk, come back!
+Go! Hippowdon!
+A sandstorm kicked up!
+The sandstorm is raging.
+The opposing Krabby is buffeted by the sandstorm!
+Turn 8
+The opposing Krabby used Guillotine!
+Hippowdon avoided the attack!
+Hippowdon used Stealth Rock!
+Pointed stones float in the air around the opposing team!
+The sandstorm is raging.
+The opposing Krabby is buffeted by the sandstorm!
+Turn 9
+Hippowdon, come back!
+Go! Bonsly!
+The opposing Krabby used Mimic!
+But it failed!
+The sandstorm is raging.
+The opposing Krabby is buffeted by the sandstorm!
+Turn 10
+The opposing Krabby used Frustration!
+It's not very effective... Bonsly lost 8.6% of its health!
+Bonsly used Secret Power!
+A critical hit! The opposing Krabby lost 41% of its health!
+The sandstorm is raging.
+The opposing Krabby is buffeted by the sandstorm!
+Turn 11
+The opposing Krabby used Frustration!
+It's not very effective... Bonsly lost 7.6% of its health!
+Bonsly used Double Team!
+Bonsly's evasiveness rose!
+The sandstorm subsided.
+Turn 12
+The opposing Krabby used Mimic!
+The opposing Krabby learned Double Team!
+Bonsly used Secret Power!
+The opposing Krabby lost 28.0% of its health!
+Turn 13
+The opposing Krabby used Double Team!
+The opposing Krabby's evasiveness rose!
+Bonsly used Secret Power!
+The opposing Krabby lost 7.0% of its health!
+The opposing Krabby fainted!
+dsaffe sent out Phione!
+Pointed stones dug into the opposing Phione!
+Turn 14
+The opposing Phione used Fling!
+The opposing Phione flung its Ring Target!
+A critical hit! Bonsly lost 5.6% of its health!
+Bonsly used Secret Power!
+The opposing Phione lost 25% of its health!
+Turn 15
+The opposing Phione used Brine!
+It's super effective! Bonsly lost 58.9% of its health!
+Bonsly used Secret Power!
+The opposing Phione lost 29.0% of its health!
+The opposing Phione is paralyzed! It may be unable to move!
+Turn 16
+The opposing Phione is paralyzed! It can't move!
+Bonsly used Secret Power!
+The opposing Phione lost 25% of its health!
+Turn 17
+The opposing Phione used Brine!
+It's super effective! Bonsly lost 19.3% of its health!
+Bonsly fainted!
+Go! Vigoroth!
+Turn 18
+Vigoroth used Round!
+The opposing Phione lost 9% of its health!
+The opposing Phione fainted!
+dsaffe sent out Sigilyph!
+Pointed stones dug into the opposing Sigilyph!
+Turn 19
+Vigoroth used Mega Punch!
+The opposing Sigilyph lost 34% of its health!
+The opposing Sigilyph used Double Team!
+The opposing Sigilyph's evasiveness rose!
+Turn 20
+Vigoroth used Mega Punch!
+The opposing Sigilyph lost 39% of its health!
+The opposing Sigilyph used Gust!
+Vigoroth lost 32.2% of its health!
+Turn 21
+Vigoroth used Round!
+The opposing Sigilyph lost 3% of its health!
+The opposing Sigilyph fainted!
+dsaffe sent out Spritzee!
+Pointed stones dug into the opposing Spritzee!
+Turn 22
+Vigoroth used Mega Punch!
+The opposing Spritzee lost 41% of its health!
+The opposing Spritzee used Disarming Voice!
+Vigoroth lost 30.9% of its health!
+Turn 23
+Vigoroth used Cut!
+The opposing Spritzee lost 30% of its health!
+The opposing Spritzee used Disarming Voice!
+Vigoroth lost 30.5% of its health!
+Turn 24
+The opposing Spritzee used Protect!
+The opposing Spritzee protected itself!
+Vigoroth used Cut!
+The opposing Spritzee protected itself!
+Turn 25
+Vigoroth used Cut!
+A critical hit! The opposing Spritzee lost 17% of its health!
+The opposing Spritzee fainted!
+dsaffe sent out Honchkrow!
+Pointed stones dug into the opposing Honchkrow!
+Turn 26
+Vigoroth used Mega Punch!
+The opposing Honchkrow lost 45% of its health!
+The opposing Honchkrow used Thief!
+Vigoroth lost 6.4% of its health!
+Vigoroth fainted!
+[Opposing Honchkrow's Moxie!]
+The opposing Honchkrow's Attack rose!
+Go! Croagunk!
+Turn 27
+Croagunk used Fake Out!
+The opposing Honchkrow lost 14.0% of its health!
+The opposing Honchkrow flinched and couldn't move!
+Turn 28
+Croagunk, come back!
+Go! Hippowdon!
+A sandstorm kicked up!
+The opposing Honchkrow used Fly!
+The opposing Honchkrow flew up high!
+The sandstorm is raging.
+The opposing Honchkrow is buffeted by the sandstorm!
+Turn 29
+The opposing Honchkrow used Fly!
+Hippowdon lost 68.7% of its health!
+Hippowdon used Rock Smash!
+The opposing Honchkrow lost 11% of its health!
+The opposing Honchkrow fainted!
+The sandstorm is raging.
+dsaffe sent out Clamperl!
+Pointed stones dug into the opposing Clamperl!
+Turn 30
+The opposing Clamperl used Brine!
+A critical hit! It's super effective! Hippowdon lost 31.3% of its health!
+Hippowdon fainted!
+The sandstorm is raging.
+The opposing Clamperl is buffeted by the sandstorm!
+Go! Croagunk!
+Turn 31
+Croagunk used Retaliate!
+The opposing Clamperl lost 25% of its health!
+The opposing Clamperl fainted!
+BeherrscherPaule won the battle!

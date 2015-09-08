@@ -7,10 +7,31 @@ import java.awt.LayoutManager;
 
 public class TableLayout implements LayoutManager {
 
+	public static final int SCALING_COLUMN_WIDTH = -1;
+	public static final int MINIMUM_COLUMN_WIDTH = -2;
+	
+	private static int[] getScalingWidths(int size) {
+		int[] widths = new int[size];
+		for(int i = 0; i < size; i++){
+			widths[i] = SCALING_COLUMN_WIDTH;
+		}
+		return widths;
+	}
+	
 	private int columns;
+	private int[] columnTypes;
 	
 	public TableLayout(int columns) {
+		this(columns, getScalingWidths(columns));
+	}
+
+	public TableLayout(int columns, int[] columnTypes) {
+		if(columnTypes.length != columns){
+			System.err.println("column number unclear");
+			columnTypes = getScalingWidths(columns);
+		}
 		this.columns = columns;
+		this.columnTypes = columnTypes;
 	}
 
 	@Override
@@ -20,27 +41,86 @@ public class TableLayout implements LayoutManager {
 
 	@Override
 	public void layoutContainer(Container target) {
-		int columnWidth = target.getWidth() / columns;
+		int[] columnWidths = calculateWidths(target);
+		int[] offsetsX = calculateOffsetsX(columnWidths);
+		Component[] components = target.getComponents();
 		
 		int column = 0;
-		int row = 0;
+		int offsetY = 0;
 		int rowHeight = 0;
-		for(Component component:target.getComponents()){
+		for(Component component:components){
 			if(column == columns){
 				column = 0;
-				row += rowHeight;
+				offsetY += rowHeight;
 				rowHeight = 0;
 			}
+			
+			int columnWidth = columnWidths[column];
 			int cWidth = component.getPreferredSize().width;
 			cWidth = cWidth < columnWidth ? cWidth : columnWidth;
 			int cHeight = component.getPreferredSize().height;
-			component.setBounds(column * columnWidth, row, cWidth, cHeight);
+			
+			component.setBounds(offsetsX[column], offsetY, cWidth, cHeight);
 			if(cHeight > rowHeight){
 				rowHeight = cHeight;
 			}
 			
 			column++;
 		}
+	}
+
+	private int[] calculateWidths(Container target) {
+		int[] widths = new int[columns];
+		Component[] components = target.getComponents();
+		
+		for(int i = 0; i < components.length; i++){
+			int column = i%columns;
+			
+			int columnType = columnTypes[column];
+			if(columnType == MINIMUM_COLUMN_WIDTH){
+				int cWidth = components[i].getPreferredSize().width;
+				widths[column] = widths[column] < cWidth ? cWidth : widths[column];
+			}
+			else{
+				widths[column] = columnType;
+			}
+		}
+		
+		int totalConstantWidth = 0;
+		int scalingColumns = 0;
+		for(int column = 0; column < widths.length; column++){
+			int columnType = columnTypes[column];
+			if(columnType != SCALING_COLUMN_WIDTH){
+				totalConstantWidth += widths[column];
+			}
+			else{
+				scalingColumns++;
+			}
+		}
+		
+		if(scalingColumns > 0){
+			int scaledColumnWidth = (target.getWidth() - totalConstantWidth) / scalingColumns;
+			for(int column = 0; column < widths.length; column++){
+				int columnType = columnTypes[column];
+				if(columnType == SCALING_COLUMN_WIDTH){
+					widths[column] = scaledColumnWidth;
+				}
+			}
+		}
+		
+		return widths;
+	}
+	
+	private int[] calculateOffsetsX(int[] columnWidths) {
+		int[] offsetsX = new int[columnWidths.length];
+		for(int i = 0; i < offsetsX.length; i++){
+			int offset = 0;
+			for(int j = 0; j < i; j++){
+				offset += columnWidths[j];
+			}
+			offsetsX[i] = offset;
+		}
+		return offsetsX;
 	}
 
 	@Override

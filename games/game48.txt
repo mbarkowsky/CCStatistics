@@ -1,0 +1,162 @@
+BeherrscherPaule joined.
+dsaffe joined.
+Format:
+Challenge Cup
+HP Percentage Mod: HP is shown in percentages
+Battle between BeherrscherPaule and dsaffe started!
+Go! Magnezone!
+dsaffe sent out Altaria!
+Turn 1
+dsaffe withdrew Altaria!
+dsaffe sent out Machoke!
+Magnezone used Iron Head!
+The opposing Machoke lost 29.0% of its health!
+Magnezone lost some of its HP!
+Turn 2
+Magnezone, come back!
+Go! Trevenant!
+The opposing Machoke used Knock Off!
+It's super effective! Trevenant lost 58.9% of its health!
+The opposing Machoke knocked off Trevenant's Blue Orb!
+Turn 3
+dsaffe withdrew Machoke!
+dsaffe sent out Altaria!
+Trevenant used Secret Power!
+The opposing Altaria lost 22% of its health!
+The opposing Altaria is paralyzed! It may be unable to move!
+Turn 4
+Trevenant, come back!
+Go! Magnezone!
+The opposing Altaria used Dragon Breath!
+It's not very effective... Magnezone lost 10.4% of its health!
+Turn 5
+dsaffe withdrew Altaria!
+dsaffe sent out Larvesta!
+Magnezone used Iron Head!
+It's not very effective... The opposing Larvesta lost 21% of its health!
+Magnezone lost some of its HP!
+Turn 6
+Magnezone, come back!
+Go! Claydol!
+The opposing Larvesta used Toxic!
+Claydol was badly poisoned!
+Claydol was hurt by poison!
+Turn 7
+The opposing Larvesta used Facade!
+Claydol lost 24.2% of its health!
+Claydol used Secret Power!
+The opposing Larvesta lost 23% of its health!
+Claydol was hurt by poison!
+Turn 8
+The opposing Larvesta used Facade!
+A critical hit! Claydol lost 38.4% of its health!
+Claydol used Secret Power!
+The opposing Larvesta lost 23% of its health!
+The opposing Larvesta is paralyzed! It may be unable to move!
+Claydol was hurt by poison!
+Turn 9
+Claydol used Psybeam!
+The opposing Larvesta lost 21% of its health!
+The opposing Larvesta is paralyzed! It can't move!
+Claydol was hurt by poison!
+Claydol fainted!
+Go! Sentret!
+Turn 10
+Sentret used Hyper Voice!
+The opposing Larvesta lost 12% of its health!
+The opposing Larvesta fainted!
+dsaffe sent out Absol!
+Turn 11
+Sentret, come back!
+Go! Mamoswine!
+The opposing Absol used Swords Dance!
+The opposing Absol's Attack sharply rose!
+Turn 12
+The opposing Absol used Sucker Punch!
+A critical hit! Mamoswine lost 100% of its health!
+Mamoswine fainted!
+Go! Mesprit!
+Turn 13
+Mesprit used Swagger!
+The opposing Absol's Attack sharply rose!
+The opposing Absol became confused!
+The opposing Absol is confused!
+The opposing Absol used Body Slam!
+Mesprit lost 88.0% of its health!
+Turn 14
+dsaffe withdrew Absol!
+dsaffe sent out Altaria!
+Mesprit used Flash!
+The opposing Altaria's accuracy fell!
+Turn 15
+The opposing Altaria used Dragon Breath!
+Mesprit lost 12.0% of its health!
+Mesprit fainted!
+Go! Magnezone!
+Turn 16
+dsaffe withdrew Altaria!
+dsaffe sent out Emboar!
+Magnezone used Iron Head!
+It's not very effective... The opposing Emboar lost 17% of its health!
+Magnezone lost some of its HP!
+Turn 17
+The opposing Emboar used Work Up!
+The opposing Emboar's Attack rose!
+The opposing Emboar's Special Attack rose!
+Magnezone used Iron Head!
+It's not very effective... The opposing Emboar lost 17% of its health!
+Magnezone lost some of its HP!
+Turn 18
+The opposing Emboar used Rock Slide!
+It's not very effective... Magnezone lost 14.9% of its health!
+Magnezone used Iron Head!
+It's not very effective... The opposing Emboar lost 16% of its health!
+Magnezone lost some of its HP!
+Turn 19
+The opposing Emboar used Rock Slide!
+It's not very effective... Magnezone lost 13.4% of its health!
+Magnezone flinched and couldn't move!
+Turn 20
+The opposing Emboar used Rock Slide!
+It's not very effective... Magnezone lost 11.9% of its health!
+Magnezone fainted!
+Go! Trevenant!
+Turn 21
+The opposing Emboar used Rock Slide!
+Trevenant lost 37.8% of its health!
+Trevenant used Secret Power!
+The opposing Emboar lost 22% of its health!
+Turn 22
+The opposing Emboar used Rock Slide!
+Trevenant lost 3.3% of its health!
+Trevenant fainted!
+Go! Sentret!
+Turn 23
+The opposing Emboar used Rock Slide!
+Sentret avoided the attack!
+Sentret used Hyper Voice!
+The opposing Emboar lost 28.0% of its health!
+The opposing Emboar fainted!
+dsaffe sent out Paras!
+Turn 24
+Sentret used Hyper Voice!
+The opposing Paras lost 70% of its health!
+The opposing Paras used Toxic!
+Sentret avoided the attack!
+Turn 25
+Sentret used Hyper Voice!
+The opposing Paras lost 30% of its health!
+The opposing Paras fainted!
+dsaffe sent out Machoke!
+Turn 26
+Sentret used Hyper Voice!
+The opposing Machoke lost 34% of its health!
+The opposing Machoke used Dynamic Punch!
+Sentret avoided the attack!
+Turn 27
+Sentret used Hyper Voice!
+The opposing Machoke lost 35% of its health!
+The opposing Machoke used Dynamic Punch!
+It's super effective! Sentret lost 100% of its health!
+Sentret fainted!
+dsaffe won the battle!

@@ -4,16 +4,8 @@ import game.Game;
 import game.Game.Player;
 import game.playeraction.AttackAction;
 import game.playeraction.AttackEffect;
-import game.playeraction.BoostEffect;
-import game.playeraction.DamageEffect;
-import game.playeraction.DropEffect;
-import game.playeraction.HealingEffect;
-import game.playeraction.ItemEffect;
 import game.playeraction.PlayerAction;
-import game.playeraction.RecoilEffect;
 import game.playeraction.SwitchAction;
-import game.playeraction.AttackEffect.EffectType;
-import game.playeraction.DamageEffect.Effectiveness;
 import game.playeraction.PlayerAction.ActionType;
 import game.Turn;
 
@@ -27,44 +19,45 @@ import java.util.List;
 import java.util.Map;
 import java.util.StringTokenizer;
 
-import util.GameUtil;
-import util.GameUtil.Stat;
-
 public class GameBuilder {
 
 	private Map<String, ActionType> actionKeyWords;
-	private Map<String, EffectType> attackKeyWords;
+	private Map<String, AttackBuilder> attackBuilders;
 	
 	private String playerOneName;
 	private String playerTwoName;
 	private String[] log;
-	private int lastIndex;
+	private Integer lastIndex;
 	
 	public GameBuilder(){
 		initializeKeyWords();
+		initializeAttackBuilders();
 	}
-	
+
 	private void initializeKeyWords() {
 		actionKeyWords = new HashMap<>();
 		actionKeyWords.put("used", ActionType.ATTACK);
 		actionKeyWords.put("withdrew", ActionType.SWITCH);
 		actionKeyWords.put("back!", ActionType.SWITCH);
-		
-		attackKeyWords = new HashMap<>();
-		attackKeyWords.put("lost", EffectType.DAMAGE);
-		attackKeyWords.put("regained", EffectType.HEALING);
-		attackKeyWords.put("rose", EffectType.BOOST);
-		attackKeyWords.put("rose!", EffectType.BOOST);
-		attackKeyWords.put("fell", EffectType.DROP);
-		attackKeyWords.put("fell!", EffectType.DROP);
-		attackKeyWords.put("strengthened", EffectType.ITEM);
 	}
 
+	private void initializeAttackBuilders() {
+		attackBuilders = new HashMap<>();
+		
+		AttackBuilder genericBuilder = new GenericAttackBuilder();
+		AttackBuilder flingBuilder = new FlingAttackBuilder();
+		
+		attackBuilders.put("generic", genericBuilder);
+		attackBuilders.put("Fling", flingBuilder);
+	}
+	
 	public Game buildGame(File file) throws IOException{
 		log = readLog(file);
 		
 		Game game = new Game();
-		game.setName(file.getName());
+		String name = file.getName();
+		name = name.substring(0, name.lastIndexOf("."));
+		game.setName(name);
 		lastIndex = 0;
 		buildHeader(game);
 		buildTurns(game);
@@ -88,25 +81,27 @@ public class GameBuilder {
 	}
 
 	private void buildHeader(Game game){
-		String line = log[lastIndex++];
-		playerOneName = line.substring(0, line.length() - 8);
-		game.setPlayerName(Player.PLAYER_ONE, playerOneName);
-		
-		line = log[lastIndex++];
-		playerTwoName = line.substring(0, line.length() - 8);
-		game.setPlayerName(Player.PLAYER_TWO, playerTwoName);
+		String line;
 		
 		while(!(line = log[lastIndex++]).startsWith("Battle between"));
+		
+		line = line.substring(15, line.length() - 9);
+		String[]names = line.split(" and ");
+		
+		
+		while(!(line = log[lastIndex++]).contains("sent out"));
+		
+		playerOneName = line.startsWith(names[1]) ? names[0] : names[1];
+		playerTwoName = line.startsWith(names[1]) ? names[1] : names[0];
+		
+		game.setPlayerName(Player.PLAYER_ONE, playerOneName);
+		game.setPlayerName(Player.PLAYER_TWO, playerTwoName);
+		
+		while(!(line = log[lastIndex++]).equals("Turn 1"));
+		lastIndex--;
 	}
 	
-	@SuppressWarnings("unused")	//TODO: save starting pokemons
 	private void buildTurns(Game game){
-		String line = log[lastIndex++];
-		String startPokemonOne = line.substring(4, line.length() - 1);
-		
-		line = log[lastIndex++];
-		String startPokemonTwo = line.substring(game.getPlayerName(Player.PLAYER_TWO).length() + 10, line.length() - 1);
-		
 		Turn turn;
 		while((turn = buildTurn()) != null){
 			game.addTurn(turn);
@@ -208,61 +203,15 @@ public class GameBuilder {
 		}
 		return action;
 	}
-	
-	private AttackEffect buildAttackEffect(EffectType effectType, String line, Player player) {
-		AttackEffect effect = null;
-		
-		switch(effectType){
-		case DAMAGE:
-			if(player != identifyPlayer(line)){
-				effect = buildDamageEffect(line);	
-			}
-			else{
-				effect = buildRecoilEffect(line);
-			}
-			break;
-		case HEALING:
-			effect = buildHealingEffect(line);
-			break;
-		case BOOST:
-			effect = buildBoostEffect(line);
-			break;
-		case DROP:
-			effect = buildDropEffect(line);
-			break;
-		case ITEM:
-			effect = buildItemEffect(line);
-			break;
-			
-		default:
-			break;
-		}
-		return effect;
-	}
 
 	private PlayerAction buildPlayerOneAttack(String line) {
 		line = line.substring(0, line.length() - 1);
 		String[] strings = line.split(" used ");
 		AttackAction action = new AttackAction(strings[0], strings[1]);
 		lastIndex++;
-		boolean addedEffect;
-		do{
-			addedEffect = false;
-			line = log[lastIndex];
-			StringTokenizer st = new StringTokenizer(line);	
-			while(st.hasMoreTokens()){
-				String token = st.nextToken();
-				EffectType effectType = attackKeyWords.get(token);
-				if(effectType != null){
-					AttackEffect effect = buildAttackEffect(effectType, line, Player.PLAYER_ONE);
-					action.addEffect(effect);
-					addedEffect = true;
-					lastIndex++;
-					break;
-				}
-			}
-		}
-		while(addedEffect);
+		AttackBuilder builder = getAttackBuilder(strings[1]);
+		List<AttackEffect> effects = builder.buildEffects(Player.PLAYER_ONE, action, log, lastIndex);
+		action.addEffects(effects);
 		return action;
 	}
 
@@ -271,25 +220,18 @@ public class GameBuilder {
 		String[] strings = line.split(" used ");
 		AttackAction action = new AttackAction(strings[0], strings[1]);
 		lastIndex++;
-		boolean addedEffect;
-		do{
-			addedEffect = false;
-			line = log[lastIndex];
-			StringTokenizer st = new StringTokenizer(line);	
-			while(st.hasMoreTokens()){
-				String token = st.nextToken();
-				EffectType effectType = attackKeyWords.get(token);
-				if(effectType != null){
-					AttackEffect effect = buildAttackEffect(effectType, line, Player.PLAYER_TWO);
-					action.addEffect(effect);
-					addedEffect = true;
-					lastIndex++;
-					break;
-				}
-			}
-		}
-		while(addedEffect);
+		AttackBuilder builder = getAttackBuilder(strings[1]);
+		List<AttackEffect> effects = builder.buildEffects(Player.PLAYER_TWO, action, log, lastIndex);
+		action.addEffects(effects);
 		return action;
+	}
+	
+	private AttackBuilder getAttackBuilder(String attackName){
+		AttackBuilder builder = attackBuilders.get(attackName);
+		if(builder == null){
+			builder = attackBuilders.get("generic");
+		}
+		return builder;
 	}
 	
 	private PlayerAction buildPlayerOneSwitch(String line) {
@@ -310,103 +252,6 @@ public class GameBuilder {
 		SwitchAction action = new SwitchAction(switchOut, switchIn);
 		lastIndex++;
 		return action;
-	}
-
-	private DamageEffect buildDamageEffect(String line) {
-		DamageEffect effect = new DamageEffect();		//TODO make more performant?
-		effect.setCrit(line.contains("A critical hit!"));
-		if(line.contains("It's not very effective...")){
-			effect.setEffectiveness(Effectiveness.NOT_VERY_EFFECTIVE);
-		}
-		else if(line.contains("It's super effective!")){
-			effect.setEffectiveness(Effectiveness.SUPER_EFFECTIVE);
-		}
-		else{
-			effect.setEffectiveness(Effectiveness.NEUTRAL);
-		}
-		
-		String[] strings = line.split(" lost ");
-		StringTokenizer left = new StringTokenizer(strings[0]);
-		String defender = "";
-		while(left.hasMoreTokens()){
-			defender = left.nextToken();
-		}
-		effect.setDefender(defender);
-		
-		StringTokenizer right = new StringTokenizer(strings[1]);
-		String damage = right.nextToken();
-		damage = damage.substring(0, damage.length() - 1);
-		effect.setDamage(Double.parseDouble(damage));
-
-		if(log[lastIndex + 1].equals(defender + " fainted!")){
-			effect.setKO(true);
-			lastIndex++;
-		}
-		return effect;
-	}
-	
-	private AttackEffect buildRecoilEffect(String line) {
-		return new RecoilEffect();
-	}
-	
-	private HealingEffect buildHealingEffect(String line){
-		return new HealingEffect();
-	}
-
-	private AttackEffect buildBoostEffect(String line) {
-		StringTokenizer st = new StringTokenizer(line);
-		String token;
-		String token1 = "";
-		String token2 = "";
-		String statString;
-		while(!((token = st.nextToken()).equals("rose") || token.equals("rose!"))){
-			token1 = token2;
-			token2 = token;
-		}
-		
-		if(token1.equals("Special")){
-			statString = token1 + " " + token2;
-		}
-		else{
-			statString = token2;
-		}
-		Stat stat = GameUtil.getStatForString(statString);
-		
-		BoostEffect effect = new BoostEffect();
-		effect.setStat(stat);
-		return effect;
-	}
-	
-
-	private AttackEffect buildDropEffect(String line) {
-		StringTokenizer st = new StringTokenizer(line);
-		String token;
-		String token1 = "";
-		String token2 = "";
-		String statString;
-		while(!((token = st.nextToken()).equals("fell") || token.equals("fell!"))){
-			token1 = token2;
-			token2 = token;
-		}
-		
-		if(token1.equals("Special")){
-			statString = token1 + " " + token2;
-		}
-		else{
-			statString = token2;
-		}
-		Stat stat = GameUtil.getStatForString(statString);
-		
-		DropEffect effect = new DropEffect();	//TODO maybe make one class for drop and boost
-		effect.setStat(stat);
-		return effect;
-	}
-	
-	private ItemEffect buildItemEffect(String line){	//TODO specialize to gems
-		StringTokenizer st = new StringTokenizer(line);
-		st.nextToken();
-		String item = st.nextToken() + " " + st.nextToken();
-		return new ItemEffect(item);
 	}
 	
 }

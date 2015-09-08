@@ -61,4 +61,8 @@ public class AttackAction implements PlayerAction {
 		}
 		return list;
 	}
+
+	public void addEffects(List<AttackEffect> effects) {
+		this.effects.addAll(effects);
+	}
 }

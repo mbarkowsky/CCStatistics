@@ -6,19 +6,19 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.StringTokenizer;
 
-import ui.MainPanel;
+import builder.GameLoader;
 
 
 public class LoadingTest {
 
 	public static void main(String[] args) {
 		int threadNumber = Integer.parseInt(args[0]);
-		MainPanel mp = new MainPanel(threadNumber);
+		GameLoader g = new GameLoader(threadNumber);
 		long t1 = System.currentTimeMillis();
-		mp.loadGames();
+		g.loadGames("games");
 		long t2 = System.currentTimeMillis();
 		long executionTime = t2 - t1;
-		System.out.println(t2 - t1);
+		System.out.println("loaded " + g.getGames().size() + " games in " + (t2 - t1) + " ms");
 		
 		File f = new File("performance/results/runtimes" + threadNumber);
 		try {

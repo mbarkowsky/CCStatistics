@@ -22,6 +22,7 @@ public class ItemEffect implements AttackEffect {
 		this.item = item;
 	}
 	
+	@Override
 	public String toString(){
 		return getType() + ": " + item;
 	}

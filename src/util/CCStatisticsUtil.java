@@ -2,6 +2,8 @@ package util;
 
 import java.awt.Color;
 
+import threshold.AvgDevThreshold;
+
 public class CCStatisticsUtil {
 	
 	public static final int HIGH_IS_GOOD = 1;
@@ -25,6 +27,34 @@ public class CCStatisticsUtil {
 		return String.valueOf(result);
 	}
 
+	public static Color getAvgDevColor(double value, AvgDevThreshold threshold, int mode){
+		Color c;
+		if(mode == HIGH_IS_GOOD){
+			if(value > threshold.getAverage() + threshold.getDeviation()){
+				c = CCStatisticsUtil.goodColor;
+			}
+			else if(value < threshold.getAverage() - threshold.getDeviation()){
+				c = CCStatisticsUtil.badColor;
+			}
+			else{
+				c = CCStatisticsUtil.neutralColor;
+			}
+		}
+		
+		else{
+			if(value < threshold.getAverage() - threshold.getDeviation()){
+				c = CCStatisticsUtil.goodColor;
+			}
+			else if(value > threshold.getAverage() + threshold.getDeviation()){
+				c = CCStatisticsUtil.badColor;
+			}
+			else{
+				c = CCStatisticsUtil.neutralColor;
+			}
+		}
+		return c;
+	}
+	
 	public static Color getPercentageColor(double percentage, int mode) {
 		Color c;
 		if(mode == HIGH_IS_GOOD){

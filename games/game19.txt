@@ -1,0 +1,468 @@
+BeherrscherPaule joined.
+dsaffe joined.
+Format:
+Challenge Cup
+HP Percentage Mod: HP is shown in percentages
+Battle between dsaffe and BeherrscherPaule started!
+dsaffe sent out Aron!
+Go! Illumise!
+Turn 1
+Illumise, come back!
+Go! Krokorok!
+[Krokorok's Intimidate!]
+The opposing Aron's Attack fell!
+The opposing Aron used Iron Head!
+Krokorok lost 41.6% of its health!
+Turn 2
+dsaffe withdrew Aron!
+dsaffe sent out Cofagrigus!
+Krokorok used Brick Break!
+It doesn't affect the opposing Cofagrigus...
+Turn 3
+Krokorok, come back!
+Go! Gliscor!
+The opposing Cofagrigus used Thief!
+Gliscor lost 4.9% of its health!
+Turn 4
+Gliscor used Substitute!
+Gliscor put in a substitute!
+Gliscor lost 25% of its health!
+The opposing Cofagrigus used Thief!
+The substitute took damage for Gliscor!
+Turn 5
+Gliscor used Fire Fang!
+The opposing Cofagrigus lost 16% of its health!
+(Gliscor's Poison Heal was removed.)
+Gliscor acquired Mummy!
+The opposing Cofagrigus used Scary Face!
+Turn 6
+Gliscor used Fire Fang!
+The opposing Cofagrigus lost 16% of its health!
+The opposing Cofagrigus used Spite!
+It reduced the PP of Gliscor's Fire Fang by 4!
+Turn 7
+Gliscor, come back!
+Go! Illumise!
+The opposing Cofagrigus used Spite!
+But it failed!
+Turn 8
+Illumise used Growth!
+Illumise's Attack rose!
+Illumise's Special Attack rose!
+The opposing Cofagrigus used Thief!
+Illumise lost 8.4% of its health!
+The opposing Cofagrigus is hurt by Illumise's Rocky Helmet!
+Turn 9
+Illumise used Growth!
+Illumise's Attack rose!
+Illumise's Special Attack rose!
+The opposing Cofagrigus used Scary Face!
+Illumise's Speed harshly fell!
+Turn 10
+The opposing Cofagrigus used Scary Face!
+Illumise's Speed harshly fell!
+Illumise used Thunderbolt!
+The opposing Cofagrigus lost 46% of its health!
+Turn 11
+The opposing Cofagrigus used Protect!
+The opposing Cofagrigus protected itself!
+Illumise used Growth!
+Illumise's Attack rose!
+Illumise's Special Attack rose!
+Turn 12
+The opposing Cofagrigus used Scary Face!
+Illumise's Speed harshly fell!
+Illumise used Thunderbolt!
+The opposing Cofagrigus lost 5% of its health!
+The opposing Cofagrigus fainted!
+dsaffe sent out Krookodile!
+Turn 13
+Illumise, come back!
+Go! Krabby!
+The opposing Krookodile used Stealth Rock!
+Pointed stones float in the air around your team!
+Turn 14
+dsaffe withdrew Krookodile!
+dsaffe sent out Arceus!
+Krabby used Strength!
+The opposing Arceus lost 20% of its health!
+Turn 15
+The opposing Arceus used Rock Slide!
+Krabby avoided the attack!
+Krabby used Strength!
+The opposing Arceus lost 23% of its health!
+Turn 16
+The opposing Arceus used Twister!
+Krabby lost 26.4% of its health!
+Krabby used Strength!
+The opposing Arceus lost 22% of its health!
+Turn 17
+The opposing Arceus used Twister!
+Krabby lost 28.4% of its health!
+Krabby used Strength!
+The opposing Arceus lost 21% of its health!
+Turn 18
+The opposing Arceus used Twister!
+Krabby lost 24.4% of its health!
+Krabby flinched and couldn't move!
+Turn 19
+The opposing Arceus used Twister!
+Krabby lost 20.9% of its health!
+Krabby fainted!
+Go! Krokorok!
+Pointed stones dug into Krokorok!
+[Krokorok's Intimidate!]
+The opposing Arceus's Attack fell!
+Turn 20
+The opposing Arceus used Dive!
+The opposing Arceus hid underwater!
+Krokorok used Brick Break!
+The opposing Arceus avoided the attack!
+Turn 21
+Krokorok, come back!
+Go! Walrein!
+Pointed stones dug into Walrein!
+The opposing Arceus used Dive!
+It's not very effective... Walrein lost 4.6% of its health!
+Turn 22
+The opposing Arceus used Rock Slide!
+It's super effective! Walrein lost 17.0% of its health!
+Walrein used Water Gun!
+The opposing Arceus lost 12% of its health!
+Turn 23
+The opposing Arceus used Rock Slide!
+It's super effective! Walrein lost 17.0% of its health!
+Walrein flinched and couldn't move!
+Turn 24
+The opposing Arceus used Rock Slide!
+It's super effective! Walrein lost 19.3% of its health!
+Walrein flinched and couldn't move!
+Turn 25
+The opposing Arceus used Rock Slide!
+It's super effective! Walrein lost 17.4% of its health!
+Walrein fainted!
+Go! Cofagrigus!
+Pointed stones dug into Cofagrigus!
+Turn 26
+The opposing Arceus used Rock Slide!
+Cofagrigus lost 9.6% of its health!
+Cofagrigus used Psychic!
+The opposing Arceus lost 1% of its health!
+The opposing Arceus fainted!
+dsaffe sent out Doduo!
+Turn 27
+The opposing Doduo used Toxic!
+Cofagrigus was badly poisoned!
+Cofagrigus used Psychic!
+The opposing Doduo lost 50% of its health!
+Cofagrigus was hurt by poison!
+Turn 28
+The opposing Doduo used Endure!
+The opposing Doduo braced itself!
+Cofagrigus used Psychic!
+The opposing Doduo lost 49% of its health!
+Cofagrigus was hurt by poison!
+Turn 29
+Cofagrigus, come back!
+Go! Illumise!
+Pointed stones dug into Illumise!
+The opposing Doduo used Supersonic!
+Illumise became confused!
+Turn 30
+Illumise, come back!
+Go! Gliscor!
+Pointed stones dug into Gliscor!
+The opposing Doduo used Facade!
+Gliscor lost 26.2% of its health!
+Turn 31
+The opposing Doduo used Facade!
+Gliscor lost 26.2% of its health!
+Gliscor used Rest!
+Gliscor fell asleep!
+Gliscor slept and became healthy!
+Turn 32
+The opposing Doduo used Supersonic!
+Gliscor became confused!
+Gliscor is fast asleep.
+Turn 33
+The opposing Doduo used Facade!
+Gliscor lost 26.2% of its health!
+Gliscor is fast asleep.
+Turn 34
+The opposing Doduo used Facade!
+Gliscor lost 23.8% of its health!
+Gliscor woke up!
+Gliscor is confused!
+Gliscor used Fire Fang!
+The opposing Doduo lost 1% of its health!
+The opposing Doduo fainted!
+dsaffe sent out Aron!
+Turn 35
+Gliscor, come back!
+Go! Illumise!
+Pointed stones dug into Illumise!
+The opposing Aron used Iron Head!
+Illumise lost 35.4% of its health!
+The opposing Aron is hurt by Illumise's Rocky Helmet!
+Turn 36
+Illumise used Thunderbolt!
+The opposing Aron lost 31% of its health!
+The opposing Aron used Iron Head!
+Illumise lost 6.8% of its health!
+The opposing Aron is hurt by Illumise's Rocky Helmet!
+Illumise fainted!
+Go! Krokorok!
+Pointed stones dug into Krokorok!
+[Krokorok's Intimidate!]
+The opposing Aron's Attack fell!
+Turn 37
+dsaffe withdrew Aron!
+dsaffe sent out Groudon!
+The sunlight turned harsh!
+Krokorok used Brick Break!
+The opposing Groudon lost 17% of its health!
+Turn 38
+Krokorok, come back!
+Go! Cofagrigus!
+Pointed stones dug into Cofagrigus!
+The opposing Groudon used Power-Up Punch!
+It doesn't affect Cofagrigus...
+Cofagrigus was hurt by poison!
+Turn 39
+The opposing Groudon used Rock Polish!
+The opposing Groudon's Speed sharply rose!
+Cofagrigus used Pain Split!
+The battlers shared their pain!
+Cofagrigus was hurt by poison!
+Turn 40
+The opposing Groudon used Rock Polish!
+The opposing Groudon's Speed sharply rose!
+Cofagrigus used Psychic!
+The opposing Groudon lost 22% of its health!
+Cofagrigus was hurt by poison!
+Turn 41
+Cofagrigus, come back!
+Go! Gliscor!
+Pointed stones dug into Gliscor!
+The opposing Groudon used Rock Polish!
+The opposing Groudon's Speed sharply rose!
+The sunlight faded.
+Turn 42
+The opposing Groudon used Power-Up Punch!
+It's not very effective... Gliscor lost 4.1% of its health!
+The opposing Groudon's Attack rose!
+Gliscor used Substitute!
+Gliscor put in a substitute!
+Gliscor lost 25% of its health!
+Turn 43
+The opposing Groudon used Power-Up Punch!
+It's not very effective... The substitute took damage for Gliscor!
+The opposing Groudon's Attack rose!
+Gliscor used Fire Fang!
+The opposing Groudon lost 14.0% of its health!
+The opposing Groudon ate its Micle Berry!
+Turn 44
+The opposing Groudon's Micle Berry activated!
+The opposing Groudon used Power-Up Punch!
+It's not very effective... The substitute took damage for Gliscor!
+The opposing Groudon's Attack rose!
+Gliscor used Fire Fang!
+The opposing Groudon lost 14.0% of its health!
+Turn 45
+The opposing Groudon used Power-Up Punch!
+A critical hit! It's not very effective... Gliscor's substitute faded!
+The opposing Groudon's Attack rose!
+Gliscor used Rest!
+Gliscor fell asleep!
+Gliscor slept and became healthy!
+Turn 46
+The opposing Groudon used Power-Up Punch!
+It's not very effective... Gliscor lost 11.9% of its health!
+The opposing Groudon's Attack rose!
+Gliscor is fast asleep.
+Turn 47
+The opposing Groudon used Power-Up Punch!
+It's not very effective... Gliscor lost 15.2% of its health!
+The opposing Groudon's Attack rose!
+Gliscor is fast asleep.
+Turn 48
+The opposing Groudon used Power-Up Punch!
+It's not very effective... Gliscor lost 17.6% of its health!
+Gliscor woke up!
+Gliscor used Substitute!
+Gliscor put in a substitute!
+Gliscor lost 25% of its health!
+Turn 49
+The opposing Groudon used Power-Up Punch!
+It's not very effective... The substitute took damage for Gliscor!
+Gliscor used Rest!
+Gliscor fell asleep!
+Gliscor slept and became healthy!
+Turn 50
+The opposing Groudon used Power-Up Punch!
+It's not very effective... Gliscor's substitute faded!
+Gliscor is fast asleep.
+Turn 51
+The opposing Groudon used Power-Up Punch!
+It's not very effective... Gliscor lost 15.6% of its health!
+Gliscor is fast asleep.
+Turn 52
+The opposing Groudon used Power-Up Punch!
+It's not very effective... Gliscor lost 16.4% of its health!
+Gliscor woke up!
+Gliscor used Substitute!
+Gliscor put in a substitute!
+Gliscor lost 25% of its health!
+Turn 53
+The opposing Groudon used Power-Up Punch!
+It's not very effective... The substitute took damage for Gliscor!
+Gliscor used Rest!
+Gliscor fell asleep!
+Gliscor slept and became healthy!
+Turn 54
+The opposing Groudon used Power-Up Punch!
+It's not very effective... Gliscor's substitute faded!
+Gliscor is fast asleep.
+Turn 55
+The opposing Groudon used Power-Up Punch!
+A critical hit! It's not very effective... Gliscor lost 23.8% of its health!
+Gliscor is fast asleep.
+Turn 56
+The opposing Groudon used Power-Up Punch!
+It's not very effective... Gliscor lost 16.4% of its health!
+Gliscor woke up!
+Gliscor used Substitute!
+Gliscor put in a substitute!
+Gliscor lost 25% of its health!
+Turn 57
+The opposing Groudon used Power-Up Punch!
+It's not very effective... The substitute took damage for Gliscor!
+Gliscor used Fire Fang!
+The opposing Groudon lost 6% of its health!
+The opposing Groudon fainted!
+dsaffe sent out Krookodile!
+Turn 58
+The opposing Krookodile used Spite!
+It reduced the PP of Gliscor's Fire Fang by 4!
+Gliscor used Fire Fang!
+The opposing Krookodile lost 20% of its health!
+Turn 59
+The opposing Krookodile used Spite!
+It reduced the PP of Gliscor's Fire Fang by 4!
+Gliscor used Hyper Beam!
+The opposing Krookodile lost 22% of its health!
+Turn 60
+The opposing Krookodile is tightening its focus!
+Gliscor must recharge!
+The opposing Krookodile used Focus Punch!
+It's not very effective... Gliscor's substitute faded!
+Turn 61
+Gliscor, come back!
+Go! Cofagrigus!
+Pointed stones dug into Cofagrigus!
+The opposing Krookodile used Spite!
+But it failed!
+Cofagrigus was hurt by poison!
+Turn 62
+The opposing Krookodile used Snore!
+It doesn't affect Cofagrigus...
+Cofagrigus used Hex!
+It's not very effective... The opposing Krookodile lost 17% of its health!
+Cofagrigus was hurt by poison!
+Turn 63
+The opposing Krookodile used Spite!
+It reduced the PP of Cofagrigus's Hex by 4!
+Cofagrigus used Pain Split!
+The battlers shared their pain!
+Cofagrigus was hurt by poison!
+Turn 64
+The opposing Krookodile used Spite!
+It reduced the PP of Cofagrigus's Pain Split by 4!
+Cofagrigus used Hex!
+It's not very effective... The opposing Krookodile lost 16% of its health!
+Cofagrigus was hurt by poison!
+Cofagrigus fainted!
+Go! Gliscor!
+Pointed stones dug into Gliscor!
+Turn 65
+The opposing Krookodile is tightening its focus!
+Gliscor used Rest!
+Gliscor fell asleep!
+Gliscor slept and became healthy!
+The opposing Krookodile used Focus Punch!
+It's not very effective... Gliscor lost 13.9% of its health!
+Turn 66
+The opposing Krookodile used Spite!
+It reduced the PP of Gliscor's Rest by 4!
+Gliscor is fast asleep.
+Turn 67
+The opposing Krookodile used Spite!
+It reduced the PP of Gliscor's Rest by 4!
+Gliscor is fast asleep.
+Turn 68
+The opposing Krookodile used Spite!
+It reduced the PP of Gliscor's Rest by 4!
+Gliscor woke up!
+Gliscor used Substitute!
+Gliscor put in a substitute!
+Gliscor lost 25% of its health!
+Turn 69
+The opposing Krookodile used Spite!
+It reduced the PP of Gliscor's Substitute by 4!
+Gliscor used Fire Fang!
+The opposing Krookodile lost 10% of its health!
+The opposing Krookodile fainted!
+dsaffe sent out Aron!
+Turn 70
+Gliscor used Fire Fang!
+The opposing Aron lost 15% of its health!
+The opposing Aron used Iron Head!
+The substitute took damage for Gliscor!
+Turn 71
+Gliscor used Fire Fang!
+The opposing Aron lost 13% of its health!
+The opposing Aron used Rest!
+The opposing Aron fell asleep!
+The opposing Aron slept and became healthy!
+Turn 72
+Gliscor, come back!
+Go! Krokorok!
+Pointed stones dug into Krokorok!
+[Krokorok's Intimidate!]
+The opposing Aron's Attack fell!
+The opposing Aron is fast asleep.
+The opposing Aron used Sleep Talk!
+The opposing Aron used Iron Head!
+Krokorok lost 39.7% of its health!
+Krokorok fainted!
+Go! Gliscor!
+Pointed stones dug into Gliscor!
+Turn 73
+Gliscor used Fire Fang!
+The opposing Aron lost 15% of its health!
+The opposing Aron is fast asleep.
+The opposing Aron used Sleep Talk!
+The opposing Aron used Cut!
+Gliscor lost 5.7% of its health!
+Turn 74
+Gliscor used Fire Fang!
+The opposing Aron lost 14.0% of its health!
+The opposing Aron woke up!
+The opposing Aron used Iron Head!
+Gliscor lost 13.5% of its health!
+Turn 75
+Gliscor used Hyper Beam!
+It's not very effective... The opposing Aron lost 6% of its health!
+The opposing Aron used Iron Head!
+Gliscor lost 11.5% of its health!
+Turn 76
+Gliscor must recharge!
+The opposing Aron used Iron Head!
+Gliscor lost 13.5% of its health!
+Turn 77
+Gliscor used Hyper Beam!
+A critical hit! It's not very effective... The opposing Aron lost 9% of its health!
+The opposing Aron used Iron Head!
+Gliscor lost 4.5% of its health!
+Gliscor fainted!
+dsaffe won the battle!

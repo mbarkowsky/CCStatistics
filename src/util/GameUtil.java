@@ -5,22 +5,23 @@ public class GameUtil {
 	public static enum Stat {HP, ATK, DEF, SPA, SPD, SPE, ACC, EVA}
 
 	public static Stat getStatForString(String statString) {
+		statString = statString.toLowerCase();
 		switch(statString){
-		case "Hit Points":
+		case "hit points":
 			return Stat.HP;
-		case "Attack":
+		case "attack":
 			return Stat.ATK;
-		case "Defense":
+		case "defense":
 			return Stat.DEF;
-		case "Special Attack":
+		case "special attack":
 			return Stat.SPA;
-		case "Special Defense":
+		case "special defense":
 			return Stat.SPD;
-		case "Speed":
+		case "speed":
 			return Stat.SPE;
-		case "Accuracy":
+		case "accuracy":
 			return Stat.ACC;
-		case "Evasiveness":
+		case "evasiveness":
 			return Stat.EVA;
 		default:
 			return null;

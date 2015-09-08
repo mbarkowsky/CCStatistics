@@ -6,6 +6,9 @@ import javax.swing.JFrame;
 
 public class MainFrame extends JFrame {
 
+	public static String imagePath = "resource/images/";
+	public static String thresholdPath = "resource/thresholds/";
+	
 	private static boolean debugPrint = false;
 	
 	public static void debugPrint(String message){

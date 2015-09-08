@@ -1,0 +1,155 @@
+BeherrscherPaule joined.
+dsaffe joined.
+Format:
+Challenge Cup
+HP Percentage Mod: HP is shown in percentages
+Battle between BeherrscherPaule and dsaffe started!
+Go! Natu!
+dsaffe sent out Starmie!
+Turn 1
+dsaffe withdrew Starmie!
+dsaffe sent out Yamask!
+Natu used Round!
+It doesn't affect the opposing Yamask...
+Turn 2
+Natu, come back!
+Go! Boldore!
+The opposing Yamask used Night Shade!
+Boldore lost 40.6% of its health!
+Turn 3
+The opposing Yamask used Night Shade!
+Boldore lost 40.6% of its health!
+Boldore used Smack Down!
+The opposing Yamask lost 34% of its health!
+Turn 4
+The opposing Yamask used Night Shade!
+Boldore lost 18.9% of its health!
+Boldore fainted!
+Go! Natu!
+Turn 5
+Natu used Psychic!
+The opposing Yamask lost 42% of its health!
+The opposing Yamask's Special Defense fell!
+The opposing Yamask used Night Shade!
+Natu lost 38.3% of its health!
+Turn 6
+Natu used Psychic!
+The opposing Yamask lost 24% of its health!
+The opposing Yamask fainted!
+dsaffe sent out Magmar!
+Turn 7
+Natu, come back!
+Go! Lampent!
+The opposing Magmar used Feint Attack!
+A critical hit! It's super effective! Lampent lost 94.7% of its health!
+Turn 8
+Lampent, come back!
+Go! Krokorok!
+[Krokorok's Intimidate!]
+The opposing Magmar's Attack fell!
+The opposing Magmar used Feint Attack!
+It's not very effective... Krokorok lost 12.4% of its health!
+Turn 9
+dsaffe withdrew Magmar!
+dsaffe sent out Doduo!
+Krokorok used Power-Up Punch!
+The opposing Doduo lost 21% of its health!
+Krokorok's Attack rose!
+Turn 10
+The opposing Doduo used Toxic!
+Krokorok was badly poisoned!
+Krokorok used Power-Up Punch!
+The opposing Doduo lost 30% of its health!
+Krokorok's Attack rose!
+Krokorok was hurt by poison!
+Turn 11
+The opposing Doduo used Substitute!
+The opposing Doduo put in a substitute!
+The opposing Doduo lost 25% of its health!
+Krokorok used Power-Up Punch!
+The opposing Doduo's substitute faded!
+Krokorok's Attack rose!
+Krokorok was hurt by poison!
+Turn 12
+The opposing Doduo used Supersonic!
+Krokorok became confused!
+Krokorok is confused!
+Krokorok used Power-Up Punch!
+The opposing Doduo lost 24% of its health!
+Krokorok's Attack rose!
+The opposing Doduo fainted!
+Krokorok was hurt by poison!
+dsaffe sent out Starmie!
+Turn 13
+The opposing Starmie used Waterfall!
+It's super effective! Krokorok lost 50.5% of its health!
+Krokorok fainted!
+Go! Swadloon!
+Turn 14
+dsaffe withdrew Starmie!
+dsaffe sent out Magmar!
+Swadloon used Facade!
+The opposing Magmar lost 23% of its health!
+Swadloon was burned!
+Swadloon was hurt by its burn!
+Turn 15
+The opposing Magmar used Confuse Ray!
+Swadloon became confused!
+Swadloon is confused!
+It hurt itself in its confusion!
+Swadloon was hurt by its burn!
+Turn 16
+The opposing Magmar used Seismic Toss!
+Swadloon lost 40.1% of its health!
+Swadloon is confused!
+It hurt itself in its confusion!
+Swadloon was hurt by its burn!
+Turn 17
+The opposing Magmar used Seismic Toss!
+Swadloon lost 13.9% of its health!
+Swadloon fainted!
+Go! Natu!
+Turn 18
+The opposing Magmar used Feint Attack!
+It's super effective! Natu lost 61.7% of its health!
+Natu fainted!
+Go! Kyurem-Black!
+[Kyurem-Black's Teravolt!]
+Kyurem-Black is radiating a bursting aura!
+Turn 19
+The opposing Magmar used Confuse Ray!
+Kyurem-Black became confused!
+Kyurem-Black is confused!
+Kyurem-Black used Outrage!
+The opposing Magmar lost 77% of its health!
+The opposing Magmar fainted!
+dsaffe sent out Archeops!
+Turn 20
+The opposing Archeops used Smack Down!
+It's super effective! Kyurem-Black lost 48.7% of its health!
+Kyurem-Black snapped out of its confusion.
+Kyurem-Black used Outrage!
+The opposing Archeops lost 84% of its health!
+Turn 21
+The opposing Archeops used Smack Down!
+It's super effective! Kyurem-Black lost 24.7% of its health!
+Kyurem-Black used Outrage!
+The opposing Archeops lost 16% of its health!
+The opposing Archeops fainted!
+Kyurem-Black's rampage ended!
+Kyurem-Black became confused!
+dsaffe sent out Starmie!
+Turn 22
+Kyurem-Black, come back!
+Go! Lampent!
+The opposing Starmie used Psyshock!
+Lampent lost 5.3% of its health!
+Lampent fainted!
+Go! Kyurem-Black!
+[Kyurem-Black's Teravolt!]
+Kyurem-Black is radiating a bursting aura!
+Turn 23
+The opposing Starmie used Psyshock!
+Kyurem-Black lost 26.5% of its health!
+Kyurem-Black fainted!
+dsaffe won the battle!

@@ -1,0 +1,264 @@
+BeherrscherPaule joined.
+dsaffe joined.
+Format:
+Challenge Cup
+HP Percentage Mod: HP is shown in percentages
+Battle between BeherrscherPaule and dsaffe started!
+Go! Sableye!
+dsaffe sent out Chansey!
+Turn 1
+The opposing Chansey used Flamethrower!
+Sableye lost 21.3% of its health!
+Sableye used Rock Tomb!
+The opposing Chansey lost 29.0% of its health!
+The opposing Chansey's Speed fell!
+Turn 2
+dsaffe withdrew Chansey!
+dsaffe sent out Phione!
+Sableye used Rock Tomb!
+The opposing Phione lost 17% of its health!
+The opposing Phione's Speed fell!
+Turn 3
+Sableye, come back!
+Go! Wobbuffet!
+The opposing Phione used Toxic!
+Wobbuffet was badly poisoned!
+Wobbuffet was hurt by poison!
+Turn 4
+dsaffe withdrew Phione!
+dsaffe sent out Chansey!
+Wobbuffet used Safeguard!
+Your team became cloaked in a mystical veil!
+Wobbuffet was hurt by poison!
+Turn 5
+The opposing Chansey used Drain Punch!
+It's not very effective... Wobbuffet lost 1.1% of its health!
+Wobbuffet had its energy drained!
+Wobbuffet used Encore!
+The opposing Chansey received an encore!
+Wobbuffet was hurt by poison!
+Turn 6
+The opposing Chansey used Drain Punch!
+It's not very effective... Wobbuffet lost 1.1% of its health!
+Wobbuffet had its energy drained!
+Wobbuffet used Counter!
+The opposing Chansey lost 2% of its health!
+Wobbuffet was hurt by poison!
+Turn 7
+The opposing Chansey used Drain Punch!
+It's not very effective... Wobbuffet lost 1.1% of its health!
+Wobbuffet had its energy drained!
+Wobbuffet used Counter!
+The opposing Chansey lost 2% of its health!
+Wobbuffet was hurt by poison!
+Turn 8
+The opposing Chansey used Drain Punch!
+It's not very effective... Wobbuffet lost 1.1% of its health!
+Wobbuffet had its energy drained!
+Wobbuffet used Encore!
+But it failed!
+Wobbuffet was hurt by poison!
+The opposing Chansey's encore ended!
+Your team is no longer protected by Safeguard!
+Wobbuffet fainted!
+Go! Monferno!
+Turn 9
+dsaffe withdrew Chansey!
+dsaffe sent out Phione!
+Monferno used Close Combat!
+The opposing Phione lost 57.0% of its health!
+Monferno's Defense fell!
+Monferno's Special Defense fell!
+Turn 10
+dsaffe withdrew Phione!
+dsaffe sent out Litwick!
+Monferno, come back!
+Go! Slugma!
+Turn 11
+Slugma, come back!
+Go! Sableye!
+The opposing Litwick used Smog!
+It's not very effective... Sableye lost 6.6% of its health!
+Turn 12
+Sableye used Rock Tomb!
+It's super effective! The opposing Litwick lost 50% of its health!
+The opposing Litwick's Speed fell!
+The opposing Litwick used Fire Spin!
+Sableye avoided the attack!
+Turn 13
+dsaffe withdrew Litwick!
+dsaffe sent out Phione!
+Sableye used Power Gem!
+A critical hit! The opposing Phione lost 26% of its health!
+The opposing Phione fainted!
+dsaffe sent out Dunsparce!
+Turn 14
+Sableye, come back!
+Go! Rhyhorn!
+The opposing Dunsparce used Hex!
+Rhyhorn lost 18.5% of its health!
+Turn 15
+The opposing Dunsparce used Hex!
+Rhyhorn lost 16.5% of its health!
+Rhyhorn used Secret Power!
+The opposing Dunsparce lost 19% of its health!
+Turn 16
+The opposing Dunsparce used Hex!
+Rhyhorn lost 18.1% of its health!
+Rhyhorn used Secret Power!
+The opposing Dunsparce lost 20% of its health!
+Turn 17
+The opposing Dunsparce used Hex!
+A critical hit! Rhyhorn lost 25.8% of its health!
+Rhyhorn used Secret Power!
+The opposing Dunsparce lost 20% of its health!
+Turn 18
+The opposing Dunsparce used Hex!
+Rhyhorn lost 16.9% of its health!
+Rhyhorn used Secret Power!
+The opposing Dunsparce lost 20% of its health!
+Turn 19
+The opposing Dunsparce used Hex!
+Rhyhorn lost 4.0% of its health!
+Rhyhorn fainted!
+Go! Moltres!
+[Moltres's Pressure!]
+Moltres is exerting its pressure!
+Turn 20
+Moltres used Facade!
+The opposing Dunsparce lost 20% of its health!
+The opposing Dunsparce used Rest!
+The opposing Dunsparce fell asleep!
+The opposing Dunsparce slept and became healthy!
+Turn 21
+Moltres used Sky Attack!
+Moltres became cloaked in a harsh light!
+The opposing Dunsparce is fast asleep.
+Turn 22
+Moltres used Sky Attack!
+The opposing Dunsparce lost 56.0% of its health!
+The opposing Dunsparce is fast asleep.
+Turn 23
+Moltres used Sky Attack!
+Moltres became cloaked in a harsh light!
+The opposing Dunsparce woke up!
+The opposing Dunsparce used Wild Charge!
+It's super effective! Moltres lost 36.7% of its health!
+The opposing Dunsparce is damaged by the recoil!
+Turn 24
+Moltres used Sky Attack!
+The opposing Dunsparce lost 36% of its health!
+The opposing Dunsparce fainted!
+dsaffe sent out Ducklett!
+Turn 25
+Moltres used Facade!
+The opposing Ducklett lost 23% of its health!
+The opposing Ducklett used Brine!
+A critical hit! It's super effective! Moltres lost 63.3% of its health!
+Moltres fainted!
+Go! Sableye!
+Turn 26
+dsaffe withdrew Ducklett!
+dsaffe sent out Cacnea!
+Sableye used Rock Tomb!
+The opposing Cacnea avoided the attack!
+Turn 27
+Sableye, come back!
+Go! Slugma!
+The opposing Cacnea used Venoshock!
+Slugma lost 34.7% of its health!
+Turn 28
+The opposing Cacnea used Secret Power!
+Slugma lost 32.7% of its health!
+Slugma is paralyzed! It may be unable to move!
+Slugma used Facade!
+The opposing Cacnea lost 56.0% of its health!
+Turn 29
+The opposing Cacnea used Brick Break!
+Slugma lost 32.1% of its health!
+Slugma fainted!
+Go! Monferno!
+Turn 30
+dsaffe withdrew Cacnea!
+dsaffe sent out Litwick!
+Monferno used Overheat!
+The power of the opposing Litwick's Fire-type moves rose!
+Turn 31
+Monferno, come back!
+Go! Sableye!
+The opposing Litwick used Fire Spin!
+Sableye lost 34.4% of its health!
+Sableye became trapped in the fiery vortex!
+Sableye is hurt by Fire Spin!
+Turn 32
+dsaffe withdrew Litwick!
+dsaffe sent out Cacnea!
+Sableye used Power Gem!
+The opposing Cacnea lost 28.0% of its health!
+Sableye was freed from Fire Spin!
+Turn 33
+Sableye, come back!
+Go! Monferno!
+The opposing Cacnea used Destiny Bond!
+The opposing Cacnea is hoping to take its attacker down with it!
+Turn 34
+Monferno used Double Team!
+Monferno's evasiveness rose!
+The opposing Cacnea used Secret Power!
+Monferno lost 44.7% of its health!
+Turn 35
+Monferno used Close Combat!
+The opposing Cacnea lost 16% of its health!
+Monferno's Defense fell!
+Monferno's Special Defense fell!
+The opposing Cacnea fainted!
+dsaffe sent out Litwick!
+Turn 36
+Monferno used Rock Climb!
+It doesn't affect the opposing Litwick...
+The opposing Litwick used Fire Spin!
+Monferno avoided the attack!
+Turn 37
+Monferno used Rock Climb!
+It doesn't affect the opposing Litwick...
+The opposing Litwick used Fire Spin!
+Monferno avoided the attack!
+Turn 38
+Monferno used Rock Climb!
+It doesn't affect the opposing Litwick...
+The opposing Litwick used Fire Spin!
+It's not very effective... Monferno lost 23.5% of its health!
+Monferno became trapped in the fiery vortex!
+Monferno is hurt by Fire Spin!
+Turn 39
+Monferno used Rock Climb!
+It doesn't affect the opposing Litwick...
+The opposing Litwick used Smog!
+Monferno avoided the attack!
+Monferno is hurt by Fire Spin!
+Turn 40
+Monferno used Rock Climb!
+It doesn't affect the opposing Litwick...
+The opposing Litwick used Smog!
+Monferno lost 6.9% of its health!
+Monferno fainted!
+Go! Sableye!
+Turn 41
+Sableye used Power Gem!
+It's super effective! The opposing Litwick lost 50% of its health!
+The opposing Litwick fainted!
+dsaffe sent out Chansey!
+Turn 42
+The opposing Chansey used Flamethrower!
+Sableye lost 22.4% of its health!
+Sableye used Rock Tomb!
+The opposing Chansey lost 32% of its health!
+The opposing Chansey's Speed fell!
+Turn 43
+Sableye used Rock Tomb!
+The opposing Chansey lost 29.0% of its health!
+The opposing Chansey's Speed fell!
+The opposing Chansey used Flamethrower!
+Sableye lost 3.3% of its health!
+Sableye fainted!
+dsaffe won the battle!

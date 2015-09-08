@@ -1,0 +1,186 @@
+BeherrscherPaule joined.
+dsaffe joined.
+Format:
+Challenge Cup
+HP Percentage Mod: HP is shown in percentages
+Battle between dsaffe and BeherrscherPaule started!
+dsaffe sent out Trubbish!
+Go! Hitmontop!
+Turn 1
+Hitmontop, come back!
+Go! Regirock!
+The opposing Trubbish used Gunk Shot!
+It's not very effective... Regirock lost 12.6% of its health!
+Regirock was poisoned!
+Regirock was hurt by poison!
+Turn 2
+dsaffe withdrew Trubbish!
+dsaffe sent out Probopass!
+Regirock used Earth Power!
+It's super effective! The opposing Probopass lost 61% of its health!
+Regirock was hurt by poison!
+Turn 3
+The opposing Probopass used Magnet Bomb!
+It's super effective! Regirock lost 25.2% of its health!
+Regirock's Berry Juice activated!
+Regirock restored HP using its Berry Juice!
+Regirock used Earth Power!
+It's super effective! The opposing Probopass lost 39% of its health!
+The opposing Probopass fainted!
+Regirock was hurt by poison!
+dsaffe sent out Crawdaunt!
+Turn 4
+The opposing Crawdaunt used Water Pulse!
+It's super effective! Regirock lost 35.0% of its health!
+Regirock fainted!
+Go! Hitmontop!
+Turn 5
+dsaffe withdrew Crawdaunt!
+dsaffe sent out Trubbish!
+Hitmontop used Brick Break!
+It's not very effective... The opposing Trubbish lost 23% of its health!
+Turn 6
+Hitmontop, come back!
+Go! Camerupt!
+The opposing Trubbish used Toxic!
+Camerupt was badly poisoned!
+Camerupt was hurt by poison!
+Turn 7
+dsaffe withdrew Trubbish!
+dsaffe sent out Manaphy!
+The opposing Manaphy floats in the air with its Air Balloon!
+Camerupt used Stealth Rock!
+Pointed stones float in the air around the opposing team!
+Camerupt was hurt by poison!
+Turn 8
+Camerupt, come back!
+Go! Ledian!
+The opposing Manaphy used Swift!
+Ledian lost 13.8% of its health!
+Turn 9
+The opposing Manaphy used Swift!
+Ledian lost 14.9% of its health!
+Ledian used Air Cutter!
+The opposing Manaphy avoided the attack!
+Turn 10
+The opposing Manaphy used Swift!
+Ledian lost 13.8% of its health!
+Ledian used Air Cutter!
+The opposing Manaphy lost 14.0% of its health!
+The opposing Manaphy's Air Balloon popped!
+Turn 11
+The opposing Manaphy used Swift!
+Ledian lost 13.3% of its health!
+Ledian used Air Cutter!
+The opposing Manaphy lost 16% of its health!
+Turn 12
+The opposing Manaphy used Swift!
+Ledian lost 13.8% of its health!
+Ledian used Air Cutter!
+A critical hit! The opposing Manaphy lost 22% of its health!
+Turn 13
+Ledian, come back!
+Go! Shuppet!
+The opposing Manaphy used Swift!
+It doesn't affect Shuppet...
+Turn 14
+The opposing Manaphy used Signal Beam!
+It's not very effective... Shuppet lost 18.9% of its health!
+Shuppet used Calm Mind!
+Shuppet's Special Attack rose!
+Shuppet's Special Defense rose!
+Turn 15
+dsaffe withdrew Manaphy!
+dsaffe sent out Torchic!
+Pointed stones dug into the opposing Torchic!
+Shuppet used Round!
+The opposing Torchic lost 29.0% of its health!
+Turn 16
+Shuppet used Round!
+The opposing Torchic lost 26% of its health!
+The opposing Torchic used Shadow Claw!
+It's super effective! Shuppet lost 81.1% of its health!
+Shuppet fainted!
+[Opposing Torchic's Speed Boost!]
+The opposing Torchic's Speed rose!
+Go! Ledian!
+Turn 17
+The opposing Torchic used Quick Attack!
+Ledian lost 20.5% of its health!
+Ledian ate its Salac Berry!
+The Salac Berry raised Ledian's Speed!
+Ledian used Aerial Ace!
+The opposing Torchic lost 21% of its health!
+The opposing Torchic fainted!
+dsaffe sent out Manaphy!
+Pointed stones dug into the opposing Manaphy!
+Turn 18
+Ledian used Aerial Ace!
+The opposing Manaphy lost 12% of its health!
+The opposing Manaphy used Rest!
+The opposing Manaphy fell asleep!
+The opposing Manaphy slept and became healthy!
+Turn 19
+Ledian, come back!
+Go! Meowstic!
+The opposing Manaphy is fast asleep.
+Turn 20
+Meowstic used Thunderbolt!
+It's super effective! The opposing Manaphy lost 47% of its health!
+The opposing Manaphy is fast asleep.
+Turn 21
+Meowstic used Thunderbolt!
+It's super effective! The opposing Manaphy lost 46% of its health!
+The opposing Manaphy woke up!
+The opposing Manaphy used Signal Beam!
+It's super effective! Meowstic lost 44.6% of its health!
+Turn 22
+Meowstic used Thunderbolt!
+It's super effective! The opposing Manaphy lost 7.0% of its health!
+The opposing Manaphy fainted!
+dsaffe sent out Electivire!
+Pointed stones dug into the opposing Electivire!
+Turn 23
+Meowstic, come back!
+Go! Camerupt!
+The opposing Electivire used Electroweb!
+It doesn't affect Camerupt...
+Camerupt was hurt by poison!
+Turn 24
+The opposing Electivire used Flash!
+Camerupt's accuracy fell!
+Camerupt used Sunny Day!
+The sunlight turned harsh!
+Camerupt was hurt by poison!
+Turn 25
+The opposing Electivire used Flash!
+Camerupt's accuracy fell!
+Camerupt used Solar Beam!
+Camerupt absorbed light!
+The opposing Electivire lost 60% of its health!
+Camerupt was hurt by poison!
+Turn 26
+The opposing Electivire used Rock Slide!
+Camerupt lost 33.2% of its health!
+Camerupt flinched and couldn't move!
+Camerupt was hurt by poison!
+Camerupt fainted!
+Go! Meowstic!
+Turn 27
+Meowstic used Psybeam!
+The opposing Electivire lost 28.0% of its health!
+The opposing Electivire fainted!
+dsaffe sent out Trubbish!
+Pointed stones dug into the opposing Trubbish!
+Turn 28
+Meowstic used Psybeam!
+It's super effective! The opposing Trubbish lost 65% of its health!
+The opposing Trubbish fainted!
+The sunlight faded.
+dsaffe sent out Crawdaunt!
+Pointed stones dug into the opposing Crawdaunt!
+Turn 29
+Meowstic used Thunderbolt!
+It's super effective! The opposing Crawdaunt lost 88% of its health!
+The opposing Crawdaunt fainted!
+BeherrscherPaule won the battle!

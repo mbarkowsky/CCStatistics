@@ -1,0 +1,195 @@
+dsaffe
+Turn 28
+
+dsaffe won the battle!
+Ignore Spectators Ignore Opponent
+dsaffe joined.
+BeherrscherPaule joined.
+Format:
+Challenge Cup
+HP Percentage Mod: HP is shown in percentages
+Battle between dsaffe and BeherrscherPaule started!
+dsaffe sent out Diglett!
+Go! Quilava!
+Turn 1
+Quilava, come back!
+Go! Lugia!
+[Lugia's Pressure!]
+Lugia is exerting its pressure!
+Magnitude 6!
+The opposing Diglett used Magnitude!
+It doesn't affect Lugia...
+Turn 2
+The opposing Diglett used Feint Attack!
+It's super effective! Lugia lost 31.9% of its health!
+Lugia used Shadow Ball!
+The opposing Diglett lost 24% of its health!
+The opposing Diglett's Special Defense fell!
+Turn 3
+dsaffe withdrew Diglett!
+dsaffe sent out Darkrai!
+Lugia, come back!
+Go! Talonflame!
+Turn 4
+Dovakhinn joined.
+Dovakhinn: what is challenge cup?
+?dsaffe: the ultimate randomness
+Talonflame used Substitute!
+Talonflame put in a substitute!
+Talonflame lost 25% of its health!
+The opposing Darkrai used Poison Jab!
+The substitute took damage for Talonflame!
+Turn 5
+Talonflame used Will-O-Wisp!
+The opposing Darkrai was burned!
+The opposing Darkrai used Poison Jab!
+Talonflame's substitute faded!
+The opposing Darkrai was hurt by its burn!
+Turn 6
+?BeherrscherPaule: the perfect metagame
+?BeherrscherPaule: no skill involved
+?BeherrscherPaule: only luck
+?BeherrscherPaule: well
+?BeherrscherPaule: maybe a bit of skill
+?BeherrscherPaule: but mainly luck
+Talonflame used Substitute!
+Talonflame put in a substitute!
+Talonflame lost 25% of its health!
+The opposing Darkrai used Poison Jab!
+The substitute took damage for Talonflame!
+The opposing Darkrai was hurt by its burn!
+Turn 7
+Talonflame used Round!
+The opposing Darkrai lost 12% of its health!
+The opposing Darkrai used Poison Jab!
+Talonflame's substitute faded!
+The opposing Darkrai was hurt by its burn!
+Turn 8
+Dovakhinn left.
+Talonflame used Substitute!
+Talonflame put in a substitute!
+Talonflame lost 25% of its health!
+The opposing Darkrai used Poison Jab!
+The substitute took damage for Talonflame!
+The opposing Darkrai was hurt by its burn!
+Turn 9
+Talonflame used Round!
+The opposing Darkrai lost 13% of its health!
+The opposing Darkrai used Poison Jab!
+A critical hit! Talonflame's substitute faded!
+The opposing Darkrai was hurt by its burn!
+Turn 10
+Talonflame, come back!
+Go! Doublade!
+The opposing Darkrai used Poison Jab!
+It doesn't affect Doublade...
+The opposing Darkrai was hurt by its burn!
+Turn 11
+The opposing Darkrai used Pursuit!
+It's super effective! Doublade lost 9.6% of its health!
+Doublade used Substitute!
+Doublade put in a substitute!
+Doublade lost 24.6% of its health!
+The opposing Darkrai was hurt by its burn!
+The opposing Darkrai fainted!
+dsaffe sent out Diglett!
+Turn 12
+The opposing Diglett used Feint Attack!
+A critical hit! It's super effective! Doublade's substitute faded!
+Doublade used Aerial Ace!
+The opposing Diglett lost 60% of its health!
+Turn 13
+Doublade, come back!
+Go! Lugia!
+[Lugia's Pressure!]
+Lugia is exerting its pressure!
+Magnitude 6!
+The opposing Diglett used Magnitude!
+It doesn't affect Lugia...
+Turn 14
+The opposing Diglett used Feint Attack!
+It's super effective! Lugia lost 32.7% of its health!
+Lugia used Shadow Ball!
+The opposing Diglett lost 16% of its health!
+The opposing Diglett fainted!
+dsaffe sent out Barbaracle!
+Turn 15
+Lugia used Charge Beam!
+It's super effective! The opposing Barbaracle lost 25% of its health!
+The opposing Barbaracle used Rock Tomb!
+It's super effective! Lugia lost 35.4% of its health!
+Lugia fainted!
+Go! Aggron!
+Turn 16
+The opposing Barbaracle used Low Kick!
+It's super effective! Aggron lost 80% of its health!
+Aggron used Hidden Power!
+The opposing Barbaracle lost 19% of its health!
+Turn 17
+Aggron, come back!
+Go! Talonflame!
+The opposing Barbaracle used Low Kick!
+It's not very effective... Talonflame lost 8.3% of its health!
+Turn 18
+Talonflame used Will-O-Wisp!
+The opposing Barbaracle was burned!
+The opposing Barbaracle used Rock Tomb!
+It's super effective! Talonflame lost 16.7% of its health!
+Talonflame fainted!
+The opposing Barbaracle was hurt by its burn!
+Go! Doublade!
+Turn 19
+dsaffe withdrew Barbaracle!
+dsaffe sent out Carracosta!
+Doublade used Substitute!
+Doublade put in a substitute!
+Doublade lost 24.6% of its health!
+Turn 20
+Doublade used Aerial Ace!
+It's not very effective... The opposing Carracosta lost 7.0% of its health!
+The opposing Carracosta used Rock Polish!
+The opposing Carracosta's Speed sharply rose!
+Turn 21
+The opposing Carracosta used Scald!
+Doublade's substitute faded!
+Doublade used Aerial Ace!
+It's not very effective... The opposing Carracosta lost 7.0% of its health!
+Turn 22
+Doublade, come back!
+Go! Aggron!
+The opposing Carracosta used Scald!
+It's super effective! Aggron lost 20% of its health!
+Aggron fainted!
+Go! Grumpig!
+Turn 23
+The opposing Carracosta used Scald!
+Grumpig lost 30% of its health!
+Grumpig used Psyshock!
+The opposing Carracosta lost 23% of its health!
+Turn 24
+The opposing Carracosta used Scald!
+Grumpig lost 26.8% of its health!
+Grumpig used Psyshock!
+The opposing Carracosta lost 21% of its health!
+Turn 25
+The opposing Carracosta used Scald!
+Grumpig lost 30% of its health!
+Grumpig was burned!
+Grumpig used Psyshock!
+The opposing Carracosta lost 21% of its health!
+Grumpig was hurt by its burn!
+Turn 26
+The opposing Carracosta used Scald!
+Grumpig lost 0.8% of its health!
+Grumpig fainted!
+Go! Quilava!
+Turn 27
+The opposing Carracosta used Scald!
+It's super effective! Quilava lost 100% of its health!
+Quilava fainted!
+Go! Doublade!
+Turn 28
+The opposing Carracosta used Scald!
+Doublade lost 41.2% of its health!
+Doublade fainted!
+dsaffe won the battle!

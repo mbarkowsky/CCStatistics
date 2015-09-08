@@ -14,11 +14,11 @@ public class Game {
 	private String name;
 	private Map<Player, String> playerNames;
 	private Player winner;
-	private List<Turn> history;
+	private List<Turn> turns;
 	
 	public Game(){
 		playerNames = new HashMap<>();
-		history = new LinkedList<>();
+		turns = new LinkedList<>();
 	}
 	
 	public String getName() {
@@ -31,18 +31,18 @@ public class Game {
 
 	public List<PlayerAction> getPlayerActions(Player player){
 		List<PlayerAction> actions = new LinkedList<PlayerAction>();
-		for(Turn turn:history){
+		for(Turn turn:turns){
 			actions.add(turn.getPlayerAction(player));
 		}
 		return actions;
 	}
 	
-	public List<Turn> getHistory() {
-		return history;
+	public List<Turn> getTurns() {
+		return turns;
 	}
 
 	public void addTurn(Turn turn) {
-		history.add(turn);
+		turns.add(turn);
 	}
 	
 	public String getPlayerName(Player player) {
@@ -65,6 +65,10 @@ public class Game {
 		this.winner = winner;
 	}
 	
+	public String toString(){
+		return name;
+	}
+	
 	public String prettyString(){
 		if(!playerNames.containsKey(Player.PLAYER_ONE) || !playerNames.containsKey(Player.PLAYER_TWO)){
 			return super.toString();
@@ -74,9 +78,9 @@ public class Game {
 			buffer.append("Game between " + getPlayerName(Player.PLAYER_ONE));
 			buffer.append(" and " + getPlayerName(Player.PLAYER_TWO));
 			buffer.append("\n");
-			for(int i = 0; i < history.size(); i++){
+			for(int i = 0; i < turns.size(); i++){
 				buffer.append("Turn " + (i + 1) + "\n");
-				buffer.append(history.get(i));
+				buffer.append(turns.get(i));
 				buffer.append("\n");
 			}
 			buffer.append("Winner: " + getPlayerName(winner));

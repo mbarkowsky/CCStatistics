@@ -1,0 +1,225 @@
+BeherrscherPaule joined.
+dsaffe joined.
+Format:
+Challenge Cup
+HP Percentage Mod: HP is shown in percentages
+Battle between dsaffe and BeherrscherPaule started!
+dsaffe sent out Azumarill!
+Go! Cryogonal!
+Turn 1
+Cryogonal, come back!
+Go! Linoone!
+The opposing Azumarill used Scald!
+Linoone lost 42.3% of its health!
+Turn 2
+Linoone used Echoed Voice!
+A critical hit! The opposing Azumarill lost 14.0% of its health!
+The opposing Azumarill ate its Maranga Berry!
+The Maranga Berry raised the opposing Azumarill's Special Defense!
+The opposing Azumarill used Scald!
+Linoone lost 41.2% of its health!
+Turn 3
+Linoone used Thunder Wave!
+The opposing Azumarill is paralyzed! It may be unable to move!
+The opposing Azumarill used Scald!
+Linoone lost 16.5% of its health!
+Linoone fainted!
+Go! Dratini!
+Turn 4
+Dratini used Headbutt!
+The opposing Azumarill lost 14.0% of its health!
+The opposing Azumarill is paralyzed! It can't move!
+Turn 5
+Dratini used Headbutt!
+The opposing Azumarill lost 15% of its health!
+The opposing Azumarill used Rock Smash!
+Dratini lost 15.2% of its health!
+Dratini's Defense fell!
+Turn 6
+Dratini used Headbutt!
+The opposing Azumarill lost 12% of its health!
+The opposing Azumarill flinched and couldn't move!
+Turn 7
+Dratini used Headbutt!
+The opposing Azumarill lost 14.0% of its health!
+The opposing Azumarill is paralyzed! It can't move!
+Turn 8
+Dratini used Headbutt!
+The opposing Azumarill lost 13% of its health!
+The opposing Azumarill used Scald!
+It's not very effective... Dratini lost 23.8% of its health!
+Turn 9
+Dratini used Headbutt!
+The opposing Azumarill lost 15% of its health!
+The opposing Azumarill flinched and couldn't move!
+Turn 10
+Dratini used Headbutt!
+The opposing Azumarill lost 2% of its health!
+The opposing Azumarill fainted!
+dsaffe sent out Primeape!
+Turn 11
+Dratini, come back!
+Go! Spiritomb!
+The opposing Primeape used Fury Swipes!
+It doesn't affect Spiritomb...
+Turn 12
+The opposing Primeape used Fire Punch!
+Spiritomb lost 19.1% of its health!
+Spiritomb used Icy Wind!
+The opposing Primeape lost 24% of its health!
+The opposing Primeape's Speed fell!
+Turn 13
+The opposing Primeape used Fire Punch!
+Spiritomb lost 19.6% of its health!
+Spiritomb used Icy Wind!
+The opposing Primeape lost 27% of its health!
+The opposing Primeape's Speed fell!
+Turn 14
+Spiritomb used Icy Wind!
+The opposing Primeape lost 25% of its health!
+The opposing Primeape's Speed fell!
+The opposing Primeape used Fire Punch!
+A critical hit! Spiritomb lost 28.9% of its health!
+Turn 15
+dsaffe withdrew Primeape!
+dsaffe sent out Vulpix!
+The sunlight turned harsh!
+Spiritomb used Icy Wind!
+It's not very effective... The opposing Vulpix lost 6% of its health!
+The opposing Vulpix's Speed fell!
+Turn 16
+dsaffe withdrew Vulpix!
+dsaffe sent out Fletchinder!
+Spiritomb, come back!
+Go! Victini!
+Turn 17
+Victini used Swagger!
+The opposing Fletchinder's Attack sharply rose!
+The opposing Fletchinder became confused!
+The opposing Fletchinder is confused!
+The opposing Fletchinder used Frustration!
+Victini lost 38.2% of its health!
+Turn 18
+Victini used Incinerate!
+It's not very effective... The opposing Fletchinder lost 16% of its health!
+The opposing Fletchinder's Apicot Berry was burned up!
+The opposing Fletchinder is confused!
+It hurt itself in its confusion!
+Turn 19
+Victini used Incinerate!
+It's not very effective... The opposing Fletchinder lost 17% of its health!
+The opposing Fletchinder is confused!
+The opposing Fletchinder used Return!
+Victini lost 1.6% of its health!
+The sunlight faded.
+Turn 20
+Victini used Incinerate!
+A critical hit! It's not very effective... The opposing Fletchinder lost 14.0% of its health!
+The opposing Fletchinder is confused!
+It hurt itself in its confusion!
+Turn 21
+Victini used Incinerate!
+It's not very effective... The opposing Fletchinder lost 6% of its health!
+The opposing Fletchinder fainted!
+dsaffe sent out Plusle!
+Turn 22
+Victini, come back!
+Go! Cryogonal!
+The opposing Plusle used Thunderbolt!
+Cryogonal lost 19.5% of its health!
+Turn 23
+The opposing Plusle used Thunderbolt!
+Cryogonal lost 20.7% of its health!
+Cryogonal used Round!
+The opposing Plusle lost 22% of its health!
+Turn 24
+The opposing Plusle used Thunderbolt!
+Cryogonal lost 23.1% of its health!
+Cryogonal used Round!
+The opposing Plusle lost 23% of its health!
+Turn 25
+The opposing Plusle used Thunderbolt!
+Cryogonal lost 21.5% of its health!
+Cryogonal used Knock Off!
+The opposing Plusle lost 19% of its health!
+Cryogonal knocked off the opposing Plusle's Occa Berry!
+Turn 26
+The opposing Plusle used Thunderbolt!
+Cryogonal lost 15.1% of its health!
+Cryogonal fainted!
+Go! Ariados!
+Turn 27
+The opposing Plusle used Electro Ball!
+Ariados lost 23.9% of its health!
+Ariados used Scary Face!
+The opposing Plusle's Speed harshly fell!
+Turn 28
+Ariados used Leech Life!
+The opposing Plusle lost 11% of its health!
+The opposing Plusle had its energy drained!
+The opposing Plusle used Thunderbolt!
+Ariados lost 36.6% of its health!
+Turn 29
+Ariados used Leech Life!
+The opposing Plusle lost 10% of its health!
+The opposing Plusle had its energy drained!
+The opposing Plusle used Thunderbolt!
+Ariados lost 37.1% of its health!
+Turn 30
+Ariados used Constrict!
+The opposing Plusle lost 4% of its health!
+The opposing Plusle used Thunderbolt!
+Ariados lost 13.6% of its health!
+Ariados fainted!
+Go! Victini!
+Turn 31
+Victini used Incinerate!
+The opposing Plusle lost 11% of its health!
+The opposing Plusle fainted!
+dsaffe sent out Exploud!
+Turn 32
+Victini used Incinerate!
+The opposing Exploud lost 18% of its health!
+The opposing Exploud's Psychic Gem was burned up!
+The opposing Exploud used Rollout!
+It's super effective! Victini lost 14.5% of its health!
+Turn 33
+Victini used Incinerate!
+The opposing Exploud lost 20% of its health!
+The opposing Exploud used Rollout!
+Victini avoided the attack!
+Turn 34
+Victini used Incinerate!
+The opposing Exploud lost 19% of its health!
+The opposing Exploud used Rollout!
+A critical hit! It's super effective! Victini lost 20.1% of its health!
+Turn 35
+Victini used Hyper Beam!
+The opposing Exploud lost 34% of its health!
+The opposing Exploud used Rollout!
+It's super effective! Victini lost 25.3% of its health!
+Victini fainted!
+Go! Dratini!
+Turn 36
+The opposing Exploud used Rollout!
+Dratini lost 37.7% of its health!
+Dratini used Headbutt!
+The opposing Exploud lost 9% of its health!
+The opposing Exploud fainted!
+dsaffe sent out Primeape!
+Turn 37
+The opposing Primeape used Rest!
+But it failed!
+Dratini used Agility!
+Dratini's Speed sharply rose!
+Turn 38
+Dratini used Outrage!
+The opposing Primeape lost 24% of its health!
+The opposing Primeape fainted!
+dsaffe sent out Vulpix!
+The sunlight turned harsh!
+Turn 39
+Dratini used Outrage!
+A critical hit! The opposing Vulpix lost 94% of its health!
+The opposing Vulpix fainted!
+BeherrscherPaule won the battle!

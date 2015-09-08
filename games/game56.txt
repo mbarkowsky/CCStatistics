@@ -1,0 +1,211 @@
+BeherrscherPaule joined.
+dsaffe joined.
+Format:
+Challenge Cup
+HP Percentage Mod: HP is shown in percentages
+Battle between BeherrscherPaule and dsaffe started!
+Go! Slowpoke!
+dsaffe sent out Durant!
+Turn 1
+?BeherrscherPaule: !dt durant
+
+    RU Durant BugSteel Swarm
+    HustleTruantHP
+    58 Atk
+    109 Def
+    112 SpA
+    48 SpD
+    48 Spe
+    109 BST
+    484
+
+Dex#: 632 |??Height: 0.3 m |??Weight: 33 kg (60 BP) |??Dex Colour: Gray |??Egg Group(s): Bug |??Does Not Evolve
+The opposing Durant used Facade!
+Slowpoke lost 39.0% of its health!
+Slowpoke used Mud-Slap!
+The opposing Durant lost 7.0% of its health!
+The opposing Durant's accuracy fell!
+Turn 2
+Slowpoke, come back!
+Go! Skarmory!
+The opposing Durant used Facade!
+It's not very effective... Skarmory lost 11.3% of its health!
+[Skarmory's Weak Armor!]
+Skarmory's Speed rose!
+Skarmory's Weak Armor lowered its Defense!
+Turn 3
+dsaffe withdrew Durant!
+dsaffe sent out Poliwhirl!
+Skarmory used Dark Pulse!
+The opposing Poliwhirl lost 12% of its health!
+Turn 4
+Skarmory, come back!
+Go! Snivy!
+The opposing Poliwhirl used Surf!
+A critical hit! It's not very effective... Snivy lost 20.8% of its health!
+Turn 5
+dsaffe withdrew Poliwhirl!
+dsaffe sent out Durant!
+Snivy used Leaf Blade!
+It's not very effective... The opposing Durant lost 7.0% of its health!
+Turn 6
+Snivy, come back!
+Go! Skarmory!
+The opposing Durant used Facade!
+It's not very effective... Skarmory lost 11.3% of its health!
+[Skarmory's Weak Armor!]
+Skarmory's Speed rose!
+Skarmory's Weak Armor lowered its Defense!
+Turn 7
+Skarmory used Dark Pulse!
+The opposing Durant lost 15% of its health!
+The opposing Durant used Facade!
+A critical hit! It's not very effective... Skarmory lost 27.3% of its health!
+[Skarmory's Weak Armor!]
+Skarmory's Speed rose!
+Skarmory's Weak Armor lowered its Defense!
+Turn 8
+Skarmory used Dark Pulse!
+The opposing Durant lost 16% of its health!
+The opposing Durant used Facade!
+It's not very effective... Skarmory lost 22.3% of its health!
+[Skarmory's Weak Armor!]
+Skarmory's Speed rose!
+Skarmory's Weak Armor lowered its Defense!
+Turn 9
+Skarmory used Dark Pulse!
+The opposing Durant lost 17% of its health!
+The opposing Durant used Facade!
+It's not very effective... Skarmory lost 27.7% of its health!
+Skarmory fainted!
+Go! Slowpoke!
+Turn 10
+The opposing Durant used Facade!
+Slowpoke avoided the attack!
+Slowpoke used Mud-Slap!
+The opposing Durant lost 7.0% of its health!
+The opposing Durant's accuracy fell!
+Turn 11
+The opposing Durant used Facade!
+Slowpoke avoided the attack!
+Slowpoke used Mud-Slap!
+The opposing Durant lost 9% of its health!
+The opposing Durant's accuracy fell!
+Turn 12
+The opposing Durant used Facade!
+Slowpoke lost 39.4% of its health!
+Slowpoke used Substitute!
+Slowpoke put in a substitute!
+Slowpoke lost 24.9% of its health!
+Turn 13
+The opposing Durant used Facade!
+Slowpoke's substitute faded!
+Slowpoke used Mud-Slap!
+The opposing Durant lost 8% of its health!
+The opposing Durant's accuracy fell!
+Turn 14
+The opposing Durant used Facade!
+Slowpoke avoided the attack!
+Slowpoke used Mud-Slap!
+The opposing Durant lost 8% of its health!
+The opposing Durant's accuracy fell!
+Turn 15
+The opposing Durant used Facade!
+Slowpoke lost 30.0% of its health!
+Slowpoke fainted!
+Go! Mesprit!
+Turn 16
+The opposing Durant used Facade!
+Mesprit avoided the attack!
+Mesprit used Ice Beam!
+It's not very effective... The opposing Durant lost 6% of its health!
+The opposing Durant fainted!
+dsaffe sent out Ditto!
+The opposing Ditto transformed into Mesprit!
+Turn 17
+Mesprit used Ice Beam!
+The opposing Ditto lost 26% of its health!
+The opposing Ditto used Ice Beam!
+A critical hit! Mesprit lost 43.5% of its health!
+Turn 18
+Mesprit used Ice Beam!
+A critical hit! The opposing Ditto lost 39% of its health!
+The opposing Ditto used Ice Beam!
+Mesprit lost 33.2% of its health!
+Turn 19
+Mesprit used Ice Beam!
+The opposing Ditto lost 29.0% of its health!
+The opposing Ditto used Ice Beam!
+Mesprit lost 23.3% of its health!
+Mesprit fainted!
+The opposing Ditto ate its Micle Berry!
+Go! Galvantula!
+[Galvantula's Unnerve!]
+The opposing team is too nervous to eat Berries!
+Turn 20
+Galvantula used Bug Bite!
+It's super effective! The opposing Ditto lost 6% of its health!
+The opposing Ditto fainted!
+dsaffe sent out Whismur!
+Turn 21
+Galvantula, come back!
+Go! Litwick!
+The opposing Whismur used Mega Kick!
+It doesn't affect Litwick...
+Litwick was badly poisoned by the Toxic Orb!
+Turn 22
+dsaffe withdrew Whismur!
+dsaffe sent out Omastar!
+Litwick used Toxic!
+The opposing Omastar was badly poisoned!
+The opposing Omastar was hurt by poison!
+Litwick was hurt by poison!
+Turn 23
+Litwick used Protect!
+Litwick protected itself!
+The opposing Omastar used Surf!
+Litwick protected itself!
+The opposing Omastar was hurt by poison!
+Litwick was hurt by poison!
+Turn 24
+The opposing Omastar used Surf!
+It's super effective! Litwick lost 81.3% of its health!
+Litwick fainted!
+The opposing Omastar was hurt by poison!
+Go! Galvantula!
+[Galvantula's Unnerve!]
+The opposing team is too nervous to eat Berries!
+Turn 25
+Galvantula used Discharge!
+It's super effective! The opposing Omastar lost 64% of its health!
+The opposing Omastar fainted!
+dsaffe sent out Whismur!
+Turn 26
+Galvantula used Discharge!
+A critical hit! The opposing Whismur lost 97% of its health!
+The opposing Whismur is paralyzed! It may be unable to move!
+The opposing Whismur used Mega Kick!
+Galvantula lost 71.4% of its health!
+Turn 27
+Galvantula used Bug Bite!
+The opposing Whismur lost 3% of its health!
+Galvantula stole and ate its target's Aguav Berry!
+Galvantula restored HP using its Aguav Berry!
+The opposing Whismur fainted!
+dsaffe sent out Pidgeot!
+Turn 28
+The opposing Pidgeot used Heat Wave!
+It's super effective! Galvantula lost 40.9% of its health!
+Galvantula fainted!
+Go! Snivy!
+Turn 29
+The opposing Pidgeot used Heat Wave!
+It's super effective! Snivy lost 51.8% of its health!
+Snivy used Slam!
+The opposing Pidgeot lost 21% of its health!
+Turn 30
+The opposing Pidgeot used Double-Edge!
+Snivy lost 27.4% of its health!
+The opposing Pidgeot is damaged by the recoil!
+Snivy fainted!
+dsaffe won the battle!

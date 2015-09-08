@@ -1,0 +1,170 @@
+BeherrscherPaule joined.
+dsaffe joined.
+Format:
+Challenge Cup
+HP Percentage Mod: HP is shown in percentages
+Battle between dsaffe and BeherrscherPaule started!
+dsaffe sent out Meowth!
+Go! Scizor!
+Turn 1
+The opposing Meowth used Thunderbolt!
+Scizor lost 27.8% of its health!
+Scizor used Iron Defense!
+Scizor's Defense sharply rose!
+Turn 2
+The opposing Meowth used Thunderbolt!
+Scizor lost 29.1% of its health!
+Scizor used Metal Claw!
+A critical hit! The opposing Meowth lost 63% of its health!
+Turn 3
+The opposing Meowth used Thunderbolt!
+Scizor lost 31.2% of its health!
+Scizor used Metal Claw!
+The opposing Meowth lost 37% of its health!
+The opposing Meowth fainted!
+dsaffe sent out Lombre!
+Turn 4
+Scizor used Acrobatics!
+It's super effective! The opposing Lombre lost 45% of its health!
+The opposing Lombre used Bubble Beam!
+Scizor lost 11.8% of its health!
+Scizor fainted!
+Go! Minccino!
+Turn 5
+Minccino used Double Slap!
+The opposing Lombre lost 9% of its health!
+The opposing Lombre lost 11% of its health!
+The opposing Lombre lost 10% of its health!
+Hit 3 times!
+The opposing Lombre used Synthesis!
+The opposing Lombre regained health!
+Turn 6
+Minccino used Double Slap!
+The opposing Lombre lost 11% of its health!
+The opposing Lombre lost 11% of its health!
+The opposing Lombre lost 9% of its health!
+Hit 3 times!
+The opposing Lombre used Bubble Beam!
+A critical hit! Minccino lost 59.7% of its health!
+Turn 7
+Minccino used Double Slap!
+The opposing Lombre lost 11% of its health!
+A critical hit! The opposing Lombre lost 16% of its health!
+Hit 2 times!
+The opposing Lombre used Synthesis!
+The opposing Lombre regained health!
+Turn 8
+Minccino used Double Slap!
+The opposing Lombre lost 10% of its health!
+The opposing Lombre lost 9% of its health!
+The opposing Lombre lost 11% of its health!
+The opposing Lombre lost 11% of its health!
+Hit 4 times!
+The opposing Lombre used Synthesis!
+The opposing Lombre regained health!
+Turn 9
+Minccino used Double Slap!
+A critical hit! The opposing Lombre lost 16% of its health!
+The opposing Lombre lost 10% of its health!
+The opposing Lombre lost 11% of its health!
+Hit 3 times!
+The opposing Lombre used Synthesis!
+The opposing Lombre regained health!
+Turn 10
+Minccino used Double Slap!
+The opposing Lombre lost 10% of its health!
+The opposing Lombre lost 11% of its health!
+The opposing Lombre lost 10% of its health!
+The opposing Lombre lost 10% of its health!
+Hit 4 times!
+The opposing Lombre used Bubble Beam!
+Minccino lost 40.3% of its health!
+Minccino fainted!
+Go! Reshiram!
+[Reshiram's Turboblaze!]
+Reshiram is radiating a blazing aura!
+Turn 11
+The opposing Lombre used Bubble Beam!
+Reshiram lost 18.6% of its health!
+Reshiram used Blue Flare!
+The opposing Lombre avoided the attack!
+Turn 12
+The opposing Lombre used Synthesis!
+The opposing Lombre regained health!
+Reshiram used Blue Flare!
+The opposing Lombre lost 78% of its health!
+Turn 13
+The opposing Lombre used Bubble Beam!
+Reshiram lost 17.3% of its health!
+Reshiram used Blue Flare!
+A critical hit! The opposing Lombre lost 17% of its health!
+The opposing Lombre fainted!
+dsaffe sent out Lotad!
+Turn 14
+Reshiram, come back!
+Go! Piplup!
+The opposing Lotad used Secret Power!
+A critical hit! Piplup lost 30% of its health!
+Turn 15
+The opposing Lotad used Secret Power!
+Piplup lost 21.0% of its health!
+Piplup is paralyzed! It may be unable to move!
+Piplup used Double Hit!
+The opposing Lotad lost 21% of its health!
+The opposing Lotad lost 23% of its health!
+Hit 2 times!
+Turn 16
+The opposing Lotad used Secret Power!
+Piplup lost 19.5% of its health!
+Piplup used Double Hit!
+The opposing Lotad lost 23% of its health!
+The opposing Lotad lost 24% of its health!
+Hit 2 times!
+Turn 17
+The opposing Lotad used Secret Power!
+Piplup lost 21.0% of its health!
+Piplup used Double Hit!
+The opposing Lotad lost 9% of its health!
+Hit 1 time!
+The opposing Lotad fainted!
+dsaffe sent out Whiscash!
+Turn 18
+The opposing Whiscash used Water Sport!
+Fire's power was weakened!
+Piplup used Dive!
+Piplup hid underwater!
+Turn 19
+The opposing Whiscash used Earthquake!
+Piplup avoided the attack!
+Piplup is paralyzed! It can't move!
+Turn 20
+The opposing Whiscash used Earthquake!
+Piplup lost 8.6% of its health!
+Piplup fainted!
+Go! Geodude!
+Turn 21
+The opposing Whiscash used Earth Power!
+It's super effective! Geodude's Sturdy activated!
+Geodude lost 99.5% of its health!
+Geodude used Seismic Toss!
+The opposing Whiscash lost 28.0% of its health!
+Turn 22
+The opposing Whiscash used Earthquake!
+It's super effective! Geodude lost 0.5% of its health!
+Geodude fainted!
+The effects of Water Sport have faded.
+Go! Reshiram!
+[Reshiram's Turboblaze!]
+Reshiram is radiating a blazing aura!
+Turn 23
+The opposing Whiscash used Earthquake!
+It's super effective! Reshiram lost 64.1% of its health!
+Reshiram fainted!
+Go! Heliolisk!
+Turn 24
+Heliolisk used Thunder Wave!
+It doesn't affect the opposing Whiscash...
+The opposing Whiscash used Earthquake!
+It's super effective! Heliolisk lost 100% of its health!
+Heliolisk fainted!
+dsaffe won the battle!

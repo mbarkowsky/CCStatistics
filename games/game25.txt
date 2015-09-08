@@ -1,0 +1,169 @@
+BeherrscherPaule joined.
+dsaffe joined.
+Format:
+Challenge Cup
+HP Percentage Mod: HP is shown in percentages
+Battle between BeherrscherPaule and dsaffe started!
+Go! Cinccino!
+dsaffe sent out Marill!
+Turn 1
+Cinccino used Substitute!
+Cinccino put in a substitute!
+Cinccino lost 24.7% of its health!
+The opposing Marill used Play Rough!
+The substitute took damage for Cinccino!
+Turn 2
+Cinccino used Thunderbolt!
+It's super effective! The opposing Marill lost 36% of its health!
+The opposing Marill used Play Rough!
+Cinccino's substitute faded!
+Turn 3
+dsaffe withdrew Marill!
+dsaffe sent out Gliscor!
+Cinccino used Thunderbolt!
+It doesn't affect the opposing Gliscor...
+Turn 4
+Cinccino, come back!
+Go! Wigglytuff!
+The opposing Gliscor used Stealth Rock!
+Pointed stones float in the air around your team!
+Turn 5
+The opposing Gliscor used Poison Jab!
+A critical hit! It's super effective! Wigglytuff lost 52.8% of its health!
+Wigglytuff used Mega Punch!
+The opposing Gliscor avoided the attack!
+Turn 6
+The opposing Gliscor used Poison Jab!
+A critical hit! It's super effective! Wigglytuff lost 47.2% of its health!
+Wigglytuff fainted!
+Go! Articuno!
+Pointed stones dug into Articuno!
+Turn 7
+dsaffe withdrew Gliscor!
+dsaffe sent out Qwilfish!
+Articuno used Air Cutter!
+The opposing Qwilfish lost 27% of its health!
+Turn 8
+The opposing Qwilfish used Waterfall!
+Articuno lost 35.8% of its health!
+Articuno used Air Cutter!
+The opposing Qwilfish lost 28.0% of its health!
+Turn 9
+The opposing Qwilfish used Waterfall!
+Articuno lost 14.2% of its health!
+Articuno fainted!
+Go! Cinccino!
+Pointed stones dug into Cinccino!
+Turn 10
+Cinccino used Secret Power!
+The opposing Qwilfish lost 27% of its health!
+The opposing Qwilfish used Aqua Tail!
+Cinccino lost 40.1% of its health!
+Turn 11
+Cinccino used Thunderbolt!
+It's super effective! The opposing Qwilfish lost 18% of its health!
+The opposing Qwilfish fainted!
+dsaffe sent out Illumise!
+Turn 12
+Cinccino used Secret Power!
+The opposing Illumise lost 30% of its health!
+The opposing Illumise used Charge Beam!
+A critical hit! Cinccino lost 18.6% of its health!
+Turn 13
+Cinccino used Secret Power!
+The opposing Illumise lost 26% of its health!
+The opposing Illumise used Charge Beam!
+Cinccino lost 4.5% of its health!
+Cinccino fainted!
+Go! Deerling!
+Pointed stones dug into Deerling!
+Turn 14
+Deerling used Leech Seed!
+The opposing Illumise was seeded!
+The opposing Illumise used Bug Bite!
+It's super effective! Deerling lost 46.6% of its health!
+The opposing Illumise's health is sapped by Leech Seed!
+Turn 15
+Deerling used Grass Whistle!
+The opposing Illumise avoided the attack!
+The opposing Illumise used Bug Bite!
+It's super effective! Deerling lost 47.5% of its health!
+The opposing Illumise's health is sapped by Leech Seed!
+Turn 16
+Deerling used Synthesis!
+Deerling regained health!
+The opposing Illumise used Bug Bite!
+It's super effective! Deerling lost 53.0% of its health!
+The opposing Illumise's health is sapped by Leech Seed!
+Turn 17
+Deerling used Synthesis!
+Deerling regained health!
+The opposing Illumise used Bug Bite!
+It's super effective! Deerling lost 52.1% of its health!
+The opposing Illumise's health is sapped by Leech Seed!
+The opposing Illumise fainted!
+dsaffe sent out Gliscor!
+Turn 18
+The opposing Gliscor used Poison Jab!
+It's super effective! Deerling lost 34.2% of its health!
+Deerling fainted!
+Go! Dodrio!
+Pointed stones dug into Dodrio!
+Turn 19
+The opposing Gliscor used Poison Jab!
+Dodrio lost 24% of its health!
+Dodrio ate its Jaboca Berry!
+The opposing Gliscor is hurt by Dodrio's Jaboca Berry!
+Dodrio used Secret Power!
+The opposing Gliscor lost 29.0% of its health!
+Turn 20
+Dodrio used Secret Power!
+The opposing Gliscor lost 29.0% of its health!
+The opposing Gliscor used Poison Jab!
+Dodrio lost 24% of its health!
+Turn 21
+The opposing Gliscor used Poison Jab!
+Dodrio lost 22.5% of its health!
+Dodrio was poisoned!
+Dodrio used Secret Power!
+The opposing Gliscor lost 27% of its health!
+Dodrio was hurt by poison!
+Dodrio fainted!
+Go! Florges!
+Pointed stones dug into Florges!
+Turn 22
+The opposing Gliscor used Poison Jab!
+It's super effective! Florges lost 55.2% of its health!
+Florges used Energy Ball!
+A critical hit! The opposing Gliscor lost 3% of its health!
+The opposing Gliscor fainted!
+dsaffe sent out Marill!
+Turn 23
+The opposing Marill used Play Rough!
+Florges avoided the attack!
+Florges used Psychic!
+The opposing Marill lost 21% of its health!
+Turn 24
+The opposing Marill used Play Rough!
+Florges lost 16.8% of its health!
+Florges used Energy Ball!
+[Opposing Marill's Sap Sipper!]
+The opposing Marill's Attack rose!
+Turn 25
+The opposing Marill used Hidden Power!
+Florges lost 3.4% of its health!
+Florges used Psychic!
+The opposing Marill lost 21% of its health!
+The opposing Marill's Special Defense fell!
+Turn 26
+The opposing Marill used Fling!
+But it failed!
+Florges used Psychic!
+The opposing Marill lost 22% of its health!
+The opposing Marill fainted!
+dsaffe sent out Landorus!
+Turn 27
+The opposing Landorus used Sludge Bomb!
+It's super effective! Florges lost 12.1% of its health!
+Florges fainted!
+dsaffe won the battle!

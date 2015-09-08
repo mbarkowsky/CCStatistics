@@ -1,0 +1,285 @@
+BeherrscherPaule joined.
+dsaffe joined.
+Format:
+Challenge Cup
+HP Percentage Mod: HP is shown in percentages
+Battle between dsaffe and BeherrscherPaule started!
+dsaffe sent out Jellicent!
+Go! Suicune!
+Turn 1
+Suicune, come back!
+Go! Purrloin!
+The opposing Jellicent used Energy Ball!
+Purrloin lost 40.8% of its health!
+Turn 2
+dsaffe withdrew Jellicent!
+dsaffe sent out Pawniard!
+Purrloin used Knock Off!
+It's not very effective... The opposing Pawniard lost 20% of its health!
+Purrloin knocked off the opposing Pawniard's Wave Incense!
+Turn 3
+Purrloin, come back!
+Go! Suicune!
+The opposing Pawniard used Secret Power!
+Suicune lost 24.9% of its health!
+Suicune is paralyzed! It may be unable to move!
+Turn 4
+The opposing Pawniard used Swagger!
+Suicune's Attack sharply rose!
+Suicune became confused!
+Suicune is confused!
+It hurt itself in its confusion!
+Turn 5
+The opposing Pawniard used Secret Power!
+Suicune lost 23.0% of its health!
+Suicune is confused!
+It hurt itself in its confusion!
+Turn 6
+The opposing Pawniard used Secret Power!
+Suicune lost 24.9% of its health!
+Suicune fainted!
+Go! Yamask!
+Turn 7
+The opposing Pawniard used Swagger!
+Yamask avoided the attack!
+Yamask used Toxic Spikes!
+Poison spikes were scattered all around the feet of the opposing team!
+Turn 8
+The opposing Pawniard used Swagger!
+Yamask's Attack sharply rose!
+Yamask became confused!
+Yamask is confused!
+It hurt itself in its confusion!
+Turn 9
+?BeherrscherPaule: !learn yamask, toxic spikes
+Yamask can learn Toxic Spikes only when obtained from:
+
+    gen 6 egg
+
+dsaffe withdrew Pawniard!
+dsaffe sent out Roselia!
+The poison spikes disappeared from around the opposing team's feet!
+Yamask snapped out of its confusion.
+Yamask used Toxic Spikes!
+Poison spikes were scattered all around the feet of the opposing team!
+Turn 10
+The opposing Roselia used Toxic!
+Yamask was badly poisoned!
+Yamask used Knock Off!
+The opposing Roselia lost 44% of its health!
+Yamask knocked off the opposing Roselia's Binding Band!
+Yamask was hurt by poison!
+Turn 11
+Yamask, come back!
+Go! Swablu!
+[Swablu's Cloud Nine!]
+The effects of the weather disappeared.
+The opposing Roselia used Synthesis!
+The opposing Roselia regained health!
+Turn 12
+The opposing Roselia used Toxic!
+Swablu was badly poisoned!
+Swablu used Sky Attack!
+Swablu became cloaked in a harsh light!
+Swablu was hurt by poison!
+Turn 13
+dsaffe withdrew Roselia!
+dsaffe sent out Pawniard!
+Swablu used Sky Attack!
+It's not very effective... The opposing Pawniard lost 22% of its health!
+Swablu was hurt by poison!
+Turn 14
+Swablu, come back!
+Go! Hoopa!
+The opposing Pawniard used Swagger!
+Hoopa's Attack sharply rose!
+Hoopa became confused!
+Turn 15
+dsaffe withdrew Pawniard!
+dsaffe sent out Scizor!
+Hoopa is confused!
+Hoopa used Drain Punch!
+The opposing Scizor lost 40% of its health!
+Turn 16
+Hoopa, come back!
+Go! Yamask!
+The opposing Scizor used X-Scissor!
+It's not very effective... Yamask lost 20.3% of its health!
+(The opposing Scizor's Technician was removed.)
+The opposing Scizor acquired Mummy!
+Yamask was hurt by poison!
+Turn 17
+Yamask used Knock Off!
+The opposing Scizor lost 11% of its health!
+Yamask knocked off the opposing Scizor's Macho Brace!
+The opposing Scizor used X-Scissor!
+A critical hit! It's not very effective... Yamask lost 30.4% of its health!
+Yamask was hurt by poison!
+Turn 18
+The opposing Scizor used Defog!
+Yamask's evasiveness fell!
+The poison spikes disappeared from around the opposing team's feet!
+Yamask used Swagger!
+The opposing Scizor's Attack sharply rose!
+The opposing Scizor became confused!
+Yamask was hurt by poison!
+Yamask fainted!
+Go! Hoopa!
+Turn 19
+The opposing Scizor is confused!
+It hurt itself in its confusion!
+Hoopa used Foul Play!
+The opposing Scizor lost 26% of its health!
+(Hoopa's Magician was removed.)
+Hoopa acquired Mummy!
+The opposing Scizor fainted!
+dsaffe sent out Roselia!
+Turn 20
+Hoopa, come back!
+Go! Swablu!
+[Swablu's Cloud Nine!]
+The effects of the weather disappeared.
+The opposing Roselia used Swagger!
+Swablu's Attack sharply rose!
+Swablu became confused!
+Swablu was hurt by poison!
+Turn 21
+dsaffe withdrew Roselia!
+dsaffe sent out Wynaut!
+Swablu is confused!
+Swablu used Double-Edge!
+The opposing Wynaut lost 65% of its health!
+Swablu is damaged by the recoil!
+Swablu was hurt by poison!
+Turn 22
+Swablu is trapped and cannot switch!
+Swablu is confused!
+It hurt itself in its confusion!
+The opposing Wynaut used Destiny Bond!
+The opposing Wynaut is hoping to take its attacker down with it!
+Swablu was hurt by poison!
+Swablu fainted!
+Go! Purrloin!
+Turn 23
+Purrloin used Thunder Wave!
+The opposing Wynaut is paralyzed! It may be unable to move!
+The opposing Wynaut used Destiny Bond!
+The opposing Wynaut is hoping to take its attacker down with it!
+Turn 24
+Purrloin used Thunder Wave!
+The opposing Wynaut is already paralyzed.
+The opposing Wynaut used Tickle!
+Purrloin's Attack fell!
+Purrloin's Defense fell!
+Turn 25
+Purrloin used Knock Off!
+It's super effective! The opposing Wynaut lost 35% of its health!
+Purrloin knocked off the opposing Wynaut's Heal Ball!
+The opposing Wynaut fainted!
+dsaffe sent out Ducklett!
+Turn 26
+Purrloin used Thunder Wave!
+The opposing Ducklett is paralyzed! It may be unable to move!
+The opposing Ducklett used Surf!
+Purrloin lost 40.8% of its health!
+Turn 27
+Purrloin used Knock Off!
+The opposing Ducklett lost 35% of its health!
+Purrloin knocked off the opposing Ducklett's Persim Berry!
+The opposing Ducklett used Surf!
+Purrloin lost 18.4% of its health!
+Purrloin fainted!
+Go! Mothim!
+Turn 28
+Mothim used Giga Drain!
+The opposing Ducklett lost 39% of its health!
+The opposing Ducklett is paralyzed! It can't move!
+Turn 29
+Mothim used Giga Drain!
+The opposing Ducklett lost 26% of its health!
+The opposing Ducklett fainted!
+dsaffe sent out Roselia!
+Turn 30
+The opposing Roselia used Toxic!
+Mothim was badly poisoned!
+Mothim used String Shot!
+The opposing Roselia's Speed harshly fell!
+Mothim was hurt by poison!
+Turn 31
+Mothim, come back!
+Go! Hoopa!
+The opposing Roselia used Swagger!
+Hoopa's Attack sharply rose!
+Hoopa became confused!
+Turn 32
+dsaffe withdrew Roselia!
+dsaffe sent out Pawniard!
+Hoopa is confused!
+Hoopa used Foul Play!
+It's not very effective... The opposing Pawniard lost 19% of its health!
+Turn 33
+dsaffe withdrew Pawniard!
+dsaffe sent out Roselia!
+Hoopa is confused!
+Hoopa used Drain Punch!
+It's not very effective... The opposing Roselia lost 40% of its health!
+Turn 34
+The opposing Roselia used Toxic!
+Hoopa was badly poisoned!
+Hoopa snapped out of its confusion.
+Hoopa used Frustration!
+A critical hit! The opposing Roselia lost 60% of its health!
+The opposing Roselia fainted!
+Hoopa was hurt by poison!
+dsaffe sent out Jellicent!
+Turn 35
+Hoopa, come back!
+Go! Mothim!
+The opposing Jellicent used Flash!
+Mothim's accuracy fell!
+Mothim was hurt by poison!
+Turn 36
+Mothim used Giga Drain!
+The opposing Jellicent avoided the attack!
+The opposing Jellicent used Flash!
+Mothim's accuracy fell!
+Mothim was hurt by poison!
+Turn 37
+Mothim used Giga Drain!
+It's super effective! The opposing Jellicent lost 38% of its health!
+The opposing Jellicent had its energy drained!
+The opposing Jellicent used Flash!
+Mothim's accuracy fell!
+Mothim was hurt by poison!
+Turn 38
+Mothim, come back!
+Go! Hoopa!
+The opposing Jellicent used Flash!
+Hoopa's accuracy fell!
+Hoopa was hurt by poison!
+Turn 39
+Hoopa used Foul Play!
+A critical hit! It's super effective! The opposing Jellicent lost 62% of its health!
+The opposing Jellicent fainted!
+Hoopa was hurt by poison!
+dsaffe sent out Pawniard!
+Turn 40
+Hoopa, come back!
+Go! Mothim!
+The opposing Pawniard used Swagger!
+Mothim's Attack sharply rose!
+Mothim became confused!
+Mothim was hurt by poison!
+Turn 41
+Mothim is confused!
+It hurt itself in its confusion!
+The opposing Pawniard used Secret Power!
+Mothim lost 38.3% of its health!
+Mothim fainted!
+Go! Hoopa!
+Turn 42
+Hoopa used Drain Punch!
+A critical hit! It's super effective! The opposing Pawniard lost 38% of its health!
+The opposing Pawniard had its energy drained!
+The opposing Pawniard fainted!
+BeherrscherPaule won the battle!

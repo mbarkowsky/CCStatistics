@@ -1,0 +1,203 @@
+BeherrscherPaule joined.
+dsaffe joined.
+Format:
+Challenge Cup
+HP Percentage Mod: HP is shown in percentages
+Battle between BeherrscherPaule and dsaffe started!
+Go! Igglybuff!
+dsaffe sent out Roselia!
+Turn 1
+Igglybuff, come back!
+Go! Roserade!
+The opposing Roselia used Poison Sting!
+Roserade lost 8.7% of its health!
+Turn 2
+
+    Oran Berry Restores 10 HP when at 1/2 max HP or less. Single use.
+
+Fling Base Power: 10 |??Fling Effect: Activates the Berry's effect on the target. |??Natural Gift Type: Poison |??Natural Gift Base Power: 80
+dsaffe withdrew Roselia!
+dsaffe sent out Muk!
+Roserade used Hidden Power!
+It's super effective! The opposing Muk lost 43% of its health!
+Turn 3
+Roserade used Hidden Power!
+It's super effective! The opposing Muk lost 40% of its health!
+The opposing Muk used Gunk Shot!
+Roserade lost 91.3% of its health!
+Roserade fainted!
+Go! Wingull!
+Turn 4
+dsaffe withdrew Muk!
+dsaffe sent out Spiritomb!
+[Opposing Spiritomb's Pressure!]
+The opposing Spiritomb is exerting its pressure!
+Wingull used Knock Off!
+A critical hit! The opposing Spiritomb lost 27% of its health!
+Wingull knocked off the opposing Spiritomb's Muscle Band!
+Turn 5
+Wingull, come back!
+Go! Igglybuff!
+The opposing Spiritomb used Dark Pulse!
+It's not very effective... Igglybuff lost 29.2% of its health!
+Turn 6
+dsaffe withdrew Spiritomb!
+dsaffe sent out Kecleon!
+Igglybuff used Counter!
+But it failed!
+Turn 7
+The opposing Kecleon used Rock Slide!
+Igglybuff lost 27.3% of its health!
+Igglybuff used Headbutt!
+The opposing Kecleon lost 22% of its health!
+Turn 8
+The opposing Kecleon used Rock Slide!
+Igglybuff lost 27.9% of its health!
+Igglybuff used Rest!
+Igglybuff fell asleep!
+Igglybuff slept and became healthy!
+Turn 9
+dsaffe withdrew Kecleon!
+dsaffe sent out Muk!
+Igglybuff is fast asleep.
+Turn 10
+The opposing Muk used Rest!
+The opposing Muk fell asleep!
+The opposing Muk slept and became healthy!
+Igglybuff is fast asleep.
+Turn 11
+Igglybuff, come back!
+Go! Tyrogue!
+The opposing Muk is fast asleep.
+Turn 12
+Tyrogue used Hidden Power!
+It's super effective! The opposing Muk lost 20% of its health!
+The opposing Muk is fast asleep.
+Turn 13
+Tyrogue used Hidden Power!
+It's super effective! The opposing Muk lost 23% of its health!
+The opposing Muk woke up!
+The opposing Muk used Gunk Shot!
+A critical hit! Tyrogue lost 100% of its health!
+Tyrogue fainted!
+Go! Psyduck!
+Turn 14
+Psyduck used Ice Punch!
+The opposing Muk lost 17% of its health!
+The opposing Muk used Gunk Shot!
+Psyduck avoided the attack!
+Turn 15
+Psyduck used Headbutt!
+The opposing Muk lost 17% of its health!
+The opposing Muk used Disable!
+Psyduck's Headbutt was disabled!
+Turn 16
+Psyduck used Ice Punch!
+The opposing Muk lost 17% of its health!
+The opposing Muk used Rest!
+The opposing Muk fell asleep!
+The opposing Muk slept and became healthy!
+Turn 17
+Psyduck used Ice Punch!
+The opposing Muk lost 18% of its health!
+The opposing Muk is fast asleep.
+Turn 18
+Psyduck used Ice Punch!
+A critical hit! The opposing Muk lost 25% of its health!
+The opposing Muk is fast asleep.
+Turn 19
+Psyduck used Ice Punch!
+The opposing Muk lost 17% of its health!
+The opposing Muk woke up!
+The opposing Muk used Gunk Shot!
+Psyduck lost 100% of its health!
+Psyduck fainted!
+Go! Milotic!
+Turn 20
+Milotic used Double-Edge!
+The opposing Muk lost 20% of its health!
+Milotic is damaged by the recoil!
+The opposing Muk used Gunk Shot!
+Milotic lost 68.1% of its health!
+Turn 21
+Milotic used Double-Edge!
+A critical hit! The opposing Muk lost 19% of its health!
+Milotic is damaged by the recoil!
+The opposing Muk fainted!
+dsaffe sent out Spiritomb!
+[Opposing Spiritomb's Pressure!]
+The opposing Spiritomb is exerting its pressure!
+Turn 22
+Milotic, come back!
+Go! Igglybuff!
+The opposing Spiritomb used Dark Pulse!
+A critical hit! It's not very effective... Igglybuff lost 49.7% of its health!
+Turn 23
+The opposing Spiritomb used Dark Pulse!
+It's not very effective... Igglybuff lost 31.5% of its health!
+Igglybuff woke up!
+Igglybuff flinched and couldn't move!
+Turn 24
+Igglybuff used Rest!
+Igglybuff fell asleep!
+Igglybuff slept and became healthy!
+The opposing Spiritomb used Dark Pulse!
+It's not very effective... Igglybuff lost 32.1% of its health!
+Turn 25
+Igglybuff is fast asleep.
+The opposing Spiritomb used Dark Pulse!
+It's not very effective... Igglybuff lost 29.5% of its health!
+Turn 26
+Igglybuff is fast asleep.
+The opposing Spiritomb used Dark Pulse!
+It's not very effective... Igglybuff lost 32.5% of its health!
+Turn 27
+Igglybuff woke up!
+Igglybuff used Rest!
+Igglybuff fell asleep!
+Igglybuff slept and became healthy!
+The opposing Spiritomb used Dark Pulse!
+It's not very effective... Igglybuff lost 28.9% of its health!
+Turn 28
+Igglybuff is fast asleep.
+The opposing Spiritomb used Dark Pulse!
+It's not very effective... Igglybuff lost 29.2% of its health!
+Turn 29
+Igglybuff is fast asleep.
+The opposing Spiritomb used Dark Pulse!
+It's not very effective... Igglybuff lost 31.2% of its health!
+Turn 30
+Igglybuff woke up!
+Igglybuff used Rest!
+Igglybuff fell asleep!
+Igglybuff slept and became healthy!
+The opposing Spiritomb used Dark Pulse!
+It's not very effective... Igglybuff lost 29.2% of its health!
+Turn 31
+Igglybuff is fast asleep.
+The opposing Spiritomb used Dark Pulse!
+It's not very effective... Igglybuff lost 30.5% of its health!
+Turn 32
+The opposing Spiritomb used Dark Pulse!
+A critical hit! It's not very effective... Igglybuff lost 40.3% of its health!
+Igglybuff fainted!
+Go! Wingull!
+Turn 33
+Wingull used Knock Off!
+The opposing Spiritomb lost 14.0% of its health!
+The opposing Spiritomb used Dark Pulse!
+Wingull lost 59.8% of its health!
+Turn 34
+Wingull used Knock Off!
+The opposing Spiritomb lost 13% of its health!
+The opposing Spiritomb used Dark Pulse!
+Wingull lost 40.2% of its health!
+Wingull fainted!
+Go! Milotic!
+Turn 35
+Milotic used Giga Impact!
+It doesn't affect the opposing Spiritomb...
+The opposing Spiritomb used Dark Pulse!
+Milotic lost 18.3% of its health!
+Milotic fainted!
+dsaffe won the battle!

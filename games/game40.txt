@@ -1,0 +1,171 @@
+BeherrscherPaule joined.
+dsaffe joined.
+Format:
+Challenge Cup
+HP Percentage Mod: HP is shown in percentages
+Battle between dsaffe and BeherrscherPaule started!
+dsaffe sent out Carbink!
+Go! Aggron!
+Turn 1
+The opposing Carbink used Stone Edge!
+It's not very effective... Aggron lost 7.2% of its health!
+Aggron used Substitute!
+Aggron put in a substitute!
+Aggron lost 25% of its health!
+Turn 2
+dsaffe withdrew Carbink!
+dsaffe sent out Golduck!
+[Opposing Golduck's Cloud Nine!]
+The effects of the weather disappeared.
+Aggron used Ancient Power!
+The opposing Golduck lost 21% of its health!
+Turn 3
+The opposing Golduck used Surf!
+It's super effective! Aggron's substitute faded!
+Aggron used Ancient Power!
+The opposing Golduck lost 20% of its health!
+Aggron's Attack rose!
+Aggron's Defense rose!
+Aggron's Special Attack rose!
+Aggron's Special Defense rose!
+Aggron's Speed rose!
+Turn 4
+Aggron, come back!
+Go! Suicune!
+The opposing Golduck used Surf!
+It doesn't affect Suicune...
+Turn 5
+The opposing Golduck used Swagger!
+Suicune's Attack sharply rose!
+Suicune became confused!
+Suicune is confused!
+Suicune used Double-Edge!
+The opposing Golduck lost 47% of its health!
+Suicune is damaged by the recoil!
+Turn 6
+The opposing Golduck used Round!
+Suicune lost 13.4% of its health!
+Suicune snapped out of its confusion.
+Suicune used Double-Edge!
+The opposing Golduck lost 12% of its health!
+Suicune is damaged by the recoil!
+The opposing Golduck fainted!
+dsaffe sent out Delcatty!
+Turn 7
+Suicune used Double-Edge!
+The opposing Delcatty lost 43% of its health!
+Suicune is damaged by the recoil!
+The opposing Delcatty used Echoed Voice!
+Suicune lost 13.4% of its health!
+Turn 8
+Suicune used Cut!
+A critical hit! The opposing Delcatty lost 32% of its health!
+The opposing Delcatty used Echoed Voice!
+Suicune lost 23.3% of its health!
+Turn 9
+Suicune used Double-Edge!
+The opposing Delcatty lost 24% of its health!
+Suicune is damaged by the recoil!
+The opposing Delcatty fainted!
+dsaffe sent out Voltorb!
+Turn 10
+The opposing Voltorb used Return!
+Suicune lost 8.6% of its health!
+Suicune used Double-Edge!
+A critical hit! The opposing Voltorb lost 100% of its health!
+Suicune is damaged by the recoil!
+The opposing Voltorb fainted!
+Suicune fainted!
+Go! Pelipper!
+dsaffe sent out Tynamo!
+Turn 11
+Pelipper, come back!
+Go! Aggron!
+The opposing Tynamo used Spark!
+Aggron lost 17.8% of its health!
+Aggron is paralyzed! It may be unable to move!
+Turn 12
+The opposing Tynamo used Spark!
+Aggron lost 20.7% of its health!
+Aggron used Ancient Power!
+The opposing Tynamo lost 25% of its health!
+Turn 13
+The opposing Tynamo used Spark!
+Aggron lost 17.8% of its health!
+Aggron used Ancient Power!
+A critical hit! The opposing Tynamo lost 41% of its health!
+Turn 14
+The opposing Tynamo used Spark!
+Aggron lost 11.5% of its health!
+Aggron fainted!
+Go! Pidgeot!
+Turn 15
+Pidgeot used Double-Edge!
+The opposing Tynamo lost 34% of its health!
+Pidgeot is damaged by the recoil!
+The opposing Tynamo fainted!
+dsaffe sent out Carbink!
+Turn 16
+Pidgeot, come back!
+Go! Drifloon!
+The opposing Carbink used Stone Edge!
+It's super effective! Drifloon lost 47.1% of its health!
+Turn 17
+Drifloon used Bind!
+It's not very effective... The opposing Carbink lost 1% of its health!
+The opposing Carbink was squeezed by Drifloon!
+The opposing Carbink used Stone Edge!
+It's super effective! Drifloon lost 47.1% of its health!
+The opposing Carbink is hurt by Bind!
+Turn 18
+Drifloon used Double Team!
+Drifloon's evasiveness rose!
+The opposing Carbink used Stone Edge!
+It's super effective! Drifloon lost 5.9% of its health!
+Drifloon fainted!
+The opposing Carbink was freed from Bind!
+Go! Pelipper!
+Turn 19
+The opposing Carbink used Stone Edge!
+It's super effective! Pelipper lost 50.3% of its health!
+Pelipper used Steel Wing!
+It's super effective! The opposing Carbink lost 47% of its health!
+Pelipper's Defense rose!
+Turn 20
+dsaffe withdrew Carbink!
+dsaffe sent out Spoink!
+Pelipper used Steel Wing!
+The opposing Spoink lost 21% of its health!
+Pelipper's Defense rose!
+Turn 21
+Pelipper used Rain Dance!
+It started to rain!
+The opposing Spoink used Psywave!
+Pelipper lost 49.7% of its health!
+Pelipper fainted!
+Go! Pidgeot!
+Turn 22
+Pidgeot used Double-Edge!
+A critical hit! The opposing Spoink lost 79% of its health!
+Pidgeot is damaged by the recoil!
+The opposing Spoink fainted!
+dsaffe sent out Carbink!
+Turn 23
+Pidgeot used Double-Edge!
+It's not very effective... The opposing Carbink lost 19% of its health!
+Pidgeot is damaged by the recoil!
+The opposing Carbink used Stone Edge!
+It's super effective! Pidgeot lost 46.0% of its health!
+Pidgeot ate its Micle Berry!
+Turn 24
+Pidgeot's Micle Berry activated!
+Pidgeot used Double-Edge!
+It's not very effective... The opposing Carbink lost 18% of its health!
+Pidgeot is damaged by the recoil!
+The opposing Carbink used Stone Edge!
+Pidgeot avoided the attack!
+Turn 25
+Pidgeot used Round!
+It's not very effective... The opposing Carbink lost 3% of its health!
+The opposing Carbink fainted!
+BeherrscherPaule won the battle!

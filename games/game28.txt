@@ -1,0 +1,272 @@
+BeherrscherPaule joined.
+dsaffe joined.
+Format:
+Challenge Cup
+HP Percentage Mod: HP is shown in percentages
+Battle between BeherrscherPaule and dsaffe started!
+Go! Ho-Oh!
+dsaffe sent out Kabuto!
+Turn 1
+Ho-Oh, come back!
+Go! Servine!
+The opposing Kabuto used Rock Slide!
+Servine lost 47.7% of its health!
+Turn 2
+dsaffe withdrew Kabuto!
+dsaffe sent out Staravia!
+[Opposing Staravia's Intimidate!]
+Servine's Attack rose!
+Servine used Bind!
+The opposing Staravia avoided the attack!
+The opposing Staravia is hurt by its Sticky Barb!
+Turn 3
+Servine, come back!
+Go! Shuckle!
+The opposing Staravia used Quick Attack!
+It's not very effective... Shuckle lost 5.4% of its health!
+The opposing Staravia is hurt by its Sticky Barb!
+Turn 4
+The opposing Staravia used Uproar!
+It's not very effective... Shuckle lost 9.5% of its health!
+The opposing Staravia caused an uproar!
+Shuckle used Safeguard!
+Your team became cloaked in a mystical veil!
+The opposing Staravia is making an uproar!
+The opposing Staravia is hurt by its Sticky Barb!
+Turn 5
+Shuckle, come back!
+Go! Ho-Oh!
+The opposing Staravia used Uproar!
+Ho-Oh lost 19.4% of its health!
+The opposing Staravia is making an uproar!
+The opposing Staravia is hurt by its Sticky Barb!
+Turn 6
+The opposing Staravia used Uproar!
+Ho-Oh lost 19.8% of its health!
+Ho-Oh used Psychic!
+A critical hit! The opposing Staravia lost 51% of its health!
+The opposing Staravia fainted!
+dsaffe sent out Kabuto!
+Turn 7
+Ho-Oh, come back!
+Go! Slowbro!
+The opposing Kabuto used Whirlpool!
+It's not very effective... Slowbro lost 6.3% of its health!
+Slowbro became trapped in the vortex!
+Slowbro is hurt by Whirlpool!
+Turn 8
+The opposing Kabuto used Rock Slide!
+Slowbro lost 37.3% of its health!
+Slowbro used Signal Beam!
+The opposing Kabuto lost 44% of its health!
+Slowbro is hurt by Whirlpool!
+Your team is no longer protected by Safeguard!
+Turn 9
+The opposing Kabuto used Rock Slide!
+Slowbro lost 31.7% of its health!
+Slowbro fainted!
+Go! Servine!
+Turn 10
+dsaffe withdrew Kabuto!
+dsaffe sent out Munna!
+[Opposing Munna's Forewarn!]
+Error parsing: |-activate|p2a: Munna|ability: Forewarn|Iron Tail|p1a: Servine
+Battle.prototype.runMinor@http://play.pokemonshowdown.com/js/battle.js?ac9975b5:4833:7
+Battle.prototype.run@http://play.pokemonshowdown.com/js/battle.js?ac9975b5:5772:6
+Servine used Mega Drain!
+The opposing Munna lost 10% of its health!
+The opposing Munna had its energy drained!
+Turn 11
+Servine, come back!
+Go! Bonsly!
+The opposing Munna used Psybeam!
+Bonsly lost 27.6% of its health!
+Bonsly became confused!
+Turn 12
+Bonsly, come back!
+Go! Ho-Oh!
+The opposing Munna used Psybeam!
+A critical hit! Ho-Oh lost 20.7% of its health!
+Turn 13
+Ho-Oh used Iron Head!
+The opposing Munna lost 26% of its health!
+The opposing Munna flinched and couldn't move!
+Turn 14
+Ho-Oh used Iron Head!
+The opposing Munna lost 23% of its health!
+The opposing Munna flinched and couldn't move!
+Turn 15
+Ho-Oh used Iron Head!
+The opposing Munna lost 25% of its health!
+The opposing Munna used Secret Power!
+Ho-Oh lost 12.9% of its health!
+Turn 16
+Ho-Oh used Iron Head!
+The opposing Munna lost 16% of its health!
+The opposing Munna fainted!
+dsaffe sent out Hitmonchan!
+Turn 17
+The opposing Hitmonchan used Pursuit!
+Ho-Oh lost 29.7% of its health!
+Ho-Oh, come back!
+Go! Shuckle!
+Turn 18
+The opposing Hitmonchan used Drain Punch!
+Shuckle lost 22.0% of its health!
+Shuckle used Bulldoze!
+The opposing Hitmonchan lost 6% of its health!
+The opposing Hitmonchan's Speed fell!
+Turn 19
+The opposing Hitmonchan used Drain Punch!
+Shuckle lost 22.0% of its health!
+Shuckle had its energy drained!
+Shuckle ate its Wiki Berry!
+Shuckle restored HP using its Wiki Berry!
+Shuckle used Bulldoze!
+The opposing Hitmonchan lost 6% of its health!
+The opposing Hitmonchan's Speed fell!
+Turn 20
+iceangel22 joined.
+Shuckle, come back!
+Go! Ho-Oh!
+The opposing Hitmonchan used Drain Punch!
+It's not very effective... Ho-Oh lost 24.6% of its health!
+Ho-Oh had its energy drained!
+Turn 21
+%iceangel22: u guys laddering?
+Ho-Oh used Psychic!
+It's super effective! The opposing Hitmonchan lost 42% of its health!
+The opposing Hitmonchan used Double-Edge!
+Ho-Oh lost 39.2% of its health!
+The opposing Hitmonchan is damaged by the recoil!
+Ho-Oh fainted!
+?dsaffe: no, but collecting logs
+?dsaffe: for statistic
+?dsaffe: s
+%iceangel22: do u mind if i battle one of you? it will be my first battle though
+%iceangel22: oh
+%iceangel22: makes sense
+Go! Remoraid!
+Turn 22
+Remoraid used Water Spout!
+The opposing Hitmonchan lost 42% of its health!
+The opposing Hitmonchan fainted!
+dsaffe sent out Volcanion!
+Turn 23
+The opposing Volcanion used Fire Blast!
+It's not very effective... Remoraid lost 56.1% of its health!
+Remoraid used Rock Blast!
+It's super effective! The opposing Volcanion lost 12% of its health!
+It's super effective! The opposing Volcanion lost 11% of its health!
+It's super effective! The opposing Volcanion lost 12% of its health!
+Hit 3 times!
+Turn 24
+%iceangel22: wow
+%iceangel22: volcanion
+%iceangel22: :0
+The opposing Volcanion used Fire Blast!
+It's not very effective... Remoraid lost 43.9% of its health!
+Remoraid fainted!
+Go! Shuckle!
+Turn 25
+The opposing Volcanion used Flash Cannon!
+It's super effective! Shuckle lost 34.5% of its health!
+Shuckle used Bulldoze!
+It's super effective! The opposing Volcanion lost 11% of its health!
+The opposing Volcanion's Speed fell!
+Turn 26
+?BeherrscherPaule: op :(
+The opposing Volcanion used Flash Cannon!
+It's super effective! Shuckle lost 19.0% of its health!
+Shuckle fainted!
+%iceangel22: mhm
+%iceangel22: good defense
+Go! Bonsly!
+Turn 27
+%iceangel22: gg
+The opposing Volcanion used Flash Cannon!
+It's super effective! Bonsly lost 59.0% of its health!
+Bonsly used Self-Destruct!
+The opposing Volcanion ate its Chilan Berry!
+The opposing Volcanion lost 30% of its health!
+Bonsly fainted!
+%iceangel22: ur ded
+?BeherrscherPaule: chilan berry :(
+?BeherrscherPaule: that was mean
+?dsaffe: rip
+Go! Servine!
+Turn 28
+Servine used Mega Drain!
+The opposing Volcanion lost 14.0% of its health!
+The opposing Volcanion had its energy drained!
+The opposing Volcanion used Fire Blast!
+Servine avoided the attack!
+Turn 29
+?BeherrscherPaule: miss
+%iceangel22: wow
+?BeherrscherPaule: yeah
+%iceangel22: xD
+?BeherrscherPaule: rip!
+Servine used Mega Drain!
+The opposing Volcanion lost 10% of its health!
+The opposing Volcanion had its energy drained!
+The opposing Volcanion fainted!
+?dsaffe: and he wins maybe
+%iceangel22: if all his other pokes
+%iceangel22: are weak to u
+%iceangel22: xD
+?BeherrscherPaule: yeah
+dsaffe sent out Marill!
+Turn 30
+?BeherrscherPaule: that's the awesome part about challenge cup :D
+%iceangel22: yeah
+Servine used Mega Drain!
+It's super effective! The opposing Marill lost 25% of its health!
+The opposing Marill had its energy drained!
+The opposing Marill used Waterfall!
+It's not very effective... Servine lost 29.2% of its health!
+Turn 31
+%iceangel22: most probably
+%iceangel22: u will win
+Servine used Mega Drain!
+It's super effective! The opposing Marill lost 26% of its health!
+The opposing Marill had its energy drained!
+The opposing Marill used Waterfall!
+A critical hit! It's not very effective... Servine lost 45.8% of its health!
+Turn 32
+%iceangel22: most likely*
+%iceangel22: ooo
+%iceangel22: mabey not
+Servine used Mega Drain!
+It's super effective! The opposing Marill lost 28.0% of its health!
+The opposing Marill had its energy drained!
+The opposing Marill used Waterfall!
+It's not very effective... Servine lost 29.6% of its health!
+Turn 33
+%iceangel22: cuz of crit
+?BeherrscherPaule: wow :D
+Servine used Mega Drain!
+It's super effective! The opposing Marill lost 21% of its health!
+The opposing Marill had its energy drained!
+The opposing Marill fainted!
+%iceangel22: does ur last poke
+dsaffe sent out Kabuto!
+Turn 34
+?BeherrscherPaule: servine!
+%iceangel22: outspeed
+%iceangel22: ?
+?BeherrscherPaule: you can do it!
+Servine used Mega Drain!
+It's super effective! The opposing Kabuto lost 56.0% of its health!
+The opposing Kabuto had its energy drained!
+The opposing Kabuto fainted!
+BeherrscherPaule won the battle!
+?BeherrscherPaule: YES!
+%iceangel22: gg
+?BeherrscherPaule: easy
+?BeherrscherPaule: :D
+?BeherrscherPaule: gg
+%iceangel22: this looks fun
+?BeherrscherPaule: ima go get something to eat
+?BeherrscherPaule: you can battle dsaffe
+?BeherrscherPaule: if you want

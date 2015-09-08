@@ -2,7 +2,7 @@ package game.playeraction;
 
 public class DamageEffect implements AttackEffect {
 
-	public enum Effectiveness {NEUTRAL, SUPER_EFFECTIVE, NOT_VERY_EFFECTIVE}
+	public enum Effectiveness {NEUTRAL, SUPER_EFFECTIVE, NOT_VERY_EFFECTIVE, NO_EFFECT}
 	
 	private String defender;
 	private boolean isCrit;

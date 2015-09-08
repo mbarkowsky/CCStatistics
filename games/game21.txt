@@ -1,0 +1,226 @@
+BeherrscherPaule joined.
+dsaffe joined.
+Format:
+Challenge Cup
+HP Percentage Mod: HP is shown in percentages
+Battle between dsaffe and BeherrscherPaule started!
+dsaffe sent out Starly!
+Go! Pangoro!
+[Pangoro's Mold Breaker!]
+Pangoro breaks the mold!
+Turn 1
+Pangoro, come back!
+Go! Magcargo!
+The opposing Starly used Wing Attack!
+It's not very effective... Magcargo lost 10.7% of its health!
+Turn 2
+dsaffe withdrew Starly!
+dsaffe sent out Mantyke!
+Magcargo used Frustration!
+The opposing Mantyke lost 30% of its health!
+Magcargo is hurt by the opposing Mantyke's Rocky Helmet!
+Turn 3
+Magcargo, come back!
+Go! Stoutland!
+[Stoutland's Intimidate!]
+The opposing Mantyke's Attack fell!
+The opposing Mantyke used Toxic!
+Stoutland was badly poisoned!
+Stoutland was hurt by poison!
+Turn 4
+The opposing Mantyke used Protect!
+The opposing Mantyke protected itself!
+Stoutland used Secret Power!
+The opposing Mantyke protected itself!
+Stoutland was hurt by poison!
+Turn 5
+Stoutland used Swagger!
+The opposing Mantyke's Attack sharply rose!
+The opposing Mantyke became confused!
+The opposing Mantyke is confused!
+The opposing Mantyke used Supersonic!
+Stoutland avoided the attack!
+Stoutland was hurt by poison!
+Turn 6
+Stoutland, come back!
+Go! Magcargo!
+The opposing Mantyke is confused!
+The opposing Mantyke used Protect!
+But it failed!
+Turn 7
+The opposing Mantyke is confused!
+It hurt itself in its confusion!
+Magcargo used Mimic!
+Magcargo learned Protect!
+Turn 8
+The opposing Mantyke is confused!
+It hurt itself in its confusion!
+Magcargo used Frustration!
+The opposing Mantyke lost 29.0% of its health!
+Magcargo is hurt by the opposing Mantyke's Rocky Helmet!
+Turn 9
+The opposing Mantyke snapped out of confusion!
+The opposing Mantyke used Toxic!
+Magcargo was badly poisoned!
+Magcargo used Frustration!
+The opposing Mantyke lost 20% of its health!
+Magcargo is hurt by the opposing Mantyke's Rocky Helmet!
+The opposing Mantyke fainted!
+Magcargo was hurt by poison!
+dsaffe sent out Tynamo!
+Turn 10
+The opposing Tynamo used Charge Beam!
+Magcargo lost 16.1% of its health!
+The opposing Tynamo's Special Attack rose!
+Magcargo used Frustration!
+The opposing Tynamo lost 27% of its health!
+Magcargo was hurt by poison!
+Turn 11
+Magcargo used Protect!
+Magcargo protected itself!
+The opposing Tynamo used Charge Beam!
+Magcargo protected itself!
+Magcargo was hurt by poison!
+Magcargo fainted!
+Go! Stoutland!
+[Stoutland's Intimidate!]
+The opposing Tynamo's Attack fell!
+Turn 12
+The opposing Tynamo used Charge Beam!
+Stoutland lost 21.1% of its health!
+The opposing Tynamo's Special Attack rose!
+Stoutland used Secret Power!
+The opposing Tynamo lost 38% of its health!
+Stoutland was hurt by poison!
+Turn 13
+The opposing Tynamo used Charge Beam!
+Stoutland lost 27.5% of its health!
+Stoutland used Secret Power!
+The opposing Tynamo lost 35% of its health!
+The opposing Tynamo fainted!
+Stoutland was hurt by poison!
+Stoutland fainted!
+dsaffe sent out Venipede!
+Go! Azurill!
+Turn 14
+Azurill, come back!
+Go! Pidove!
+The opposing Venipede used Poison Tail!
+Pidove lost 27% of its health!
+Turn 15
+The opposing Venipede used Poison Tail!
+Pidove lost 29.0% of its health!
+Pidove used Aerial Ace!
+It's super effective! The opposing Venipede lost 58.0% of its health!
+Turn 16
+dsaffe withdrew Venipede!
+dsaffe sent out Vivillon!
+Pidove used Aerial Ace!
+It's super effective! The opposing Vivillon lost 50% of its health!
+Turn 17
+The opposing Vivillon used Flash!
+Pidove's accuracy fell!
+Pidove used Aerial Ace!
+It's super effective! The opposing Vivillon lost 50% of its health!
+The opposing Vivillon fainted!
+dsaffe sent out Starly!
+Turn 18
+The opposing Starly used Aerial Ace!
+Pidove lost 36.5% of its health!
+Pidove used Aerial Ace!
+The opposing Starly lost 100% of its health!
+The opposing Starly fainted!
+dsaffe sent out Gothitelle!
+Turn 19
+
+    Rivalry This Pokemon's attacks do 1.25x on same gender targets; 0.75x on opposite gender.
+
+Pidove used Quick Attack!
+The opposing Gothitelle avoided the attack!
+The opposing Gothitelle used Flatter!
+Pidove's Special Attack rose!
+Pidove became confused!
+Turn 20
+Pidove, come back!
+Go! Azurill!
+The opposing Gothitelle used Future Sight!
+The opposing Gothitelle foresaw an attack!
+Turn 21
+The opposing Gothitelle used Flatter!
+Azurill's Special Attack rose!
+Azurill became confused!
+Azurill is confused!
+Azurill used Encore!
+The opposing Gothitelle received an encore!
+Turn 22
+Azurill, come back!
+Go! Pangoro!
+[Pangoro's Mold Breaker!]
+Pangoro breaks the mold!
+The opposing Gothitelle used Flatter!
+Pangoro's Special Attack rose!
+Pangoro became confused!
+Pangoro took the Future Sight attack!
+It doesn't affect Pangoro...
+But it failed!
+Turn 23
+Pangoro, come back!
+Go! Azurill!
+dsaffe withdrew Gothitelle!
+dsaffe sent out Venipede!
+Turn 24
+The opposing Venipede used Poison Tail!
+It's super effective! Azurill lost 56.6% of its health!
+Azurill used Double-Edge!
+The opposing Venipede lost 42% of its health!
+Azurill is damaged by the recoil!
+The opposing Venipede fainted!
+dsaffe sent out Gothitelle!
+Turn 25
+The opposing Gothitelle used Future Sight!
+The opposing Gothitelle foresaw an attack!
+Azurill used Double-Edge!
+The opposing Gothitelle lost 26% of its health!
+Azurill is damaged by the recoil!
+Turn 26
+The opposing Gothitelle used Flatter!
+Azurill's Special Attack rose!
+Azurill became confused!
+Azurill is confused!
+Azurill used Double-Edge!
+The opposing Gothitelle lost 27% of its health!
+Azurill is damaged by the recoil!
+Turn 27
+Azurill, come back!
+Go! Carvanha!
+The opposing Gothitelle used Flatter!
+Carvanha's Special Attack rose!
+Carvanha became confused!
+Carvanha took the Future Sight attack!
+It doesn't affect Carvanha...
+But it failed!
+Turn 28
+Carvanha, come back!
+Go! Pangoro!
+[Pangoro's Mold Breaker!]
+Pangoro breaks the mold!
+The opposing Gothitelle used Sleep Talk!
+But it failed!
+Turn 29
+Pangoro used Superpower!
+It's not very effective... The opposing Gothitelle lost 27% of its health!
+Pangoro's Attack fell!
+Pangoro's Defense fell!
+The opposing Gothitelle used Flatter!
+Pangoro's Special Attack rose!
+Pangoro became confused!
+Turn 30
+Pangoro, come back!
+Go! Carvanha!
+The opposing Gothitelle used Trick Room!
+The opposing Gothitelle twisted the dimensions!
+Turn 31
+Carvanha used Ice Fang!
+The opposing Gothitelle lost 20% of its health!
+The opposing Gothitelle fainted!
+BeherrscherPaule won the battle!
