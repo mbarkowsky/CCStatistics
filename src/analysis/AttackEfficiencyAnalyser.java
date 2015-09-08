@@ -12,6 +12,7 @@ import game.playeraction.PlayerAction.ActionType;
 
 import java.awt.BorderLayout;
 import java.awt.Color;
+import java.awt.Font;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Collections;
@@ -178,8 +179,8 @@ public class AttackEfficiencyAnalyser extends Analyser {
 	}
 
 	@Override
-	protected JComponent doAnalyse(Collection<Game> games) {
-		Map<String, Result> results = createResults(games);
+	protected JComponent doAnalyse(Collection<Game> games, String playerName) {
+		Map<String, Result> results = createResults(games, playerName);
 		String criteria = getSelectedCriteria();
 		Map<String, Double> criteriaResults = getCriteriaResults(criteria, results);
 		
@@ -191,10 +192,19 @@ public class AttackEfficiencyAnalyser extends Analyser {
 		JLabel criteriaLabel = new JLabel(criteria);
 		result.add(criteriaLabel, BorderLayout.PAGE_START);
 		
-		JPanel ranking = new JPanel(new TableLayout(2));
-		for(int i = 0; i < 10; i++){
+		int[] columnTypes = {TableLayout.MINIMUM_COLUMN_WIDTH, TableLayout.SCALING_COLUMN_WIDTH, TableLayout.SCALING_COLUMN_WIDTH};
+		JPanel ranking = new JPanel(new TableLayout(3, columnTypes));
+		for(int i = 0; i < 10 && i < efficiencyRanking.size(); i++){
 			String attack = efficiencyRanking.get(i);
-			JLabel nameLabel = new JLabel((i+1) + ".: " + attack);
+			
+			JLabel rankingLabel = new JLabel((i+1) + "  ");
+			Font rankingFont = rankingLabel.getFont().deriveFont(Font.BOLD);
+			rankingLabel.setFont(rankingFont);
+			ranking.add(rankingLabel);
+			
+			JLabel nameLabel = new JLabel(attack);
+			Font nameFont = rankingLabel.getFont().deriveFont(Font.PLAIN);
+			nameLabel.setFont(nameFont);
 			ranking.add(nameLabel);
 			
 			long resultWhole = Math.round(criteriaResults.get(attack));
@@ -207,13 +217,26 @@ public class AttackEfficiencyAnalyser extends Analyser {
 		return ranking;
 	}
 
-	private Map<String, Result> createResults(Collection<Game> games) {
+	private Map<String, Result> createResults(Collection<Game> games, String playerName) {
 		Map<String, Result> results = new HashMap<>();
-		Player[] players = {Player.PLAYER_ONE, Player.PLAYER_TWO};
 		for(Game game:games){
-			Map<Player, Set<String>> playerUsages = new HashMap<>();;
-			playerUsages.put(Player.PLAYER_ONE, new HashSet<String>());
-			playerUsages.put(Player.PLAYER_TWO, new HashSet<String>());
+			List<Player> players = new LinkedList<>();
+			if(playerName.equals("")){
+				players.add(Player.PLAYER_ONE);
+				players.add(Player.PLAYER_TWO);
+			}
+			else{
+				Player player = game.getPlayer(playerName);
+				if(player == null){
+					continue;
+				}
+				players.add(player);	
+			}
+			
+			Map<Player, Set<String>> playerUsages = new HashMap<>();
+			for(Player player:players){
+				playerUsages.put(player, new HashSet<String>());
+			}
 			
 			for(Turn turn:game.getTurns()){
 				for(Player player:players){
@@ -240,15 +263,20 @@ public class AttackEfficiencyAnalyser extends Analyser {
 			}
 			
 			Player winner = game.getWinner();
-			for(String attack:playerUsages.get(winner)){
-				results.get(attack).users++;
-				results.get(attack).wins++;
+			if(playerUsages.containsKey(winner)){
+				for(String attack:playerUsages.get(winner)){
+					results.get(attack).users++;
+					results.get(attack).wins++;
+				}	
 			}
 			
 			Player loser = game.getLoser();
-			for(String attack:playerUsages.get(loser)){
-				results.get(attack).users++;
+			if(playerUsages.containsKey(loser)){
+				for(String attack:playerUsages.get(loser)){
+					results.get(attack).users++;
+				}	
 			}
+			
 		}
 		return results;
 	}

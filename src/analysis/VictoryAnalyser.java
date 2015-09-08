@@ -12,7 +12,6 @@ import javax.swing.JComponent;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
 
-import ui.MainFrame;
 import util.CCStatisticsUtil;
 import util.TableLayout;
 
@@ -67,10 +66,8 @@ public class VictoryAnalyser extends Analyser {
 	}
 
 	@Override
-	protected JComponent doAnalyse(Collection<Game> games) {
-		long t1 = System.currentTimeMillis();
-		
-		Result result = createResult(games);
+	protected JComponent doAnalyse(Collection<Game> games, String playerName) {		
+		Result result = createResult(games, playerName);
 
 		JPanel resultPanel = new JPanel();		
 		resultPanel.setLayout(new TableLayout(2));
@@ -89,13 +86,10 @@ public class VictoryAnalyser extends Analyser {
 			resultPanel.add(winRateLabel);
 		}
 		
-		long t2 = System.currentTimeMillis();
-		MainFrame.debugPrint(getName() + " analysis took " + (t2 - t1) + " milliseconds");
-		
 		return resultPanel;
 	}
 
-	private Result createResult(Collection<Game> games) {
+	private Result createResult(Collection<Game> games, String playerName) {
 		Result result = new Result();
 		for(Game game:games){
 			Player winningPlayer = game.getWinner();
@@ -103,8 +97,12 @@ public class VictoryAnalyser extends Analyser {
 			String winner = game.getPlayerName(winningPlayer);
 			String loser = game.getPlayerName(losingPlayer);
 			
-			result.addWin(winner);
-			result.addLoss(loser);
+			if(playerName.equals("") || playerName.equals(winner)){
+				result.addWin(winner);	
+			}
+			else if(playerName.equals("") || playerName.equals(loser)){
+				result.addLoss(loser);	
+			}
 		}
 		return result;
 	}

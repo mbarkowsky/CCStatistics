@@ -11,6 +11,10 @@ public class Game {
 
 	public enum Player {PLAYER_ONE, PLAYER_TWO};
 	
+	public static Player getOpponent(Player player) {
+		return player == Player.PLAYER_ONE ? Player.PLAYER_TWO : Player.PLAYER_ONE;
+	}
+	
 	private String name;
 	private Map<Player, String> playerNames;
 	private Player winner;
@@ -85,6 +89,18 @@ public class Game {
 			}
 			buffer.append("Winner: " + getPlayerName(winner));
 			return buffer.toString();
+		}
+	}
+
+	public Player getPlayer(String playerName) {
+		if(playerNames.get(Player.PLAYER_ONE).equals(playerName)){
+			return Player.PLAYER_ONE;
+		}
+		else if(playerNames.get(Player.PLAYER_TWO).equals(playerName)){
+			return Player.PLAYER_TWO;
+		}
+		else{
+			return null;
 		}
 	}
 }

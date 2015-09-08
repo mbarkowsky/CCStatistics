@@ -15,6 +15,8 @@ import java.awt.Font;
 import java.awt.LayoutManager;
 import java.util.Collection;
 import java.util.HashSet;
+import java.util.LinkedList;
+import java.util.List;
 import java.util.Set;
 
 import javax.swing.BoxLayout;
@@ -41,30 +43,34 @@ public class ExplosionFailAnalyser extends Analyser {
 	}
 
 	@Override
-	protected JComponent doAnalyse(Collection<Game> games) {
+	protected JComponent doAnalyse(Collection<Game> games, String playerName) {
 		int fails = 0;
 		for(Game game:games){
-			for(Turn turn:game.getTurns()){
-				PlayerAction playerOneAction = turn.getPlayerAction(Player.PLAYER_ONE);
-				if(playerOneAction != null && playerOneAction.getType() == ActionType.ATTACK && validMoves.contains(((AttackAction)playerOneAction).getAttack())){
-					int damage = 0;
-					for(AttackEffect effect:((AttackAction)playerOneAction).getEffects(EffectType.DAMAGE)){
-						damage += ((DamageEffect)effect).getDamage();
-					}
-					if(damage == 0){
-						fails++;
-					}
+			List<Player> players = new LinkedList<>();
+			if(playerName.equals("")){
+				players.add(Player.PLAYER_ONE);
+				players.add(Player.PLAYER_TWO);
+			}
+			else{
+				Player player = game.getPlayer(playerName);
+				if(player == null){
+					continue;
 				}
-				
-				PlayerAction playerTwoAction = turn.getPlayerAction(Player.PLAYER_TWO);
-				if(playerTwoAction != null && playerTwoAction.getType() == ActionType.ATTACK && validMoves.contains(((AttackAction)playerTwoAction).getAttack())){
-					int damage = 0;
-					for(AttackEffect effect:((AttackAction)playerTwoAction).getEffects(EffectType.DAMAGE)){
-						damage += ((DamageEffect)effect).getDamage();
-					}
-					if(damage == 0){
-						fails++;
-					}
+				players.add(player);	
+			}
+			
+			for(Turn turn:game.getTurns()){	
+				for(Player player:players){
+					PlayerAction playerAction = turn.getPlayerAction(player);
+					if(playerAction != null && playerAction.getType() == ActionType.ATTACK && validMoves.contains(((AttackAction)playerAction).getAttack())){
+						int damage = 0;
+						for(AttackEffect effect:((AttackAction)playerAction).getEffects(EffectType.DAMAGE)){
+							damage += ((DamageEffect)effect).getDamage();
+						}
+						if(damage == 0){
+							fails++;
+						}
+					}	
 				}
 			}
 		}

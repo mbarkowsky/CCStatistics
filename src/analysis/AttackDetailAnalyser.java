@@ -13,7 +13,10 @@ import game.Turn;
 import java.awt.BorderLayout;
 import java.awt.Color;
 import java.util.Collection;
+import java.util.HashSet;
+import java.util.LinkedList;
 import java.util.List;
+import java.util.Set;
 
 import javax.swing.JComponent;
 import javax.swing.JLabel;
@@ -22,7 +25,6 @@ import javax.swing.JPanel;
 
 import threshold.AvgDevThreshold;
 import threshold.Threshold;
-import ui.MainFrame;
 import util.CCStatisticsUtil;
 import util.TableLayout;
 
@@ -74,17 +76,15 @@ public class AttackDetailAnalyser extends Analyser {
 	}
 
 	@Override
-	protected JComponent doAnalyse(Collection<Game> games) {
+	protected JComponent doAnalyse(Collection<Game> games, String playerName) {
 		String attackName = (String) JOptionPane.showInputDialog(null, "Attack", getName(), JOptionPane.PLAIN_MESSAGE, null, null, "Hyper Beam");
 		
 		if(attackName == null){
 			return null;
 		}
 		
-		long t1 = System.currentTimeMillis();
-		
 		attackName = CCStatisticsUtil.wordsToUpperCase(attackName);
-		Result result = createResult(games, attackName);
+		Result result = createResult(games, attackName, playerName);
 		
 		JPanel resultPanel = new JPanel();
 		BorderLayout layout = new BorderLayout();
@@ -127,50 +127,47 @@ public class AttackDetailAnalyser extends Analyser {
 		
 		resultPanel.add(results, BorderLayout.CENTER);
 		
-
-		long t2 = System.currentTimeMillis();
-		MainFrame.debugPrint(getName() + " analysis took " + (t2 - t1) + " milliseconds");
-		
 		return resultPanel;
 	}
 
-	private Result createResult(Collection<Game> games, String attackName) {
+	private Result createResult(Collection<Game> games, String attackName, String playerName) {
 		Result result = new Result();
 		double damageTotal = 0.0;
 		for(Game game:games){
+			List<Player> players = new LinkedList<>();
+			if(playerName.equals("")){
+				players.add(Player.PLAYER_ONE);
+				players.add(Player.PLAYER_TWO);
+			}
+			else{
+				Player player = game.getPlayer(playerName);
+				if(player == null){
+					continue;
+				}
+				players.add(player);	
+			}
+			
 			Player winner = game.getWinner();
-			boolean used[] = new boolean[2];
+			Set<Player> users = new HashSet<>();
 			boolean won = false;
 			List<Turn> turns = game.getTurns();
 			for(Turn turn:turns){
-				PlayerAction playerOneAction = turn.getPlayerOneAction();
-				if(actionMatches(playerOneAction, attackName)){
-					used[0] = true;
-					result.addOccurrence();
-					for(AttackEffect effect:((AttackAction)playerOneAction).getEffects(EffectType.DAMAGE)){
-						damageTotal += ((DamageEffect)effect).getDamage();
-					}
-					if(winner == Player.PLAYER_ONE){
-						won = true;
-					}
-				}
-				
-				PlayerAction playerTwoAction = turn.getPlayerTwoAction();
-				if(actionMatches(playerTwoAction, attackName)){
-					used[1] = true;
-					result.addOccurrence();
-					for(AttackEffect effect:((AttackAction)playerTwoAction).getEffects(EffectType.DAMAGE)){
-						damageTotal += ((DamageEffect)effect).getDamage();
-					}
-					if(winner == Player.PLAYER_TWO){
-						won = true;
+				for(Player player:players){
+					PlayerAction playerAction = turn.getPlayerAction(player);
+					if(actionMatches(playerAction, attackName)){
+						users.add(player);
+						result.addOccurrence();
+						for(AttackEffect effect:((AttackAction)playerAction).getEffects(EffectType.DAMAGE)){
+							damageTotal += ((DamageEffect)effect).getDamage();
+						}
+						if(player == winner){
+							won = true;
+						}
 					}
 				}
 			}
-			for(boolean u:used){
-				if(u){
-					result.addUser();
-				}
+			for(int i = 0; i < users.size(); i++){
+				result.addUser();
 			}
 			if(won){
 				result.addWin();

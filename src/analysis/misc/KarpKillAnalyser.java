@@ -15,6 +15,8 @@ import java.awt.Font;
 import java.awt.Image;
 import java.awt.LayoutManager;
 import java.util.Collection;
+import java.util.LinkedList;
+import java.util.List;
 
 import javax.swing.BoxLayout;
 import javax.swing.Icon;
@@ -46,24 +48,30 @@ public class KarpKillAnalyser extends Analyser {
 	}
 
 	@Override
-	protected JComponent doAnalyse(Collection<Game> games) {
+	protected JComponent doAnalyse(Collection<Game> games, String playerName) {
 		int kills = 0;
 		for(Game game:games){
-			for(Turn turn:game.getTurns()){
-				PlayerAction playerOneAction = turn.getPlayerAction(Player.PLAYER_ONE);
-				if(playerOneAction != null && playerOneAction.getType() == ActionType.ATTACK && ((AttackAction)playerOneAction).getPokemon().equals("Magikarp")){
-					for(AttackEffect effect:((AttackAction)playerOneAction).getEffects(EffectType.DAMAGE)){
-						if(((DamageEffect)effect).isKO()){
-							kills++;
-						}
-					}
+			List<Player> players = new LinkedList<>();
+			if(playerName.equals("")){
+				players.add(Player.PLAYER_ONE);
+				players.add(Player.PLAYER_TWO);
+			}
+			else{
+				Player player = game.getPlayer(playerName);
+				if(player == null){
+					continue;
 				}
-				
-				PlayerAction playerTwoAction = turn.getPlayerAction(Player.PLAYER_TWO);
-				if(playerTwoAction != null && playerTwoAction.getType() == ActionType.ATTACK && ((AttackAction)playerTwoAction).getPokemon().equals("Magikarp")){
-					for(AttackEffect effect:((AttackAction)playerTwoAction).getEffects(EffectType.DAMAGE)){
-						if(((DamageEffect)effect).isKO()){
-							kills++;
+				players.add(player);	
+			}
+			
+			for(Turn turn:game.getTurns()){				
+				for(Player player:players){
+					PlayerAction playerAction = turn.getPlayerAction(player);
+					if(playerAction != null && playerAction.getType() == ActionType.ATTACK && ((AttackAction)playerAction).getPokemon().equals("Magikarp")){
+						for(AttackEffect effect:((AttackAction)playerAction).getEffects(EffectType.DAMAGE)){
+							if(((DamageEffect)effect).isKO()){
+								kills++;
+							}
 						}
 					}
 				}

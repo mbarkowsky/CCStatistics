@@ -21,6 +21,7 @@ import javax.swing.JComponent;
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 import javax.swing.JTabbedPane;
+import javax.swing.JTextField;
 
 import util.TableLayout;
 import builder.GameLoader;
@@ -45,6 +46,7 @@ public class MainPanel extends JPanel {
 	private JPanel selectionPanel;
 	private JPanel resultPanel;
 	private JTabbedPane tabbedPanel;
+	private JTextField playerField;
 	
 	public MainPanel(int builderNumber){
 		gameLoader = new GameLoader(builderNumber);
@@ -69,6 +71,11 @@ public class MainPanel extends JPanel {
 		
 		selectionPanel = new JPanel();
 		selectionPanel.setLayout(new BorderLayout());
+		
+		playerField = new JTextField();
+		playerField.setText("Player");
+		playerField.setHorizontalAlignment(JTextField.CENTER);
+		selectionPanel.add(playerField, BorderLayout.PAGE_START);
 		
 		JPanel selection = new JPanel();
 		selection.setLayout(new TableLayout(1));
@@ -113,11 +120,13 @@ public class MainPanel extends JPanel {
 		long t2 = System.currentTimeMillis();
 		MainFrame.debugPrint("Loading games took " + (t2 - t1) + " milliseconds");
 		
+		String playerName = getSelectedPlayerName();
+		
 		boolean newResult = false;
 		JTabbedPane newResultPanel = new JTabbedPane();
 		for(Analyser analyser:analysers){
 			Map<File, Game> games = gameLoader.getGames();
-			JComponent analysisResult = analyser.analyse(games.values());
+			JComponent analysisResult = analyser.analyse(games.values(), playerName);
 			if(analysisResult != null){
 				newResultPanel.addTab(analyser.getName(), analysisResult);	
 				newResult = true;
@@ -135,6 +144,10 @@ public class MainPanel extends JPanel {
 		updateUI();
 	}
 	
+	private String getSelectedPlayerName() {
+		return playerField.getText();
+	}
+
 	private void exportCurrentResult() {
 		Component currentSelection = tabbedPanel.getSelectedComponent();
 		BufferedImage image = new BufferedImage(currentSelection.getWidth(), currentSelection.getHeight(), BufferedImage.TYPE_INT_RGB);

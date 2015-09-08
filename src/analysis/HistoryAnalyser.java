@@ -29,7 +29,6 @@ import javax.swing.border.LineBorder;
 import analysis.colorrule.ActionTypeColorRule;
 import analysis.colorrule.AttackDamageColorRule;
 import analysis.colorrule.ColorRule;
-import ui.MainFrame;
 import util.AlphaNumericalComparator;
 import util.CCStatisticsUtil;
 import util.IndentedBoxLayout;
@@ -57,7 +56,6 @@ public class HistoryAnalyser extends Analyser {
 	private ButtonGroup colorRuleGroup;
 	
 	public HistoryAnalyser(){
-		super();
 		initializeUI();
 	}
 	
@@ -105,9 +103,7 @@ public class HistoryAnalyser extends Analyser {
 	}
 
 	@Override
-	protected JComponent doAnalyse(Collection<Game> games) {
-		long t1 = System.currentTimeMillis();
-		
+	protected JComponent doAnalyse(Collection<Game> games, String playerName) {
 		JPanel resultPanel = new JPanel();
 		resultPanel.setLayout(new BoxLayout(resultPanel, BoxLayout.Y_AXIS));
 		
@@ -126,13 +122,12 @@ public class HistoryAnalyser extends Analyser {
 		
 		ColorRule colorRule = getSelectedColorRule();
 		for(Game game:gameList){
-			resultPanel.add(createGameStructure(game, colorRule));
+			if(playerName.equals("") || game.getPlayer(playerName) != null){
+				resultPanel.add(createGameStructure(game, colorRule));	
+			}
 		}
 		
 		JScrollPane scrollPane = new JScrollPane(resultPanel);
-		
-		long t2 = System.currentTimeMillis();
-		MainFrame.debugPrint(getName() + " analysis took " + (t2 - t1) + " milliseconds");
 		
 		return scrollPane;
 	}
