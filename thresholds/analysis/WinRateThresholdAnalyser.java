@@ -1,12 +1,5 @@
 package analysis;
 
-import game.Game;
-import game.Turn;
-import game.Game.Player;
-import game.playeraction.AttackAction;
-import game.playeraction.PlayerAction;
-import game.playeraction.PlayerAction.ActionType;
-
 import java.util.Collection;
 import java.util.HashMap;
 import java.util.HashSet;
@@ -15,6 +8,12 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
+import deprecated.game.Game;
+import deprecated.game.Turn;
+import deprecated.game.Game.Player;
+import deprecated.game.playeraction.AttackAction;
+import deprecated.game.playeraction.PlayerAction;
+import deprecated.game.playeraction.PlayerAction.ActionType;
 import threshold.AvgDevThreshold;
 import threshold.Threshold;
 

@@ -3,6 +3,7 @@ package util;
 import java.awt.Color;
 
 import threshold.AvgDevThreshold;
+import threshold.Threshold;
 
 public class CCStatisticsUtil {
 	
@@ -27,7 +28,21 @@ public class CCStatisticsUtil {
 		return String.valueOf(result);
 	}
 
-	public static Color getAvgDevColor(double value, AvgDevThreshold threshold, int mode){
+	public static Color getThresholdColor(double value, Threshold threshold, int mode){
+		if(threshold == null){
+			return Color.BLACK;
+		}
+		else{
+			switch(threshold.getType()){
+				case AVG_DEV:
+					return getAvgDevColor(value, (AvgDevThreshold)threshold, mode);
+				default:
+					return getPercentageColor(value, mode);
+			}
+		}
+	}
+	
+	private static Color getAvgDevColor(double value, AvgDevThreshold threshold, int mode){
 		Color c;
 		if(mode == HIGH_IS_GOOD){
 			if(value > threshold.getAverage() + threshold.getDeviation()){

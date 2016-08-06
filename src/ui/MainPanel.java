@@ -1,6 +1,6 @@
 package ui;
 
-import game.Game;
+import game.GameXML;
 
 import java.awt.BorderLayout;
 import java.awt.Component;
@@ -18,30 +18,21 @@ import java.util.Map;
 import javax.imageio.ImageIO;
 import javax.swing.JButton;
 import javax.swing.JComponent;
+import javax.swing.JLabel;
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 import javax.swing.JTabbedPane;
 import javax.swing.JTextField;
 
-import util.TableLayout;
+import analysis.AnalyserXML;
 import builder.GameLoader;
-import analysis.Analyser;
-import analysis.AttackDetailAnalyser;
-import analysis.AttackEfficiencyAnalyser;
-import analysis.HistoryAnalyser;
-import analysis.VictoryAnalyser;
-import analysis.misc.ExplosionFailAnalyser;
-import analysis.misc.FlingKillAnalyser;
-import analysis.misc.KarpKillAnalyser;
-import analysis.misc.SpewpaTankinessAnalyser;
+import util.TableLayout;
 
 public class MainPanel extends JPanel {
 
 	private static final long serialVersionUID = -8958557846840490170L;
-	private static final String gameDirectoryPath = "games"; 
-	
 	private GameLoader gameLoader;
-	private List<Analyser> analysers;
+	private List<AnalyserXML> analysers;
 	
 	private JPanel selectionPanel;
 	private JPanel resultPanel;
@@ -60,8 +51,8 @@ public class MainPanel extends JPanel {
 
 	private void initializeAnalysers() {
 		analysers = new LinkedList<>();
-		List<Analyser> possibleAnalysers = getPossibleAnalysers();
-		for(Analyser analyser:possibleAnalysers){
+		List<AnalyserXML> possibleAnalysers = getPossibleAnalysersXML();
+		for(AnalyserXML analyser:possibleAnalysers){
 			analysers.add(analyser);
 		}
 	}
@@ -72,14 +63,21 @@ public class MainPanel extends JPanel {
 		selectionPanel = new JPanel();
 		selectionPanel.setLayout(new BorderLayout());
 		
+		JPanel playerPanel = new JPanel(new GridLayout(0, 1));
+
+		JLabel playerLabel = new JLabel("Player:");
+		playerLabel.setHorizontalTextPosition(JLabel.CENTER);
+		playerPanel.add(playerLabel);
+		
 		playerField = new JTextField();
-		playerField.setText("Player");
 		playerField.setHorizontalAlignment(JTextField.CENTER);
-		selectionPanel.add(playerField, BorderLayout.PAGE_START);
+		playerPanel.add(playerField);
+		
+		selectionPanel.add(playerPanel, BorderLayout.PAGE_START);
 		
 		JPanel selection = new JPanel();
 		selection.setLayout(new TableLayout(1));
-		for(Analyser analyser:analysers){
+		for(AnalyserXML analyser:analysers){
 			selection.add(analyser.getUI());
 		}
 		selectionPanel.add(selection, BorderLayout.CENTER);
@@ -124,8 +122,8 @@ public class MainPanel extends JPanel {
 		
 		boolean newResult = false;
 		JTabbedPane newResultPanel = new JTabbedPane();
-		for(Analyser analyser:analysers){
-			Map<File, Game> games = gameLoader.getGames();
+		for(AnalyserXML analyser:analysers){
+			Map<File, GameXML> games = gameLoader.getGames();
 			JComponent analysisResult = analyser.analyse(games.values(), playerName);
 			if(analysisResult != null){
 				newResultPanel.addTab(analyser.getName(), analysisResult);	
@@ -153,7 +151,8 @@ public class MainPanel extends JPanel {
 		BufferedImage image = new BufferedImage(currentSelection.getWidth(), currentSelection.getHeight(), BufferedImage.TYPE_INT_RGB);
 		Graphics2D graphics = image.createGraphics();
 		currentSelection.paintAll(graphics);
-		String output = (String) JOptionPane.showInputDialog(null, "File Name", "Export", JOptionPane.PLAIN_MESSAGE, null, null, "result");
+		String exportSuggestion = currentSelection.getName().replace(' ', '_');
+		String output = (String) JOptionPane.showInputDialog(null, "File Name", "Export", JOptionPane.PLAIN_MESSAGE, null, null, exportSuggestion);
 		if(output != null){
 			try {
 				ImageIO.write(image, "png", new File("export/" + output + ".png"));
@@ -164,20 +163,14 @@ public class MainPanel extends JPanel {
 	}
 
 	private void loadGames() {
-		gameLoader.loadGames(gameDirectoryPath);
+		gameLoader.loadGames(MainFrame.gameDirectoryPath);	
 	}
-
-	private List<Analyser> getPossibleAnalysers() {
-		List<Analyser> possibleAnalysers = new LinkedList<>();
-		possibleAnalysers.add(new VictoryAnalyser());
-		possibleAnalysers.add(new AttackDetailAnalyser());
-		possibleAnalysers.add(new AttackEfficiencyAnalyser());
-		possibleAnalysers.add(new HistoryAnalyser());
-		possibleAnalysers.add(new KarpKillAnalyser());
-		possibleAnalysers.add(new SpewpaTankinessAnalyser());
-		possibleAnalysers.add(new FlingKillAnalyser());
-		possibleAnalysers.add(new ExplosionFailAnalyser());
+	
+	private List<AnalyserXML> getPossibleAnalysersXML() {
+		List<AnalyserXML> possibleAnalysers = new LinkedList<>();
+		possibleAnalysers.add(new analysis.VictoryAnalyser());
 		return possibleAnalysers;
 	}
+
 	
 }

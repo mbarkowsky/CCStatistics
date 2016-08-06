@@ -1,13 +1,13 @@
 package analysis.colorrule;
 
-import game.playeraction.AttackAction;
-import game.playeraction.AttackEffect;
-import game.playeraction.DamageEffect;
-import game.playeraction.PlayerAction;
-import game.playeraction.AttackEffect.EffectType;
-import game.playeraction.PlayerAction.ActionType;
-
 import java.awt.Color;
+
+import deprecated.game.playeraction.AttackAction;
+import deprecated.game.playeraction.AttackEffect;
+import deprecated.game.playeraction.DamageEffect;
+import deprecated.game.playeraction.PlayerAction;
+import deprecated.game.playeraction.AttackEffect.EffectType;
+import deprecated.game.playeraction.PlayerAction.ActionType;
 
 public class AttackDamageColorRule implements ColorRule {
 

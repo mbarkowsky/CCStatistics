@@ -6,20 +6,21 @@ import java.util.Collection;
 import java.util.LinkedList;
 import java.util.List;
 
+import builder.GameLoader;
 import analysis.DamageAverageThresholdAnalyser;
 import analysis.DamageTotalThresholdAnalyser;
 import analysis.ThresholdAnalyser;
+import analysis.ThresholdAnalyserXML;
 import analysis.WinRateThresholdAnalyser;
-import builder.GameLoader;
 import threshold.Threshold;
 import ui.MainFrame;
 
 public class Main {
 
-	private final String gameDirectoryPath = "games";
+	private final String gameDirectoryPath = "gamesXML";
 	
 	private GameLoader gameLoader;
-	private List<ThresholdAnalyser> analysers;
+	private List<ThresholdAnalyserXML> analysers;
 	
 	public Main(){
 		gameLoader = new GameLoader(3);
@@ -29,15 +30,15 @@ public class Main {
 	private void initialiseAnalysers() {
 		analysers = new LinkedList<>();
 		
-		analysers.add(new DamageAverageThresholdAnalyser());
-		analysers.add(new DamageTotalThresholdAnalyser());
-		analysers.add(new WinRateThresholdAnalyser());
+//		analysers.add(new DamageAverageThresholdAnalyser());
+//		analysers.add(new DamageTotalThresholdAnalyser());
+//		analysers.add(new WinRateThresholdAnalyser());
 	}
 
 	private List<Threshold> createThresholds() {
 		gameLoader.loadGames(gameDirectoryPath);
 		List<Threshold> thresholds = new LinkedList<>();
-		for(ThresholdAnalyser analyser:analysers){
+		for(ThresholdAnalyserXML analyser:analysers){
 			thresholds.add(analyser.createThreshold(gameLoader.getGames().values()));
 		}
 		return thresholds;

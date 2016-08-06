@@ -18,6 +18,7 @@ public class MainFrame extends JFrame {
 	}
 	
 	private static final long serialVersionUID = 6184125870247422351L;
+	static final String gameDirectoryPath = "gamesXML";
 
 	public MainFrame(){
 		setDefaultCloseOperation(EXIT_ON_CLOSE);

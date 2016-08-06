@@ -1,9 +1,8 @@
 package analysis;
 
-import game.Game;
-
 import java.util.Collection;
 
+import deprecated.game.Game;
 import threshold.Threshold;
 
 public interface ThresholdAnalyser {

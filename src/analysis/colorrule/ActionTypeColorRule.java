@@ -1,9 +1,8 @@
 package analysis.colorrule;
 
-import game.playeraction.PlayerAction;
-
 import java.awt.Color;
 
+import deprecated.game.playeraction.PlayerAction;
 import util.CCStatisticsUtil;
 
 public class ActionTypeColorRule implements ColorRule {

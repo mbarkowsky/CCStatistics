@@ -1,18 +1,17 @@
 package builder;
 
-import game.Game;
+import game.GameXML;
 
 import java.io.File;
-import java.io.IOException;
 
 public class GameBuilderWorker implements Runnable {
 
 	private GameLoader gameLoader;
-	private GameBuilder builder;
+	private GameBuilderXML builder;
 	private File gameFile;
-	private Game game;
+	private GameXML game;
 	
-	public GameBuilderWorker(GameLoader gameLoader, GameBuilder builder, File gameFile) {
+	public GameBuilderWorker(GameLoader gameLoader, GameBuilderXML builder, File gameFile) {
 		this.gameLoader = gameLoader;
 		this.builder = builder;
 		this.gameFile = gameFile;
@@ -20,16 +19,11 @@ public class GameBuilderWorker implements Runnable {
 
 	@Override
 	public void run() {
-		try {
-			game = builder.buildGame(gameFile);
-		} catch (IOException e) {
-			e.printStackTrace();
-		} finally{
-			gameLoader.returnGameBuilder(builder);
-		}
+		game = builder.buildGame(gameFile);
+		gameLoader.returnGameBuilder(builder);
 	}
 	
-	public Game getResult(){
+	public GameXML getResult(){
 		return game;
 	}
 

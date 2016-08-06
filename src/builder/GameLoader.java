@@ -1,6 +1,6 @@
 package builder;
 
-import game.Game;
+import game.GameXML;
 
 import java.io.File;
 import java.util.HashMap;
@@ -12,8 +12,8 @@ import java.util.concurrent.Semaphore;
 public class GameLoader {
 	
 	private Semaphore builderSemaphore;
-	private Vector<GameBuilder> idleBuilders;
-	private Map<File, Game> games;
+	private Vector<GameBuilderXML> idleBuilders;
+	private Map<File, GameXML> games;
 	
 	public GameLoader(int builderNumber){
 		games = new HashMap<>();
@@ -23,22 +23,22 @@ public class GameLoader {
 	private void initializeBuilders(int builderNumber) {
 		idleBuilders = new Vector<>();
 		for(int i = 0; i < builderNumber; i++){
-			idleBuilders.add(new GameBuilder());
+			idleBuilders.add(new GameBuilderXML());
 		}
 		builderSemaphore = new Semaphore(builderNumber);
 	}
 	
-	private GameBuilder getIdleGameBuilder() throws InterruptedException {
+	private GameBuilderXML getIdleGameBuilder() throws InterruptedException {
 		builderSemaphore.acquire();
 		return idleBuilders.remove(0);
 	}
 	
-	public void returnGameBuilder(GameBuilder builder){
+	public void returnGameBuilder(GameBuilderXML builder){
 		idleBuilders.add(builder);
 		builderSemaphore.release();
 	}
 	
-	public Map<File, Game> loadGames(String gameDirectoryPath){
+	public Map<File, GameXML> loadGames(String gameDirectoryPath){
 		File gameDirectory = new File(gameDirectoryPath);
 		File[] gameFiles = gameDirectory.listFiles();
 
@@ -52,7 +52,7 @@ public class GameLoader {
 		for(File gameFile:gameFiles){
 			if(!games.containsKey(gameFile)){
 				try {
-					GameBuilder builder = getIdleGameBuilder();
+					GameBuilderXML builder = getIdleGameBuilder();
 					GameBuilderWorker builderWorker = new GameBuilderWorker(this, builder, gameFile);
 					Thread worker = new Thread(builderWorker);
 					worker.start();
@@ -78,7 +78,7 @@ public class GameLoader {
 		}
 	}
 
-	public Map<File, Game> getGames() {
+	public Map<File, GameXML> getGames() {
 		return games;
 	}
 }
