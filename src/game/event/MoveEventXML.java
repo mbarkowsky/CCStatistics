@@ -1,11 +1,12 @@
 package game.event;
 
+import game.GameXML;
 import game.GameXML.Player;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class MoveEventXML extends EventXML {
+public class MoveEventXML extends EventXML implements CompositeEvent{
 
 	private String pokemon;
 	private Player owner;
@@ -18,6 +19,16 @@ public class MoveEventXML extends EventXML {
 	public MoveEventXML(){
 		missed = false;
 		effects = new ArrayList<>();
+	}
+	
+	@Override
+	public boolean isMoveEvent(){
+		return true;
+	}
+	
+	@Override
+	public boolean isCompositeEvent() {
+		return true;
 	}
 	
 	public String getPokemon() {
@@ -73,6 +84,9 @@ public class MoveEventXML extends EventXML {
 	}
 
 	public void addEffect(EventXML effect){
+		if(effect == null){
+			System.out.println(this);
+		}
 		effects.add(effect);
 	}
 	
@@ -84,6 +98,18 @@ public class MoveEventXML extends EventXML {
 			sb.append("\t" + effect.toString());
 		}
 		return sb.toString();
+	}
+
+	public HealthEvent getLastEnemyHealthEvent() {
+		HealthEvent lastEnemyHealthEvent = null;
+		List<EventXML> effects = getEffects();
+		for(int effectIndex = effects.size() - 1; effectIndex >= 0; effectIndex--){
+			EventXML effect = effects.get(effectIndex);
+			if(effect.isHealthEvent() && ((HealthEvent)effect).getOwner() == GameXML.getOpponent(getOwner())){
+				return (HealthEvent)effect;
+			}
+		}
+		return lastEnemyHealthEvent;
 	}
 
 }

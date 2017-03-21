@@ -41,6 +41,10 @@ public class StartEventXML extends EventXML {
 		this.from = from;
 	}
 	
+	public boolean isStartEvent() {
+		return true;
+	}
+	
 	public String toString(){
 		return owner.toString() + "'s " + pokemon + "'s " + start + " started";
 	}

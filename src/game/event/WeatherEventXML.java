@@ -5,7 +5,7 @@ import game.GameXML.Player;
 import java.util.ArrayList;
 import java.util.List;
 
-public class WeatherEventXML extends EventXML {
+public class WeatherEventXML extends EventXML implements CompositeEvent{
 
 	private String weather;
 	private String from;
@@ -17,6 +17,11 @@ public class WeatherEventXML extends EventXML {
 	public WeatherEventXML(){
 		upkeep = false;
 		effects = new ArrayList<>();
+	}
+	
+	@Override
+	public boolean isCompositeEvent() {
+		return true;
 	}
 	
 	public String getWeather() {

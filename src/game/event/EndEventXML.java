@@ -36,4 +36,8 @@ public class EndEventXML extends EventXML {
 		return owner.toString() + "'s " + pokemon + "'s " + end + " ended";
 	}
 	
+	public boolean isEndEvent() {
+		return true;
+	}
+	
 }

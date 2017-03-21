@@ -32,6 +32,11 @@ public class PrepareEventXML extends EventXML {
 		this.preparation = preparation;
 	}
 	
+	@Override
+	public boolean isPrepareEvent() {
+		return true;
+	}
+	
 	public String toString(){
 		return owner.toString() + "'s " + pokemon + " prepares " + preparation;
 	}

@@ -1,5 +1,9 @@
 package util;
 
+import java.util.HashSet;
+import java.util.Set;
+
+
 public class GameUtil {
 
 	public static enum Stat {HP, ATK, DEF, SPA, SPD, SPE, ACC, EVA}
@@ -7,6 +11,8 @@ public class GameUtil {
 	
 	public enum Effectiveness {NEUTRAL, SUPER_EFFECTIVE, NOT_VERY_EFFECTIVE, IMMUNE}
 
+	private static Set<String> partialTrappingMoves;
+	
 	public static Status getStatusForString(String statusString){
 		statusString = statusString.toLowerCase();
 		switch(statusString){
@@ -27,7 +33,7 @@ public class GameUtil {
 		case "attract":
 			return Status.ATTRACT;
 		case "disable":
-				return Status.DISABLE;
+			return Status.DISABLE;
 		case "recharge":
 			return Status.RECHARGE;
 		case "focus punch":
@@ -40,6 +46,37 @@ public class GameUtil {
 			System.out.println("unrecognized status condition: " + statusString);
 			return null;
 		}
+	}
+	
+	public static boolean isMajorStatus(Status status) {
+		switch(status){
+			case FREEZE:
+				return true;
+			case PARALYSIS:
+				return true;
+			case POISON:
+				return true;
+			case TOXIN:
+				return true;
+			case SLEEP:
+				return true;
+			case BURN:
+				return true;
+			default:
+				return false;
+		}
+	}
+	
+
+	public static boolean isMinorStatus(Status status) {
+		switch(status){
+		case DISABLE:
+			return true;
+		case TAUNT:
+			return true;
+		default:
+			return false;
+	}
 	}
 	
 	public static Stat getStatForString(String statString) {
@@ -77,9 +114,23 @@ public class GameUtil {
 		case "immune":
 			return Effectiveness.IMMUNE;
 		default:
-			System.out.println("unrecognized effectiveness: " + string);
 			return null;
 		}
-	};
+	}
+
+	public static Set<String> partialTrappingMoves() {
+		if(partialTrappingMoves == null){
+			partialTrappingMoves = new HashSet<>();
+			partialTrappingMoves.add("Bind");
+			partialTrappingMoves.add("Clamp");
+			partialTrappingMoves.add("Fire Spin");
+			partialTrappingMoves.add("Infestation");
+			partialTrappingMoves.add("Magma Storm");
+			partialTrappingMoves.add("Sand Tomb");
+			partialTrappingMoves.add("Whirlpool");
+			partialTrappingMoves.add("Wrap");
+		}
+		return partialTrappingMoves;
+	}
 	
 }

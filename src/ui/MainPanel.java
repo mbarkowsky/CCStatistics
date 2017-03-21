@@ -25,6 +25,12 @@ import javax.swing.JTabbedPane;
 import javax.swing.JTextField;
 
 import analysis.AnalyserXML;
+import analysis.AttackDetailAnalyserXML;
+import analysis.AttackEfficiencyAnalyserXML;
+import analysis.DamageShareAnalyser;
+import analysis.GameStructureAnalyserXML;
+import analysis.TierListAnalyserXML;
+import analysis.VictoryAnalyser;
 import builder.GameLoader;
 import util.TableLayout;
 
@@ -116,7 +122,7 @@ public class MainPanel extends JPanel {
 		long t1 = System.currentTimeMillis();
 		loadGames();
 		long t2 = System.currentTimeMillis();
-		MainFrame.debugPrint("Loading games took " + (t2 - t1) + " milliseconds");
+		MainFrame.debugPrint("loading games took " + (t2 - t1) + " milliseconds");
 		
 		String playerName = getSelectedPlayerName();
 		
@@ -168,7 +174,12 @@ public class MainPanel extends JPanel {
 	
 	private List<AnalyserXML> getPossibleAnalysersXML() {
 		List<AnalyserXML> possibleAnalysers = new LinkedList<>();
-		possibleAnalysers.add(new analysis.VictoryAnalyser());
+		possibleAnalysers.add(new VictoryAnalyser());
+		possibleAnalysers.add(new GameStructureAnalyserXML());
+		possibleAnalysers.add(new AttackDetailAnalyserXML());
+		possibleAnalysers.add(new AttackEfficiencyAnalyserXML());
+		possibleAnalysers.add(new TierListAnalyserXML());
+		possibleAnalysers.add(new DamageShareAnalyser());
 		return possibleAnalysers;
 	}
 

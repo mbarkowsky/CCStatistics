@@ -1,6 +1,6 @@
 package game.event;
 
-import deprecated.game.Game.Player;
+import game.GameXML.Player;
 
 public class SetHPEventXML extends EventXML {
 

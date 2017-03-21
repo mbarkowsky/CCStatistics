@@ -7,6 +7,16 @@ public class SwitchEventXML extends EventXML implements HealthEvent{
 	private String pokemon;
 	private Player owner;
 	private int health;
+
+	@Override
+	public boolean isHealthEvent(){
+		return true;
+	}
+	
+	@Override
+	public boolean isSwitchEvent() {
+		return true;
+	}
 	
 	public String getPokemon() {
 		return pokemon;

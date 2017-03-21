@@ -1,10 +1,11 @@
 package game;
 
+import game.event.CompositeEvent;
 import game.event.EventXML;
 import game.event.HealthEvent;
 
+import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
 
@@ -23,7 +24,7 @@ public class GameXML {
 	
 	public GameXML(){
 		playerNames = new HashMap<>();
-		turns = new LinkedList<>();
+		turns = new ArrayList<>();
 	}
 	
 	public String getName() {
@@ -97,25 +98,41 @@ public class GameXML {
 		}
 	}
 	
-	public int getLastHealth(String pokemon, int turnIndex, int eventIndex){
-		List<EventXML> turnEvents = getTurns().get(turnIndex).getEvents();
-		for(int j = eventIndex; j >= 0; j--){
-			EventXML event = turnEvents.get(j);
-			if(event.getType().isHealthEvent() && ((HealthEvent) event).getPokemon().equals(pokemon)){
-				return ((HealthEvent)event).getHealth();
-			}
+	public int getLastHealth(Player owner, String pokemon, int turnIndex, int eventIndex){
+		TurnXML turn = getTurns().get(turnIndex);
+		int health = getLastHealth(turn, owner, pokemon, eventIndex - 1);
+		if(health != -1){
+			return health;
 		}
 		
 		for(int i = turnIndex - 1; i >= 0; i--){
-			turnEvents = getTurns().get(i).getEvents();
-			for(int j = turnEvents.size() - 1; j >= 0; j--){
-				EventXML event = turnEvents.get(j);
-				if(event.getType().isHealthEvent() && ((HealthEvent) event).getPokemon().equals(pokemon)){
-					return ((HealthEvent)event).getHealth();
-				}
+			turn = getTurns().get(i);
+			health = getLastHealth(turn, owner, pokemon, turn.getEvents().size() - 1);
+			if(health != -1){
+				return health;
 			}
 		}
 		
 		return 100;		//no information on health so Pokemon must be completely healthy, should never happen though
+	}
+	
+	private int getLastHealth(TurnXML turn, Player owner, String pokemon, int eventIndex){
+		List<EventXML> turnEvents = turn.getEvents();
+		for(int j = eventIndex; j >= 0; j--){
+			EventXML event = turnEvents.get(j);
+			if(event.isHealthEvent() && ((HealthEvent) event).getPokemon().equals(pokemon) && ((HealthEvent) event).getOwner() == owner){
+				return ((HealthEvent)event).getHealth();
+			}
+			else if(event.isCompositeEvent()){
+				List<EventXML> effects = ((CompositeEvent) event).getEffects();
+				for(int i = effects.size() - 1; i >= 0; i--){
+					EventXML effect = effects.get(i);
+					if(effect.isHealthEvent() && ((HealthEvent) effect).getPokemon().equals(pokemon) && ((HealthEvent) effect).getOwner() == owner){
+						return ((HealthEvent)effect).getHealth();
+					}
+				}
+			}
+		}
+		return -1;
 	}
 }

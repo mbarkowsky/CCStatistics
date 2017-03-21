@@ -1,5 +1,8 @@
 package game.event;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import game.GameXML.Player;
 import util.GameUtil;
 
@@ -8,7 +11,17 @@ public class DamageEventXML extends EventXML implements HealthEvent{
 	private String pokemon;
 	private Player owner;
 	private int health;
+	private List<String> extras;
 	private GameUtil.Status status;
+	
+	public DamageEventXML(){
+		extras = new ArrayList<>();
+	}
+	
+	@Override
+	public boolean isHealthEvent(){
+		return true;
+	}
 	
 	public String getPokemon() {
 		return pokemon;
@@ -42,6 +55,19 @@ public class DamageEventXML extends EventXML implements HealthEvent{
 		this.status = status;
 	}
 
+	public List<String> getExtras(){
+		return extras;
+	}
+	
+	public void addExtra(String string){
+		extras.add(string);
+	}
+	
+	@Override
+	public boolean isDamageEvent() {
+		return true;
+	}
+	
 	public String toString(){
 		return owner.toString() + "'s " + pokemon + " took damage (" + health + "% HP)";
 	}

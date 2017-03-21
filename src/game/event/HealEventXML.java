@@ -10,6 +10,11 @@ public class HealEventXML extends EventXML implements HealthEvent{
 	private int health;
 	private GameUtil.Status status;
 	
+	@Override
+	public boolean isHealthEvent(){
+		return true;
+	}
+	
 	public String getPokemon() {
 		return pokemon;
 	}

@@ -26,6 +26,7 @@ import game.event.MissEventXML;
 import game.event.MoveEventXML;
 import game.event.NoTargetEvent;
 import game.event.PrepareEventXML;
+import game.event.RechargeEventXML;
 import game.event.SetHPEventXML;
 import game.event.SideEndEventXML;
 import game.event.SideStartEventXML;
@@ -56,6 +57,7 @@ public class GameBuilderXML {
 		try {
 			String[] log = readLog(file);
 			game = buildGameFromLog(log);
+			game.setName(file.getName());
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
@@ -219,9 +221,32 @@ public class GameBuilderXML {
 		else if(line.startsWith("|-formechange")){
 			event = buildFormChangeEvent(log, i);
 		}
-		else if(line.startsWith("|") && !line.equals("") && !line.equals("|") && !line.startsWith("|c|") && !line.startsWith("|raw|") && !line.startsWith("|choice")  && !line.startsWith("|join") && !line.startsWith("|J|") && !line.startsWith("|L|") && !line.startsWith("|player|") && !line.startsWith("|-message|") && !line.startsWith("|message|") && !line.startsWith("|-hint|") && !line.startsWith("|-hitcount")){
+		else if(line.startsWith("|-mustrecharge")){
+			event = buildRechargeEvent(log, i);
+		}
+		else if(line.startsWith("|") && !line.equals("") && !line.equals("|") && !line.startsWith("|c|") && !line.startsWith("|raw|") && !line.startsWith("|choice")  && !line.startsWith("|join") && !line.startsWith("|J|") && !line.startsWith("|L|") && !line.startsWith("|player|") && !line.startsWith("|-message|") && !line.startsWith("|message|") && !line.startsWith("|-hint|") && !line.startsWith("|-hitcount") && !line.startsWith("|inactive") && !line.startsWith("|-anim") && !line.startsWith("|leave")){
 			System.out.println("unrecognised event: " + log[i.getInt()]);
 		}
+		return event;
+	}
+
+	private EventXML buildRechargeEvent(String[] log, IntegerWrapper i) {
+		RechargeEventXML event = new RechargeEventXML();
+		
+		StringTokenizer st = new StringTokenizer(log[i.getInt()], "|");
+		st.nextToken();
+		String[] source = st.nextToken().split(": ");
+		Player owner;
+		if(source[0].startsWith("p1")){
+			owner = Player.PLAYER_ONE;
+		}
+		else{
+			owner = Player.PLAYER_TWO;
+		}
+		String pokemon = source[1];
+		
+		event.setOwner(owner);
+		event.setPokemon(pokemon);
 		return event;
 	}
 
@@ -322,7 +347,7 @@ public class GameBuilderXML {
 		}
 		else{
 			String[] fraction = healthString.split(Pattern.quote("\\/"));
-			health = (Integer.parseInt(fraction[0]) * 100) / (fraction.length > 1 ? Integer.parseInt(fraction[1]) : 1);
+			health = Math.round(((float)Integer.parseInt(fraction[0]) * 100) / (fraction.length > 1 ? Integer.parseInt(fraction[1]) : 1));
 		}
 		
 		event.setOwner(owner);
@@ -538,7 +563,7 @@ public class GameBuilderXML {
 				event.setUpkeep(true);
 			}
 			else if(extra.startsWith("[from]")){
-				String from = extra.substring(6);
+				String from = extra.substring(7);
 				event.setFrom(from);
 				if(st.hasMoreTokens()){
 					String sourceString = st.nextToken();
@@ -561,7 +586,9 @@ public class GameBuilderXML {
 		while(log[i.getInt()].equals("") || log[i.getInt()+1].startsWith("|-")){
 			i.increment();
 			EventXML effect = buildEvent(log, i);
-			event.addEffect(effect);
+			if(effect != null){
+				event.addEffect(effect);
+			}
 		}
 		
 		return event;
@@ -761,6 +788,11 @@ public class GameBuilderXML {
 			event.setStatus(condition);
 		}
 		
+		while(st.hasMoreTokens()){
+			String extra = st.nextToken();
+			event.addExtra(extra);
+		}
+		
 		return event;
 	}
 
@@ -836,7 +868,9 @@ public class GameBuilderXML {
 		while(log[i.getInt()].equals("") || log[i.getInt()+1].startsWith("|-")){
 			i.increment();
 			EventXML effect = buildEvent(log, i);
-			event.addEffect(effect);
+			if(effect != null){
+				event.addEffect(effect);
+			}
 		}
 		
 		return event;
@@ -864,10 +898,19 @@ public class GameBuilderXML {
 		event.setPokemon(pokemon);
 		event.setActivation(activation);
 		
+		while(st.hasMoreTokens()){
+			String extra = st.nextToken();
+			if(!extra.equals("[still]")){
+				event.addExtra(extra);
+			}
+		}
+		
 		while(log[i.getInt()].equals("") || log[i.getInt()+1].startsWith("|-")){
 			i.increment();
 			EventXML effect = buildEvent(log, i);
-			event.addEffect(effect);
+			if(effect != null){
+				event.addEffect(effect);
+			}
 		}
 		
 		return event;
@@ -963,10 +1006,12 @@ public class GameBuilderXML {
 			}
 		}
 		
-		while(log[i.getInt()].equals("") || log[i.getInt()+1].startsWith("|-")){
+		while(log[i.getInt()+1].equals("") || log[i.getInt()+1].startsWith("|-")){
 			i.increment();
 			EventXML effect = buildEvent(log, i);
-			event.addEffect(effect);
+			if(effect != null){
+				event.addEffect(effect);
+			}
 		}
 		
 		return event;

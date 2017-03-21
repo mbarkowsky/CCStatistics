@@ -5,7 +5,7 @@ import game.GameXML.Player;
 import java.util.ArrayList;
 import java.util.List;
 
-public class AbilityEventXML extends EventXML {
+public class AbilityEventXML extends EventXML implements CompositeEvent{
 
 	private String pokemon;
 	private Player owner;
@@ -14,6 +14,11 @@ public class AbilityEventXML extends EventXML {
 	
 	public AbilityEventXML(){
 		effects = new ArrayList<>();
+	}
+	
+	@Override
+	public boolean isCompositeEvent() {
+		return true;
 	}
 	
 	public String getPokemon() {

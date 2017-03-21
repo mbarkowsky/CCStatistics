@@ -33,6 +33,11 @@ public class StatusEventXML extends EventXML {
 		this.status = status;
 	}
 	
+	@Override
+	public boolean isStatusEvent() {
+		return true;
+	}
+	
 	public String toString(){
 		return owner.toString() + "'s " + pokemon + " got status " + status.toString();
 	}

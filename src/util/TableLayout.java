@@ -146,14 +146,18 @@ public class TableLayout implements LayoutManager {
 		int prefWidth = 0;
 		int prefHeight = 0;
 		Component[] components = parent.getComponents();
-		for(int i = 0; i < components.length; i++){
-			Dimension leftComponentSize = components[i].getPreferredSize();
-			Dimension rightComponentSize = components[++i].getPreferredSize();
-			
-			int rowWidth = leftComponentSize.width + rightComponentSize.width;
+		for(int i = 0; i < components.length;){
+			int rowWidth = 0;
+			int rowHeight = 0;
+			for(int j = 0; j < columns; j++){
+				Dimension componentSize = components[i].getPreferredSize();
+				rowWidth += componentSize.width;
+				
+				rowHeight = Math.max(rowHeight, componentSize.height);
+				
+				i++;
+			}
 			prefWidth = Math.max(prefWidth, rowWidth);
-			
-			int rowHeight = Math.max(leftComponentSize.height, rightComponentSize.height);
 			prefHeight += rowHeight;
 		}
 		return new Dimension(prefWidth, prefHeight);
